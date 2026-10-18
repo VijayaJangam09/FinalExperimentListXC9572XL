@@ -1,0 +1,4 @@
+net A loc = pin29;
+net B loc = pin30;
+net DIFF loc = pin55;
+net BARROW loc = pin56;

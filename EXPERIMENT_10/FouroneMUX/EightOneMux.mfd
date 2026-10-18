@@ -1,0 +1,62 @@
+MDF Database:  version 1.0
+MDF_INFO | EightOneMux | XC9572XL-10-TQ100
+MACROCELL | 2 | 13 | output_s15_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 10 | input_SEL<2>  | input_s1  | input_SEL<1>  | input_SEL<0>  | input_s5  | input_s7  | input_s3  | input_s4  | EXP6_.EXP  | EXP7_.EXP
+INPUTMC | 2 | 2 | 12 | 2 | 14
+INPUTP | 8 | 35 | 47 | 33 | 32 | 38 | 36 | 44 | 43
+IMPORTS | 2 | 2 | 12 | 2 | 14
+EQ | 18 | 
+   output_s15 = input_s7 & input_SEL<2> & input_SEL<1> & 
+	input_SEL<0>
+	# input_SEL<2> & !input_SEL<1> & input_SEL<0> & 
+	input_s5
+	# input_SEL<2> & !input_SEL<1> & !input_SEL<0> & 
+	input_s4
+	# !input_SEL<2> & input_s3 & input_SEL<1> & 
+	input_SEL<0>
+	# !input_SEL<2> & input_s1 & !input_SEL<1> & 
+	input_SEL<0>
+;Imported pterms FB3_13
+	# !input_SEL<2> & input_s2 & input_SEL<1> & 
+	!input_SEL<0>
+	# !input_SEL<2> & input_s0 & !input_SEL<1> & 
+	!input_SEL<0>
+;Imported pterms FB3_15
+	# input_SEL<2> & input_SEL<1> & !input_SEL<0> & 
+	input_s6;
+
+MACROCELL | 2 | 12 | EXP6_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 2 | 13
+INPUTS | 5 | input_SEL<2>  | input_s2  | input_SEL<1>  | input_SEL<0>  | input_s0
+INPUTP | 5 | 35 | 46 | 33 | 32 | 84
+EXPORTS | 1 | 2 | 13
+EQ | 4 | 
+       EXP6_.EXP  =  !input_SEL<2> & input_s2 & input_SEL<1> & 
+	!input_SEL<0>
+	# !input_SEL<2> & input_s0 & !input_SEL<1> & 
+	!input_SEL<0>
+
+MACROCELL | 2 | 14 | EXP7_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 2 | 13
+INPUTS | 4 | input_SEL<2>  | input_SEL<1>  | input_SEL<0>  | input_s6
+INPUTP | 4 | 35 | 33 | 32 | 37
+EXPORTS | 1 | 2 | 13
+EQ | 2 | 
+       EXP7_.EXP  =  input_SEL<2> & input_SEL<1> & !input_SEL<0> & 
+	input_s6
+
+PIN | input_s7 | 64 | 0 | N/A | 36 | 1 | 2 | 13
+PIN | input_SEL<2> | 64 | 0 | N/A | 35 | 3 | 2 | 13 | 2 | 12 | 2 | 14
+PIN | input_s3 | 64 | 0 | N/A | 44 | 1 | 2 | 13
+PIN | input_s1 | 64 | 0 | N/A | 47 | 1 | 2 | 13
+PIN | input_s2 | 64 | 0 | N/A | 46 | 1 | 2 | 12
+PIN | input_s0 | 64 | 0 | N/A | 84 | 1 | 2 | 12
+PIN | input_SEL<1> | 64 | 0 | N/A | 33 | 3 | 2 | 13 | 2 | 12 | 2 | 14
+PIN | input_SEL<0> | 64 | 0 | N/A | 32 | 3 | 2 | 13 | 2 | 12 | 2 | 14
+PIN | input_s5 | 64 | 0 | N/A | 38 | 1 | 2 | 13
+PIN | input_s6 | 64 | 0 | N/A | 37 | 1 | 2 | 14
+PIN | input_s4 | 64 | 0 | N/A | 43 | 1 | 2 | 13
+PIN | output_s15 | 536871040 | 0 | N/A | 49

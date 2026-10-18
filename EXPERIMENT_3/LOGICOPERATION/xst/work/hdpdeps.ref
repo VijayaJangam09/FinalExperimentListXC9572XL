@@ -1,0 +1,12 @@
+V3 6
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/testpinmap.vhd" 2026/10/12.08:05:54 P.20131013
+EN work/Logic_Operation 1791792359 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/testpinmap.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Logic_Operation/Behavioral 1791792360 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/testpinmap.vhd" \
+      EN work/Logic_Operation 1791792359
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" 2026/10/07.09:32:35 P.20131013
+FL /home/ise/Desktop/testpinmapping/testpinmap.vhd 2026/10/07.07:30:47 P.20131013
+FL /home/ise/Desktop/togglealll/testpinmap.vhd 2026/10/07.09:13:57 P.20131013

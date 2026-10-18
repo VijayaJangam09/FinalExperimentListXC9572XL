@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/togglealll/Test_Pins.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/togglealll/Test_Pins.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Test_Pins.ngc" Test_Pins.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Test_Pins.ngd 
+tsim -intstyle ise Test_Pins Test_Pins.nga 
+hprep6 -s IEEE1149 -n Test_Pins -i Test_Pins 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/togglealll/Test_Pins.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/togglealll/Test_Pins.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Test_Pins.ngc" Test_Pins.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Test_Pins.ngd 
+tsim -intstyle ise Test_Pins Test_Pins.nga 
+hprep6 -s IEEE1149 -n Test_Pins -i Test_Pins 

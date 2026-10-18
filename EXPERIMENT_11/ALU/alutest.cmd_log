@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/alutest.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/alutest.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/alutest.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/alutest.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "alutest.ngc" alutest.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper alutest.ngd 
+tsim -intstyle ise alutest alutest.nga 
+hprep6 -s IEEE1149 -n alutest -i alutest 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/alutest.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/alutest.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "alutest.ngc" alutest.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper alutest.ngd 
+tsim -intstyle ise alutest alutest.nga 
+hprep6 -s IEEE1149 -n alutest -i alutest 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/alutest.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/alutest.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "alutest.ngc" alutest.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper alutest.ngd 
+tsim -intstyle ise alutest alutest.nga 
+hprep6 -s IEEE1149 -n alutest -i alutest 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/alutest.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/alutest.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "alutest.ngc" alutest.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper alutest.ngd 
+tsim -intstyle ise alutest alutest.nga 
+hprep6 -s IEEE1149 -n alutest -i alutest 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/alutest.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/alutest.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "alutest.ngc" alutest.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper alutest.ngd 
+XSLTProcess alutest_build.xml 
+tsim -intstyle ise alutest alutest.nga 
+hprep6 -s IEEE1149 -n alutest -i alutest 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "alutest.ngc" alutest.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper alutest.ngd 
+tsim -intstyle ise alutest alutest.nga 
+hprep6 -s IEEE1149 -n alutest -i alutest 

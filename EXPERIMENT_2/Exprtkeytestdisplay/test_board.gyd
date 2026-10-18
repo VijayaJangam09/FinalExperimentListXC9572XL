@@ -1,0 +1,43 @@
+Pin Freeze File:  version P.20131013
+
+9572XL100 XC9572XL-10-TQ100
+clk S:PIN22
+input_sand14 S:PIN30
+input_sand15 S:PIN29
+rl<0> S:PIN78
+rl<1> S:PIN79
+rst S:PIN99
+output_sand15 S:PIN55
+sl<0> S:PIN81
+seg7<0> S:PIN93
+seg7<1> S:PIN92
+seg7<2> S:PIN91
+seg7<4> S:PIN89
+sel<3> S:PIN97
+sel<2> S:PIN96
+sel<1> S:PIN95
+sel<0> S:PIN94
+seg7<5> S:PIN85
+seg7<6> S:PIN86
+seg7<3> S:PIN90
+sl<1> S:PIN82
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+
+PARTITION FB2_2 seg7_5_OBUF$BUF2 seg7_2_OBUF seg7_0_OBUF seg7_5_OBUF$BUF1
+		 seg7_5_OBUF$BUF0
+PARTITION FB2_8 seg7_5_OBUF
+PARTITION FB2_12 divider<8> divider<7> divider<6> divider<5>
+		 divider<16> d<1> seg7_1_OBUF
+PARTITION FB3_11 display_s<3> display_s<2> display_s<1> output_sand15_OBUF
+		 display_s<0> d<3> d<2> d<0>
+		
+PARTITION FB4_1 divider<9> divider<4> divider<3> divider<2>
+		 divider<1> divider<15> divider<14> divider<13>
+		 divider<12> scan divider<11> sl_1_OBUF
+		 seg7_5_OBUF$BUF3 divider<10> seg7_4_OBUF seg7_6_OBUF
+		 seg7_6_OBUF$BUF0 divider<0>
+

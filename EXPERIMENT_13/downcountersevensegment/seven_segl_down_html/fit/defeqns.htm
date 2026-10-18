@@ -1,0 +1,187 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+an(0) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+an(1) <= '1';
+</td></tr><tr><td>
+</td></tr><tr><td>
+an(2) <= '1';
+</td></tr><tr><td>
+</td></tr><tr><td>
+an(3) <= '1';
+</td></tr><tr><td>
+FTCPE_cnt0: FTCPE port map (cnt(0),'1',clk,rst,'0',cnt_CE(0));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cnt_CE(0) <= (NOT div(0) AND NOT div(10) AND NOT div(11) AND NOT div(12) AND NOT div(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div(14) AND NOT div(15) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div(19) AND NOT div(1) AND NOT div(2) AND NOT div(3) AND NOT div(4) AND NOT div(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND NOT div(20));
+</td></tr><tr><td>
+FTCPE_cnt1: FTCPE port map (cnt(1),cnt(0),clk,rst,'0',cnt_CE(1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cnt_CE(1) <= (NOT div(0) AND NOT div(10) AND NOT div(11) AND NOT div(12) AND NOT div(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div(14) AND NOT div(15) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div(19) AND NOT div(1) AND NOT div(2) AND NOT div(3) AND NOT div(4) AND NOT div(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND NOT div(20));
+</td></tr><tr><td>
+FTCPE_cnt2: FTCPE port map (cnt(2),cnt_T(2),clk,rst,'0',cnt_CE(2));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cnt_T(2) <= (cnt(1) AND cnt(0));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cnt_CE(2) <= (NOT div(0) AND NOT div(10) AND NOT div(11) AND NOT div(12) AND NOT div(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div(14) AND NOT div(15) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div(19) AND NOT div(1) AND NOT div(2) AND NOT div(3) AND NOT div(4) AND NOT div(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND NOT div(20));
+</td></tr><tr><td>
+FTCPE_cnt3: FTCPE port map (cnt(3),cnt_T(3),clk,rst,'0',cnt_CE(3));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cnt_T(3) <= (cnt(1) AND cnt(2) AND cnt(0));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cnt_CE(3) <= (NOT div(0) AND NOT div(10) AND NOT div(11) AND NOT div(12) AND NOT div(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div(14) AND NOT div(15) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div(19) AND NOT div(1) AND NOT div(2) AND NOT div(3) AND NOT div(4) AND NOT div(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND NOT div(20));
+</td></tr><tr><td>
+FTCPE_div0: FTCPE port map (div(0),'1',clk,rst,'0');
+</td></tr><tr><td>
+FTCPE_div1: FTCPE port map (div(1),div(0),clk,rst,'0');
+</td></tr><tr><td>
+FTCPE_div2: FTCPE port map (div(2),div_T(2),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(2) <= (div(0) AND div(1));
+</td></tr><tr><td>
+FTCPE_div3: FTCPE port map (div(3),div_T(3),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(3) <= (div(0) AND div(1) AND div(2));
+</td></tr><tr><td>
+FTCPE_div4: FTCPE port map (div(4),div_T(4),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(4) <= (div(0) AND div(1) AND div(2) AND div(3));
+</td></tr><tr><td>
+FTCPE_div5: FTCPE port map (div(5),div_T(5),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(5) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4));
+</td></tr><tr><td>
+FTCPE_div6: FTCPE port map (div(6),div_T(6),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(6) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(5));
+</td></tr><tr><td>
+FTCPE_div7: FTCPE port map (div(7),div_T(7),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(7) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(5) AND div(6));
+</td></tr><tr><td>
+FTCPE_div8: FTCPE port map (div(8),div_T(8),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(8) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(5) AND div(6) AND div(7));
+</td></tr><tr><td>
+FTCPE_div9: FTCPE port map (div(9),div_T(9),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(9) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(5) AND div(6) AND div(7) AND div(8));
+</td></tr><tr><td>
+FTCPE_div10: FTCPE port map (div(10),div_T(10),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(10) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(5) AND div(6) AND div(7) AND div(8) AND div(9));
+</td></tr><tr><td>
+FTCPE_div11: FTCPE port map (div(11),div_T(11),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(11) <= (div(0) AND div(10) AND div(1) AND div(2) AND div(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(4) AND div(5) AND div(6) AND div(7) AND div(8) AND div(9));
+</td></tr><tr><td>
+FTCPE_div12: FTCPE port map (div(12),div_T(12),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(12) <= (div(0) AND div(10) AND div(11) AND div(1) AND div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(3) AND div(4) AND div(5) AND div(6) AND div(7) AND div(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(9));
+</td></tr><tr><td>
+FTCPE_div13: FTCPE port map (div(13),div_T(13),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(13) <= (div(0) AND div(10) AND div(11) AND div(12) AND div(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(2) AND div(3) AND div(4) AND div(5) AND div(6) AND div(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(8) AND div(9));
+</td></tr><tr><td>
+FTCPE_div14: FTCPE port map (div(14),div_T(14),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(14) <= (div(0) AND div(10) AND div(11) AND div(12) AND div(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(1) AND div(2) AND div(3) AND div(4) AND div(5) AND div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(7) AND div(8) AND div(9));
+</td></tr><tr><td>
+FTCPE_div15: FTCPE port map (div(15),div_T(15),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(15) <= (div(0) AND div(10) AND div(11) AND div(12) AND div(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(14) AND div(1) AND div(2) AND div(3) AND div(4) AND div(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(6) AND div(7) AND div(8) AND div(9));
+</td></tr><tr><td>
+FTCPE_div16: FTCPE port map (div(16),div_T(16),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(16) <= (div(0) AND div(10) AND div(11) AND div(12) AND div(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(14) AND div(15) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(5) AND div(6) AND div(7) AND div(8) AND div(9));
+</td></tr><tr><td>
+FTCPE_div17: FTCPE port map (div(17),div_T(17),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(17) <= (div(0) AND div(10) AND div(11) AND div(12) AND div(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(14) AND div(15) AND div(16) AND div(1) AND div(2) AND div(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(4) AND div(5) AND div(6) AND div(7) AND div(8) AND div(9));
+</td></tr><tr><td>
+FTCPE_div18: FTCPE port map (div(18),div_T(18),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(18) <= (div(0) AND div(10) AND div(11) AND div(12) AND div(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(14) AND div(15) AND div(16) AND div(17) AND div(1) AND div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(3) AND div(4) AND div(5) AND div(6) AND div(7) AND div(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(9));
+</td></tr><tr><td>
+FTCPE_div19: FTCPE port map (div(19),div_T(19),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(19) <= (div(0) AND div(10) AND div(11) AND div(12) AND div(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(14) AND div(15) AND div(16) AND div(17) AND div(18) AND div(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(2) AND div(3) AND div(4) AND div(5) AND div(6) AND div(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(8) AND div(9));
+</td></tr><tr><td>
+FTCPE_div20: FTCPE port map (div(20),div_T(20),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(20) <= (div(0) AND div(10) AND div(11) AND div(12) AND div(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(14) AND div(15) AND div(16) AND div(17) AND div(18) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(19) AND div(1) AND div(2) AND div(3) AND div(4) AND div(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(6) AND div(7) AND div(8) AND div(9));
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg(0) <= ((cnt(1) AND cnt(3) AND cnt(2) AND cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cnt(1) AND NOT cnt(3) AND NOT cnt(2) AND cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(1) AND cnt(3) AND cnt(2) AND NOT cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(1) AND NOT cnt(3) AND cnt(2) AND cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(1) AND NOT cnt(3) AND NOT cnt(2) AND NOT cnt(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg(1) <= ((NOT cnt(1) AND NOT cnt(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cnt(1) AND cnt(3) AND NOT cnt(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(3) AND NOT cnt(2) AND NOT cnt(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg(2) <= ((NOT cnt(1) AND NOT cnt(3) AND NOT cnt(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(1) AND NOT cnt(3) AND NOT cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(3) AND NOT cnt(2) AND NOT cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cnt(1) AND cnt(3) AND cnt(2) AND NOT cnt(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg(3) <= ((NOT cnt(1) AND NOT cnt(3) AND NOT cnt(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(1) AND NOT cnt(2) AND cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cnt(1) AND cnt(3) AND cnt(2) AND cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cnt(1) AND NOT cnt(3) AND cnt(2) AND NOT cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(1) AND cnt(3) AND cnt(2) AND NOT cnt(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg(4) <= ((cnt(3) AND cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cnt(1) AND cnt(2) AND cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(1) AND cnt(3) AND cnt(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(1) AND NOT cnt(3) AND NOT cnt(2) AND NOT cnt(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg(5) <= ((cnt(1) AND cnt(3) AND cnt(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(1) AND cnt(3) AND cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cnt(1) AND NOT cnt(3) AND NOT cnt(2) AND cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(1) AND NOT cnt(3) AND NOT cnt(2) AND NOT cnt(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg(6) <= ((NOT cnt(1) AND NOT cnt(3) AND NOT cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cnt(1) AND cnt(3) AND cnt(2) AND cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cnt(1) AND cnt(3) AND NOT cnt(2) AND cnt(0)));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

@@ -1,0 +1,91 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9572XL100 | XC9572XL-10-TQ100
+
+DEVICE | 9572XL | 9572XL100 | 
+
+NETWORK | T_FLIPFOP | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | T_IBUF | T_FLIPFOP_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | T | 58 | PI | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | T_IBUF | 53 | ? | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | T_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | clk_IBUF | T_FLIPFOP_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | clk | 59 | PI | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | FCLKIO_0 | 54 | ? | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | rst_IBUF | T_FLIPFOP_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | rst | 60 | PI | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 6 | 5 | II_FSR
+NODE | FSRIO_1 | 55 | ? | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | q_reg | T_FLIPFOP_COPY_0_COPY_0 | 2155877376 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | T_IBUF | 53 | ? | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | T_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FCLKIO_0 | 54 | ? | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_1 | 55 | ? | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | q_reg$Q | 56 | ? | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | q_reg.Q | q_reg | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | q_reg.SI | q_reg | 0 | 1 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | T_IBUF | 53 | ? | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | T_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | q_reg.D1 | 62 | ? | 0 | 4096 | q_reg | NULL | NULL | q_reg.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | q_reg.D2 | 63 | ? | 0 | 4096 | q_reg | NULL | NULL | q_reg.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | q_reg.CE | 64 | ? | 0 | 4096 | q_reg | NULL | NULL | q_reg.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | T_IBUF
+
+SRFF_INSTANCE | q_reg.REG | q_reg | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | q_reg.D | 61 | ? | 0 | 0 | q_reg | NULL | NULL | q_reg.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | FCLKIO_0 | 54 | ? | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_1 | 55 | ? | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | q_reg.CE | 64 | ? | 0 | 4096 | q_reg | NULL | NULL | q_reg.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 1 | IV_TRUE | T_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | q_reg.Q | 65 | ? | 0 | 0 | q_reg | NULL | NULL | q_reg.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | Q | T_FLIPFOP_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | q_reg$Q | 56 | ? | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | q_reg.Q | q_reg | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | Q | 57 | PO | 0 | 0 | T_FLIPFOP_COPY_0_COPY_0 | NULL | NULL | Q | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | T_FLIPFOP_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 9 | NULL | 0 | clk_IBUF | 0 | NULL | 0 | 22 | 57344
+FBPIN | 15 | NULL | 0 | T_IBUF | 1 | NULL | 0 | 29 | 49152
+
+FB_INSTANCE | FOOBAR2_ | T_FLIPFOP_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 9 | NULL | 0 | rst_IBUF | 0 | NULL | 0 | 99 | 51200
+
+FB_INSTANCE | FOOBAR3_ | T_FLIPFOP_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 14 | q_reg | 1 | NULL | 0 | Q | 1 | 55 | 49152
+
+FB_INSTANCE | FOOBAR4_ | T_FLIPFOP_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | T_FLIPFOP_COPY_0_COPY_0 | 0 | 0 | 0
+
+
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 53 | T | 29
+
+FB_IMUX_INDEX | FOOBAR3_ | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 130
+
+
+GLOBAL_FCLK | clk | 0 | 0
+
+GLOBAL_FSR | rst | 0 | 0

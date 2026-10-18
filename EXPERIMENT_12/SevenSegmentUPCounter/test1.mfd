@@ -1,0 +1,318 @@
+MDF Database:  version 1.0
+MDF_INFO | test1 | XC9572XL-10-TQ100
+MACROCELL | 0 | 9 | slow_tick
+ATTRIBUTES | 8561408 | 0
+OUTPUTMC | 8 | 3 | 5 | 3 | 3 | 3 | 2 | 3 | 7 | 3 | 4 | 3 | 1 | 3 | 8 | 3 | 0
+INPUTS | 16 | cnt<0>  | cnt<10>  | cnt<11>  | cnt<12>  | cnt<13>  | cnt<14>  | cnt<1>  | cnt<2>  | cnt<3>  | cnt<4>  | cnt<5>  | cnt<6>  | cnt<7>  | cnt<8>  | cnt<9>  | cnt<15>
+INPUTMC | 16 | 3 | 17 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10 | 0 | 12
+EQ | 5 | 
+   slow_tick.D = !cnt<0> & !cnt<10> & !cnt<11> & !cnt<12> & !cnt<13> & 
+	!cnt<14> & !cnt<1> & !cnt<2> & !cnt<3> & !cnt<4> & !cnt<5> & 
+	!cnt<6> & !cnt<7> & !cnt<8> & !cnt<9> & !cnt<15>;
+   slow_tick.CLK = clk;	// GCK
+   slow_tick.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 17 | cnt<0>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 16 | 0 | 9 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10 | 0 | 12
+INPUTS | 0
+EQ | 3 | 
+   cnt<0>.T = Vcc;
+   cnt<0>.CLK = clk;	// GCK
+   cnt<0>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 17 | cnt<10>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 6 | 0 | 9 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12
+INPUTS | 10 | cnt<0>  | cnt<1>  | cnt<2>  | cnt<3>  | cnt<4>  | cnt<5>  | cnt<6>  | cnt<7>  | cnt<8>  | cnt<9>
+INPUTMC | 10 | 3 | 17 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10
+EQ | 4 | 
+   cnt<10>.T = cnt<0> & cnt<1> & cnt<2> & cnt<3> & cnt<4> & 
+	cnt<5> & cnt<6> & cnt<7> & cnt<8> & cnt<9>;
+   cnt<10>.CLK = clk;	// GCK
+   cnt<10>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 16 | cnt<11>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 5 | 0 | 9 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12
+INPUTS | 11 | cnt<0>  | cnt<10>  | cnt<1>  | cnt<2>  | cnt<3>  | cnt<4>  | cnt<5>  | cnt<6>  | cnt<7>  | cnt<8>  | cnt<9>
+INPUTMC | 11 | 3 | 17 | 0 | 17 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10
+EQ | 4 | 
+   cnt<11>.T = cnt<0> & cnt<10> & cnt<1> & cnt<2> & cnt<3> & 
+	cnt<4> & cnt<5> & cnt<6> & cnt<7> & cnt<8> & cnt<9>;
+   cnt<11>.CLK = clk;	// GCK
+   cnt<11>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 15 | cnt<12>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 4 | 0 | 9 | 0 | 14 | 0 | 13 | 0 | 12
+INPUTS | 12 | cnt<0>  | cnt<10>  | cnt<11>  | cnt<1>  | cnt<2>  | cnt<3>  | cnt<4>  | cnt<5>  | cnt<6>  | cnt<7>  | cnt<8>  | cnt<9>
+INPUTMC | 12 | 3 | 17 | 0 | 17 | 0 | 16 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10
+EQ | 5 | 
+   cnt<12>.T = cnt<0> & cnt<10> & cnt<11> & cnt<1> & cnt<2> & 
+	cnt<3> & cnt<4> & cnt<5> & cnt<6> & cnt<7> & cnt<8> & 
+	cnt<9>;
+   cnt<12>.CLK = clk;	// GCK
+   cnt<12>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 14 | cnt<13>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 3 | 0 | 9 | 0 | 13 | 0 | 12
+INPUTS | 13 | cnt<0>  | cnt<10>  | cnt<11>  | cnt<12>  | cnt<1>  | cnt<2>  | cnt<3>  | cnt<4>  | cnt<5>  | cnt<6>  | cnt<7>  | cnt<8>  | cnt<9>
+INPUTMC | 13 | 3 | 17 | 0 | 17 | 0 | 16 | 0 | 15 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10
+EQ | 5 | 
+   cnt<13>.T = cnt<0> & cnt<10> & cnt<11> & cnt<12> & cnt<1> & 
+	cnt<2> & cnt<3> & cnt<4> & cnt<5> & cnt<6> & cnt<7> & 
+	cnt<8> & cnt<9>;
+   cnt<13>.CLK = clk;	// GCK
+   cnt<13>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 13 | cnt<14>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 2 | 0 | 9 | 0 | 12
+INPUTS | 14 | cnt<0>  | cnt<10>  | cnt<11>  | cnt<12>  | cnt<13>  | cnt<1>  | cnt<2>  | cnt<3>  | cnt<4>  | cnt<5>  | cnt<6>  | cnt<7>  | cnt<8>  | cnt<9>
+INPUTMC | 14 | 3 | 17 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10
+EQ | 5 | 
+   cnt<14>.T = cnt<0> & cnt<10> & cnt<11> & cnt<12> & cnt<13> & 
+	cnt<1> & cnt<2> & cnt<3> & cnt<4> & cnt<5> & cnt<6> & 
+	cnt<7> & cnt<8> & cnt<9>;
+   cnt<14>.CLK = clk;	// GCK
+   cnt<14>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 16 | cnt<1>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 15 | 0 | 9 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10 | 0 | 12
+INPUTS | 1 | cnt<0>
+INPUTMC | 1 | 3 | 17
+EQ | 3 | 
+   cnt<1>.T = cnt<0>;
+   cnt<1>.CLK = clk;	// GCK
+   cnt<1>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 15 | cnt<2>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 14 | 0 | 9 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10 | 0 | 12
+INPUTS | 2 | cnt<0>  | cnt<1>
+INPUTMC | 2 | 3 | 17 | 3 | 16
+EQ | 3 | 
+   cnt<2>.T = cnt<0> & cnt<1>;
+   cnt<2>.CLK = clk;	// GCK
+   cnt<2>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 14 | cnt<3>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 13 | 0 | 9 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10 | 0 | 12
+INPUTS | 3 | cnt<0>  | cnt<1>  | cnt<2>
+INPUTMC | 3 | 3 | 17 | 3 | 16 | 3 | 15
+EQ | 3 | 
+   cnt<3>.T = cnt<0> & cnt<1> & cnt<2>;
+   cnt<3>.CLK = clk;	// GCK
+   cnt<3>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 13 | cnt<4>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 12 | 0 | 9 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10 | 0 | 12
+INPUTS | 4 | cnt<0>  | cnt<1>  | cnt<2>  | cnt<3>
+INPUTMC | 4 | 3 | 17 | 3 | 16 | 3 | 15 | 3 | 14
+EQ | 3 | 
+   cnt<4>.T = cnt<0> & cnt<1> & cnt<2> & cnt<3>;
+   cnt<4>.CLK = clk;	// GCK
+   cnt<4>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 12 | cnt<5>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 11 | 0 | 9 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10 | 0 | 12
+INPUTS | 5 | cnt<0>  | cnt<1>  | cnt<2>  | cnt<3>  | cnt<4>
+INPUTMC | 5 | 3 | 17 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13
+EQ | 3 | 
+   cnt<5>.T = cnt<0> & cnt<1> & cnt<2> & cnt<3> & cnt<4>;
+   cnt<5>.CLK = clk;	// GCK
+   cnt<5>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 11 | cnt<6>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 10 | 0 | 9 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 3 | 10 | 0 | 11 | 0 | 10 | 0 | 12
+INPUTS | 6 | cnt<0>  | cnt<1>  | cnt<2>  | cnt<3>  | cnt<4>  | cnt<5>
+INPUTMC | 6 | 3 | 17 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12
+EQ | 4 | 
+   cnt<6>.T = cnt<0> & cnt<1> & cnt<2> & cnt<3> & cnt<4> & 
+	cnt<5>;
+   cnt<6>.CLK = clk;	// GCK
+   cnt<6>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 10 | cnt<7>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 9 | 0 | 9 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 11 | 0 | 10 | 0 | 12
+INPUTS | 7 | cnt<0>  | cnt<1>  | cnt<2>  | cnt<3>  | cnt<4>  | cnt<5>  | cnt<6>
+INPUTMC | 7 | 3 | 17 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11
+EQ | 4 | 
+   cnt<7>.T = cnt<0> & cnt<1> & cnt<2> & cnt<3> & cnt<4> & 
+	cnt<5> & cnt<6>;
+   cnt<7>.CLK = clk;	// GCK
+   cnt<7>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 11 | cnt<8>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 8 | 0 | 9 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 10 | 0 | 12
+INPUTS | 8 | cnt<0>  | cnt<1>  | cnt<2>  | cnt<3>  | cnt<4>  | cnt<5>  | cnt<6>  | cnt<7>
+INPUTMC | 8 | 3 | 17 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10
+EQ | 4 | 
+   cnt<8>.T = cnt<0> & cnt<1> & cnt<2> & cnt<3> & cnt<4> & 
+	cnt<5> & cnt<6> & cnt<7>;
+   cnt<8>.CLK = clk;	// GCK
+   cnt<8>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 10 | cnt<9>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 7 | 0 | 9 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12
+INPUTS | 9 | cnt<0>  | cnt<1>  | cnt<2>  | cnt<3>  | cnt<4>  | cnt<5>  | cnt<6>  | cnt<7>  | cnt<8>
+INPUTMC | 9 | 3 | 17 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11
+EQ | 4 | 
+   cnt<9>.T = cnt<0> & cnt<1> & cnt<2> & cnt<3> & cnt<4> & 
+	cnt<5> & cnt<6> & cnt<7> & cnt<8>;
+   cnt<9>.CLK = clk;	// GCK
+   cnt<9>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 12 | cnt<15>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 1 | 0 | 9
+INPUTS | 15 | cnt<0>  | cnt<10>  | cnt<11>  | cnt<12>  | cnt<13>  | cnt<14>  | cnt<1>  | cnt<2>  | cnt<3>  | cnt<4>  | cnt<5>  | cnt<6>  | cnt<7>  | cnt<8>  | cnt<9>
+INPUTMC | 15 | 3 | 17 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10
+EQ | 5 | 
+   cnt<15>.T = cnt<0> & cnt<10> & cnt<11> & cnt<12> & cnt<13> & 
+	cnt<14> & cnt<1> & cnt<2> & cnt<3> & cnt<4> & cnt<5> & 
+	cnt<6> & cnt<7> & cnt<8> & cnt<9>;
+   cnt<15>.CLK = clk;	// GCK
+   cnt<15>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 5 | output_s0_OBUF
+ATTRIBUTES | 8688454 | 0
+INPUTS | 2 | input_s0  | slow_tick
+INPUTMC | 1 | 0 | 9
+INPUTP | 1 | 48
+EQ | 4 | 
+   output_s0.D = !input_s0;
+   output_s0.CLK = clk;	// GCK
+   output_s0.AP = rst;	// GSR
+   output_s0.CE = slow_tick;
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+MACROCELL | 3 | 3 | output_s1_OBUF
+ATTRIBUTES | 8688454 | 0
+INPUTS | 2 | input_s1  | slow_tick
+INPUTMC | 1 | 0 | 9
+INPUTP | 1 | 47
+EQ | 4 | 
+   output_s1.D = !input_s1;
+   output_s1.CLK = clk;	// GCK
+   output_s1.AP = rst;	// GSR
+   output_s1.CE = slow_tick;
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+MACROCELL | 3 | 2 | output_s2_OBUF
+ATTRIBUTES | 8688454 | 0
+INPUTS | 2 | input_s2  | slow_tick
+INPUTMC | 1 | 0 | 9
+INPUTP | 1 | 46
+EQ | 4 | 
+   output_s2.D = !input_s2;
+   output_s2.CLK = clk;	// GCK
+   output_s2.AP = rst;	// GSR
+   output_s2.CE = slow_tick;
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+MACROCELL | 3 | 7 | output_s3_OBUF
+ATTRIBUTES | 8688454 | 0
+INPUTS | 2 | input_s3  | slow_tick
+INPUTMC | 1 | 0 | 9
+INPUTP | 1 | 44
+EQ | 4 | 
+   output_s3.D = !input_s3;
+   output_s3.CLK = clk;	// GCK
+   output_s3.AP = rst;	// GSR
+   output_s3.CE = slow_tick;
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+MACROCELL | 3 | 4 | output_s4_OBUF
+ATTRIBUTES | 8688454 | 0
+INPUTS | 2 | input_s4  | slow_tick
+INPUTMC | 1 | 0 | 9
+INPUTP | 1 | 43
+EQ | 4 | 
+   output_s4.D = !input_s4;
+   output_s4.CLK = clk;	// GCK
+   output_s4.AP = rst;	// GSR
+   output_s4.CE = slow_tick;
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+MACROCELL | 3 | 1 | output_s5_OBUF
+ATTRIBUTES | 8688454 | 0
+INPUTS | 2 | input_s5  | slow_tick
+INPUTMC | 1 | 0 | 9
+INPUTP | 1 | 38
+EQ | 4 | 
+   output_s5.D = !input_s5;
+   output_s5.CLK = clk;	// GCK
+   output_s5.AP = rst;	// GSR
+   output_s5.CE = slow_tick;
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+MACROCELL | 3 | 8 | output_s6_OBUF
+ATTRIBUTES | 8688454 | 0
+INPUTS | 2 | input_s6  | slow_tick
+INPUTMC | 1 | 0 | 9
+INPUTP | 1 | 37
+EQ | 4 | 
+   output_s6.D = !input_s6;
+   output_s6.CLK = clk;	// GCK
+   output_s6.AP = rst;	// GSR
+   output_s6.CE = slow_tick;
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+MACROCELL | 3 | 0 | output_s7_OBUF
+ATTRIBUTES | 8688454 | 0
+INPUTS | 2 | input_s7  | slow_tick
+INPUTMC | 1 | 0 | 9
+INPUTP | 1 | 36
+EQ | 4 | 
+   output_s7.D = !input_s7;
+   output_s7.CLK = clk;	// GCK
+   output_s7.AP = rst;	// GSR
+   output_s7.CE = slow_tick;
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+PIN | clk | 4096 | 0 | N/A | 20 | 25 | 0 | 9 | 3 | 17 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10 | 0 | 12 | 3 | 5 | 3 | 3 | 3 | 2 | 3 | 7 | 3 | 4 | 3 | 1 | 3 | 8 | 3 | 0
+PIN | rst | 65536 | 0 | N/A | 92 | 25 | 0 | 9 | 3 | 17 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 3 | 16 | 3 | 15 | 3 | 14 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 0 | 11 | 0 | 10 | 0 | 12 | 3 | 5 | 3 | 3 | 3 | 2 | 3 | 7 | 3 | 4 | 3 | 1 | 3 | 8 | 3 | 0
+PIN | input_s0 | 64 | 0 | N/A | 48 | 1 | 3 | 5
+PIN | input_s1 | 64 | 0 | N/A | 47 | 1 | 3 | 3
+PIN | input_s2 | 64 | 0 | N/A | 46 | 1 | 3 | 2
+PIN | input_s3 | 64 | 0 | N/A | 44 | 1 | 3 | 7
+PIN | input_s4 | 64 | 0 | N/A | 43 | 1 | 3 | 4
+PIN | input_s5 | 64 | 0 | N/A | 38 | 1 | 3 | 1
+PIN | input_s6 | 64 | 0 | N/A | 37 | 1 | 3 | 8
+PIN | input_s7 | 64 | 0 | N/A | 36 | 1 | 3 | 0
+PIN | output_s0 | 536871040 | 0 | N/A | 70
+PIN | output_s1 | 536871040 | 0 | N/A | 67
+PIN | output_s2 | 536871040 | 0 | N/A | 66
+PIN | output_s3 | 536871040 | 0 | N/A | 65
+PIN | output_s4 | 536871040 | 0 | N/A | 63
+PIN | output_s5 | 536871040 | 0 | N/A | 62
+PIN | output_s6 | 536871040 | 0 | N/A | 61
+PIN | output_s7 | 536871040 | 0 | N/A | 60

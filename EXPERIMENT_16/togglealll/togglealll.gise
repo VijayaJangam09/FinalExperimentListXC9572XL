@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="togglealll.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Test_Pins.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Test_Pins.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="Test_Pins.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="Test_Pins.jed"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Test_Pins.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="Test_Pins.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="Test_Pins.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Test_Pins.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Test_Pins.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Test_Pins.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Test_Pins.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="Test_Pins.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Test_Pins.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Test_Pins.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Test_Pins.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Test_Pins.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="Test_Pins.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Test_Pins.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Test_Pins.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Test_Pins_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Test_Pins_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="Test_Pins_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Test_Pins_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Test_Pins_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Test_Pins_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Test_Pins_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="test1.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="test1.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="test1.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="test1.jed"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="test1.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="test1.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="test1.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="test1.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="test1.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="test1.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="test1.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test1.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="test1.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="test1.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="test1.vm6"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="test1.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="test1_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="test1_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test1_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="test1_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1791458705" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1791458705">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1791458705" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1427681235192935498" xil_pn:start_ts="1791458705">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1791458710" xil_pn:in_ck="-7907629987065791947" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="8045616221380556826" xil_pn:start_ts="1791458705">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="Test_Pins.lso"/>
+      <outfile xil_pn:name="Test_Pins.ngc"/>
+      <outfile xil_pn:name="Test_Pins.ngr"/>
+      <outfile xil_pn:name="Test_Pins.prj"/>
+      <outfile xil_pn:name="Test_Pins.stx"/>
+      <outfile xil_pn:name="Test_Pins.syr"/>
+      <outfile xil_pn:name="Test_Pins.xst"/>
+      <outfile xil_pn:name="Test_Pins_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1791458710" xil_pn:in_ck="6023079072410409210" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-6056219699435619695" xil_pn:start_ts="1791458710">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1791458713" xil_pn:in_ck="-4444374617773438672" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="3931465504876573792" xil_pn:start_ts="1791458710">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="Test_Pins.bld"/>
+      <outfile xil_pn:name="Test_Pins.ngd"/>
+      <outfile xil_pn:name="Test_Pins_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1791458722" xil_pn:in_ck="5647038843419721816" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="-87971361133381390" xil_pn:start_ts="1791458713">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Test_Pins.gyd"/>
+      <outfile xil_pn:name="Test_Pins.mfd"/>
+      <outfile xil_pn:name="Test_Pins.nga"/>
+      <outfile xil_pn:name="Test_Pins.pad"/>
+      <outfile xil_pn:name="Test_Pins.pnx"/>
+      <outfile xil_pn:name="Test_Pins.rpt"/>
+      <outfile xil_pn:name="Test_Pins.vm6"/>
+      <outfile xil_pn:name="Test_Pins.xml"/>
+      <outfile xil_pn:name="Test_Pins_build.xml"/>
+      <outfile xil_pn:name="Test_Pins_html"/>
+      <outfile xil_pn:name="Test_Pins_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1791458724" xil_pn:in_ck="6058430241158642072" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1791458722">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Test_Pins.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1791522207" xil_pn:in_ck="5441807259394281228" xil_pn:name="TRAN_configureTargetDevice_CPLD" xil_pn:prop_ck="-154879694275837835" xil_pn:start_ts="1791522206">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1791284479" xil_pn:name="TRAN_timRpt" xil_pn:start_ts="1791284477">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

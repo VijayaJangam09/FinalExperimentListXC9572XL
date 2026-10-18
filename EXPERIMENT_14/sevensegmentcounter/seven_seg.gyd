@@ -1,0 +1,38 @@
+Pin Freeze File:  version P.20131013
+
+9572XL100 XC9572XL-10-TQ100
+clk S:PIN22
+rst S:PIN99
+seg<6> S:PIN93
+an<0> S:PIN94
+an<1> S:PIN95
+an<2> S:PIN96
+an<3> S:PIN97
+seg<0> S:PIN86
+seg<1> S:PIN85
+seg<2> S:PIN89
+seg<3> S:PIN90
+seg<4> S:PIN91
+seg<5> S:PIN92
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 hex_cnt<0> div<3> div<2> hex_cnt<9>
+		 hex_cnt<8> hex_cnt<7> hex_cnt<6> hex_cnt<5>
+		 hex_cnt<4> hex_cnt<3> hex_cnt<2> hex_cnt<1>
+		 hex_cnt<15> hex_cnt<14> hex_cnt<13> hex_cnt<12>
+		 hex_cnt<11> hex_cnt<10>
+PARTITION FB2_1 div<20> an_0_OBUF seg_4_OBUF _6_
+		 an_1_OBUF an_2_OBUF div<19> an_3_OBUF
+		 div<18> div<17> div<16> div<15>
+		 div<13> div<12> seg<6>_BUFR.MC div<14>
+		 div<21> seg_5_OBUF
+PARTITION FB3_17 div<1> div<0>
+PARTITION FB4_1 EXP7_ div<10> div<9> div<8>
+		 div<7> div<6> div<5> div<4>
+		 div<22> div<11> EXP8_ EXP9_
+		 seg_1_OBUF EXP10_ seg_2_OBUF seg_0_OBUF
+		 seg_3_OBUF EXP11_
+

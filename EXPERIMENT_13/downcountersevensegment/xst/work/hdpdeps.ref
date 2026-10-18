@@ -1,0 +1,21 @@
+V3 11
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/DebounceLogic/testpinmap.vhd" 2026/10/08.06:04:58 P.20131013
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/debouncelogicnewload/testpinmap.vhd" 2026/10/08.06:13:56 P.20131013
+EN work/test1 1791440038 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/debouncelogicnewload/testpinmap.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/test1/Behavioral 1791440039 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/debouncelogicnewload/testpinmap.vhd" \
+      EN work/test1 1791440038
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/testpinmap.vhd" 2026/10/12.07:14:43 P.20131013
+EN work/seven_segl_down 1791789285 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/testpinmap.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/seven_segl_down/Behavioral 1791789286 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/testpinmap.vhd" \
+      EN work/seven_segl_down 1791789285
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/sevensegmentcounter/testpinmap.vhd" 2026/10/08.06:48:21 P.20131013
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" 2026/10/07.09:32:35 P.20131013
+FL /home/ise/Desktop/testpinmapping/testpinmap.vhd 2026/10/07.07:30:47 P.20131013
+FL /home/ise/Desktop/togglealll/testpinmap.vhd 2026/10/07.09:13:57 P.20131013

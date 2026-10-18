@@ -1,0 +1,36 @@
+MDF Database:  version 1.0
+MDF_INFO | DEMORGANS_LAW | XC9572XL-10-TQ100
+MACROCELL | 2 | 17 | RHS2_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | B  | A
+INPUTP | 2 | 27 | 26
+EQ | 1 | 
+   RHS2 = !B & !A;
+
+MACROCELL | 2 | 14 | RHS1_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | B  | A
+INPUTP | 2 | 27 | 26
+EQ | 1 | 
+   !RHS1 = B & A;
+
+MACROCELL | 2 | 13 | LHS1_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | B  | A
+INPUTP | 2 | 27 | 26
+EQ | 1 | 
+   !LHS1 = B & A;
+
+MACROCELL | 2 | 16 | RHS2_OBUF$BUF0
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | B  | A
+INPUTP | 2 | 27 | 26
+EQ | 1 | 
+   LHS2 = !B & !A;
+
+PIN | B | 64 | 0 | N/A | 27 | 4 | 2 | 17 | 2 | 14 | 2 | 13 | 2 | 16
+PIN | A | 64 | 0 | N/A | 26 | 4 | 2 | 17 | 2 | 14 | 2 | 13 | 2 | 16
+PIN | RHS2 | 536871040 | 0 | N/A | 53
+PIN | RHS1 | 536871040 | 0 | N/A | 50
+PIN | LHS1 | 536871040 | 0 | N/A | 49
+PIN | LHS2 | 536871040 | 0 | N/A | 52

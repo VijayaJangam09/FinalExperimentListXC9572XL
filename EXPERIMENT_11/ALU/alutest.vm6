@@ -1,0 +1,878 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9572XL100 | XC9572XL-10-TQ100
+
+DEVICE | 9572XL | 9572XL100 | 
+
+NETWORK | alutest | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | sel_1_IBUF | alutest_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | sel<1> | 474 | PI | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b_0_IBUF | alutest_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b<0> | 475 | PI | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | c_mux0001 | alutest_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | sel<0> | 476 | PI | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a_1_IBUF | alutest_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<1> | 477 | PI | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a_2_IBUF | alutest_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<2> | 478 | PI | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a_3_IBUF | alutest_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<3> | 479 | PI | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a_3_IBUF | 459 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a_0_IBUF | alutest_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<0> | 480 | PI | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b_1_IBUF | alutest_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b<1> | 481 | PI | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b_2_IBUF | alutest_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b<2> | 482 | PI | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b_3_IBUF | alutest_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b<3> | 483 | PI | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b_3_IBUF | 463 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_3_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | Inv+OptxMapped | c_0_OBUF | alutest_COPY_0_COPY_0 | 2155872512 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | c_0_OBUF | 464 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_0_OBUF.Q | c_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | c_0_OBUF.EXP | 527 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_0_OBUF.EXP | c_0_OBUF | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | c_0_OBUF.SI | c_0_OBUF | 0 | 6 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_0_OBUF.D1 | 485 | ? | 0 | 4096 | c_0_OBUF | NULL | NULL | c_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | a_0_IBUF
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_0_OBUF.D2 | 486 | ? | 0 | 4096 | c_0_OBUF | NULL | NULL | c_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | sel_1_IBUF | IV_FALSE | b_0_IBUF
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | c_0_OBUF.EXP | 518 | ? | 0 | 0 | c_0_OBUF | NULL | NULL | c_0_OBUF.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 5 | IV_TRUE | b_0_IBUF | IV_TRUE | c_mux0001 | IV_TRUE | a_1_IBUF | IV_FALSE | a_0_IBUF | IV_FALSE | b_1_IBUF
+SPPTERM | 6 | IV_FALSE | sel_1_IBUF | IV_TRUE | b_0_IBUF | IV_TRUE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_FALSE | a_0_IBUF | IV_TRUE | b_1_IBUF
+SPPTERM | 6 | IV_FALSE | sel_1_IBUF | IV_TRUE | b_0_IBUF | IV_FALSE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_TRUE | a_0_IBUF | IV_TRUE | b_1_IBUF
+
+SRFF_INSTANCE | c_0_OBUF.REG | c_0_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_0_OBUF.D | 484 | ? | 0 | 0 | c_0_OBUF | NULL | NULL | c_0_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_0_OBUF.Q | 487 | ? | 0 | 0 | c_0_OBUF | NULL | NULL | c_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+OptxMapped | c_1_OBUF | alutest_COPY_0_COPY_0 | 2155872512 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_2_OBUF.EXP | 525 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_2_OBUF.EXP | c_2_OBUF | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP11_.EXP | 526 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP11_.EXP | EXP11_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | c_1_OBUF | 465 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_1_OBUF.Q | c_1_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | c_1_OBUF.SI | c_1_OBUF | 0 | 8 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_2_OBUF.EXP | 525 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_2_OBUF.EXP | c_2_OBUF | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP11_.EXP | 526 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP11_.EXP | EXP11_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_1_OBUF.D1 | 489 | ? | 0 | 4096 | c_1_OBUF | NULL | NULL | c_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_1_OBUF.D2 | 490 | ? | 0 | 4096 | c_1_OBUF | NULL | NULL | c_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | c_2_OBUF.EXP
+SPPTERM | 1 | IV_TRUE | EXP11_.EXP
+SPPTERM | 4 | IV_TRUE | sel_1_IBUF | IV_TRUE | c_mux0001 | IV_TRUE | a_1_IBUF | IV_FALSE | a_0_IBUF
+SPPTERM | 4 | IV_TRUE | sel_1_IBUF | IV_TRUE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_TRUE | a_0_IBUF
+SPPTERM | 4 | IV_TRUE | sel_1_IBUF | IV_FALSE | c_mux0001 | IV_TRUE | a_1_IBUF | IV_TRUE | a_0_IBUF
+SPPTERM | 4 | IV_TRUE | sel_1_IBUF | IV_FALSE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_FALSE | a_0_IBUF
+SPPTERM | 4 | IV_FALSE | sel_1_IBUF | IV_FALSE | b_0_IBUF | IV_TRUE | a_1_IBUF | IV_TRUE | b_1_IBUF
+
+SRFF_INSTANCE | c_1_OBUF.REG | c_1_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_1_OBUF.D | 488 | ? | 0 | 0 | c_1_OBUF | NULL | NULL | c_1_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_1_OBUF.Q | 491 | ? | 0 | 0 | c_1_OBUF | NULL | NULL | c_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | c_2_OBUF | alutest_COPY_0_COPY_0 | 2155872256 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM | 472 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.Q | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP10_.EXP | 524 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP10_.EXP | EXP10_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | c_2_OBUF | 466 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_2_OBUF.Q | c_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | c_2_OBUF.EXP | 525 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_2_OBUF.EXP | c_2_OBUF | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | c_2_OBUF.SI | c_2_OBUF | 0 | 10 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM | 472 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.Q | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP10_.EXP | 524 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP10_.EXP | EXP10_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_2_OBUF.D1 | 493 | ? | 0 | 4096 | c_2_OBUF | NULL | NULL | c_2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_2_OBUF.D2 | 494 | ? | 0 | 4096 | c_2_OBUF | NULL | NULL | c_2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP10_.EXP
+SPPTERM | 5 | IV_TRUE | sel_1_IBUF | IV_FALSE | a_1_IBUF | IV_FALSE | a_2_IBUF | IV_FALSE | a_0_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 5 | IV_FALSE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_FALSE | a_2_IBUF | IV_FALSE | b_1_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 5 | IV_FALSE | c_mux0001 | IV_FALSE | a_2_IBUF | IV_FALSE | a_0_IBUF | IV_FALSE | b_1_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 7 | IV_FALSE | sel_1_IBUF | IV_TRUE | b_0_IBUF | IV_FALSE | a_2_IBUF | IV_FALSE | a_0_IBUF | IV_TRUE | b_1_IBUF | IV_FALSE | b_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | c_2_OBUF.EXP | 516 | ? | 0 | 0 | c_2_OBUF | NULL | NULL | c_2_OBUF.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 4 | IV_FALSE | sel_1_IBUF | IV_FALSE | b_0_IBUF | IV_FALSE | a_1_IBUF | IV_FALSE | b_1_IBUF
+
+SRFF_INSTANCE | c_2_OBUF.REG | c_2_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_2_OBUF.D | 492 | ? | 0 | 0 | c_2_OBUF | NULL | NULL | c_2_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_2_OBUF.Q | 495 | ? | 0 | 0 | c_2_OBUF | NULL | NULL | c_2_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | c_3_OBUF | alutest_COPY_0_COPY_0 | 2155872256 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_3_IBUF | 459 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_3_IBUF | 463 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM | 473 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c__or0001/Maddsub_c__or0001_D2.Q | Maddsub_c__or0001/Maddsub_c__or0001_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP12_.EXP | 528 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP12_.EXP | EXP12_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP13_.EXP | 529 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP13_.EXP | EXP13_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | c_3_OBUF | 467 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_3_OBUF.Q | c_3_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | c_3_OBUF.SI | c_3_OBUF | 0 | 9 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_3_IBUF | 459 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_3_IBUF | 463 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM | 473 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c__or0001/Maddsub_c__or0001_D2.Q | Maddsub_c__or0001/Maddsub_c__or0001_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP12_.EXP | 528 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP12_.EXP | EXP12_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP13_.EXP | 529 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP13_.EXP | EXP13_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_3_OBUF.D1 | 497 | ? | 0 | 4096 | c_3_OBUF | NULL | NULL | c_3_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | a_3_IBUF
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_3_OBUF.D2 | 498 | ? | 0 | 4096 | c_3_OBUF | NULL | NULL | c_3_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP12_.EXP
+SPPTERM | 1 | IV_TRUE | EXP13_.EXP
+SPPTERM | 4 | IV_TRUE | sel_1_IBUF | IV_TRUE | c_mux0001 | IV_FALSE | a_2_IBUF | IV_FALSE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM
+SPPTERM | 4 | IV_TRUE | c_mux0001 | IV_FALSE | a_2_IBUF | IV_FALSE | b_3_IBUF | IV_FALSE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM
+SPPTERM | 5 | IV_FALSE | sel_1_IBUF | IV_FALSE | c_mux0001 | IV_FALSE | a_2_IBUF | IV_TRUE | b_3_IBUF | IV_FALSE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM
+SPPTERM | 5 | IV_FALSE | sel_1_IBUF | IV_FALSE | a_2_IBUF | IV_FALSE | b_2_IBUF | IV_TRUE | b_3_IBUF | IV_TRUE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM
+
+SRFF_INSTANCE | c_3_OBUF.REG | c_3_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_3_OBUF.D | 496 | ? | 0 | 0 | c_3_OBUF | NULL | NULL | c_3_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_3_OBUF.Q | 499 | ? | 0 | 0 | c_3_OBUF | NULL | NULL | c_3_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | c<0> | alutest_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | c_0_OBUF | 464 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_0_OBUF.Q | c_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | c<0> | 468 | PO | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | c<1> | alutest_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | c_1_OBUF | 465 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_1_OBUF.Q | c_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | c<1> | 469 | PO | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | c<2> | alutest_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | c_2_OBUF | 466 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_2_OBUF.Q | c_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | c<2> | 470 | PO | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | c<3> | alutest_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | c_3_OBUF | 467 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_3_OBUF.Q | c_3_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | c<3> | 471 | PO | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c<3> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | SoftPfbk | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | alutest_COPY_0_COPY_0 | 2181038080 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP7_.EXP | 512 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP8_.EXP | 513 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM | 472 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.Q | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.SI | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 0 | 8 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP7_.EXP | 512 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP8_.EXP | 513 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.D1 | 501 | ? | 0 | 4096 | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | NULL | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | a_2_IBUF
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.D2 | 502 | ? | 0 | 4096 | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | NULL | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP7_.EXP
+SPPTERM | 1 | IV_TRUE | EXP8_.EXP
+SPPTERM | 3 | IV_TRUE | sel_1_IBUF | IV_TRUE | c_mux0001 | IV_TRUE | a_1_IBUF
+SPPTERM | 3 | IV_TRUE | sel_1_IBUF | IV_TRUE | c_mux0001 | IV_TRUE | a_0_IBUF
+SPPTERM | 3 | IV_TRUE | sel_1_IBUF | IV_TRUE | a_1_IBUF | IV_TRUE | a_0_IBUF
+SPPTERM | 3 | IV_TRUE | b_0_IBUF | IV_TRUE | a_1_IBUF | IV_TRUE | a_0_IBUF
+
+SRFF_INSTANCE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.REG | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.D | 500 | ? | 0 | 0 | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | NULL | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.Q | 503 | ? | 0 | 0 | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | NULL | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | SoftPfbk | Maddsub_c__or0001/Maddsub_c__or0001_D2 | alutest_COPY_0_COPY_0 | 2181038080 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP6_.EXP | 511 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM | 473 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c__or0001/Maddsub_c__or0001_D2.Q | Maddsub_c__or0001/Maddsub_c__or0001_D2 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | Maddsub_c__or0001/Maddsub_c__or0001_D2.SI | Maddsub_c__or0001/Maddsub_c__or0001_D2 | 0 | 7 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP6_.EXP | 511 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | Maddsub_c__or0001/Maddsub_c__or0001_D2.D1 | 505 | ? | 0 | 4096 | Maddsub_c__or0001/Maddsub_c__or0001_D2 | NULL | NULL | Maddsub_c__or0001/Maddsub_c__or0001_D2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | Maddsub_c__or0001/Maddsub_c__or0001_D2.D2 | 506 | ? | 0 | 4096 | Maddsub_c__or0001/Maddsub_c__or0001_D2 | NULL | NULL | Maddsub_c__or0001/Maddsub_c__or0001_D2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP6_.EXP
+SPPTERM | 3 | IV_TRUE | sel_1_IBUF | IV_TRUE | c_mux0001 | IV_TRUE | a_1_IBUF
+SPPTERM | 3 | IV_TRUE | sel_1_IBUF | IV_TRUE | c_mux0001 | IV_TRUE | a_0_IBUF
+SPPTERM | 3 | IV_TRUE | sel_1_IBUF | IV_TRUE | a_1_IBUF | IV_TRUE | a_0_IBUF
+SPPTERM | 3 | IV_TRUE | b_0_IBUF | IV_TRUE | a_1_IBUF | IV_TRUE | a_0_IBUF
+SPPTERM | 3 | IV_TRUE | c_mux0001 | IV_TRUE | a_1_IBUF | IV_FALSE | b_1_IBUF
+
+SRFF_INSTANCE | Maddsub_c__or0001/Maddsub_c__or0001_D2.REG | Maddsub_c__or0001/Maddsub_c__or0001_D2 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | Maddsub_c__or0001/Maddsub_c__or0001_D2.D | 504 | ? | 0 | 0 | Maddsub_c__or0001/Maddsub_c__or0001_D2 | NULL | NULL | Maddsub_c__or0001/Maddsub_c__or0001_D2.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | Maddsub_c__or0001/Maddsub_c__or0001_D2.Q | 507 | ? | 0 | 0 | Maddsub_c__or0001/Maddsub_c__or0001_D2 | NULL | NULL | Maddsub_c__or0001/Maddsub_c__or0001_D2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | NULL | EXP6_ | alutest_COPY_0_COPY_0 | 2147483648 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP6_.EXP | 511 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP6_.SI | EXP6_ | 0 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP6_.EXP | 508 | ? | 0 | 0 | EXP6_ | NULL | NULL | EXP6_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 3 | IV_TRUE | c_mux0001 | IV_TRUE | a_0_IBUF | IV_FALSE | b_1_IBUF
+SPPTERM | 4 | IV_FALSE | sel_1_IBUF | IV_FALSE | b_0_IBUF | IV_TRUE | c_mux0001 | IV_TRUE | a_1_IBUF
+SPPTERM | 4 | IV_FALSE | sel_1_IBUF | IV_FALSE | b_0_IBUF | IV_TRUE | c_mux0001 | IV_FALSE | b_1_IBUF
+SPPTERM | 4 | IV_FALSE | sel_1_IBUF | IV_FALSE | c_mux0001 | IV_TRUE | a_1_IBUF | IV_TRUE | b_1_IBUF
+SPPTERM | 5 | IV_FALSE | sel_1_IBUF | IV_TRUE | b_0_IBUF | IV_FALSE | c_mux0001 | IV_TRUE | a_0_IBUF | IV_TRUE | b_1_IBUF
+
+MACROCELL_INSTANCE | NULL | EXP7_ | alutest_COPY_0_COPY_0 | 2147483648 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP7_.EXP | 512 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP7_.SI | EXP7_ | 0 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP7_.EXP | 509 | ? | 0 | 0 | EXP7_ | NULL | NULL | EXP7_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 3 | IV_TRUE | c_mux0001 | IV_TRUE | a_1_IBUF | IV_FALSE | b_1_IBUF
+
+MACROCELL_INSTANCE | NULL | EXP8_ | alutest_COPY_0_COPY_0 | 2147483648 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP8_.EXP | 513 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP8_.EXP | EXP8_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP8_.SI | EXP8_ | 0 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP8_.EXP | 510 | ? | 0 | 0 | EXP8_ | NULL | NULL | EXP8_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 3 | IV_TRUE | c_mux0001 | IV_TRUE | a_0_IBUF | IV_FALSE | b_1_IBUF
+SPPTERM | 4 | IV_FALSE | sel_1_IBUF | IV_FALSE | b_0_IBUF | IV_TRUE | c_mux0001 | IV_TRUE | a_1_IBUF
+SPPTERM | 4 | IV_FALSE | sel_1_IBUF | IV_FALSE | b_0_IBUF | IV_TRUE | c_mux0001 | IV_FALSE | b_1_IBUF
+SPPTERM | 4 | IV_FALSE | sel_1_IBUF | IV_FALSE | c_mux0001 | IV_TRUE | a_1_IBUF | IV_TRUE | b_1_IBUF
+SPPTERM | 5 | IV_FALSE | sel_1_IBUF | IV_TRUE | b_0_IBUF | IV_FALSE | c_mux0001 | IV_TRUE | a_0_IBUF | IV_TRUE | b_1_IBUF
+
+MACROCELL_INSTANCE | NULL | EXP9_ | alutest_COPY_0_COPY_0 | 2147483648 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM | 472 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.Q | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP15_.EXP | 531 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP15_.EXP | EXP15_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP9_.EXP | 523 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP9_.EXP | EXP9_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP9_.SI | EXP9_ | 0 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM | 472 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.Q | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP15_.EXP | 531 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP15_.EXP | EXP15_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP9_.EXP | 514 | ? | 0 | 0 | EXP9_ | NULL | NULL | EXP9_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | EXP15_.EXP
+SPPTERM | 3 | IV_TRUE | c_mux0001 | IV_FALSE | b_2_IBUF | IV_FALSE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 4 | IV_TRUE | sel_1_IBUF | IV_FALSE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 4 | IV_TRUE | sel_1_IBUF | IV_FALSE | c_mux0001 | IV_FALSE | a_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 4 | IV_TRUE | sel_1_IBUF | IV_FALSE | c_mux0001 | IV_FALSE | a_0_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 4 | IV_FALSE | sel_1_IBUF | IV_FALSE | c_mux0001 | IV_TRUE | b_2_IBUF | IV_FALSE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+
+MACROCELL_INSTANCE | NULL | EXP10_ | alutest_COPY_0_COPY_0 | 2147483648 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM | 472 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.Q | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP9_.EXP | 523 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP9_.EXP | EXP9_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP10_.EXP | 524 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP10_.EXP | EXP10_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP10_.SI | EXP10_ | 0 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM | 472 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.Q | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP9_.EXP | 523 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP9_.EXP | EXP9_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP10_.EXP | 515 | ? | 0 | 0 | EXP10_ | NULL | NULL | EXP10_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | EXP9_.EXP
+SPPTERM | 3 | IV_TRUE | sel_1_IBUF | IV_TRUE | c_mux0001 | IV_FALSE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 5 | IV_TRUE | b_0_IBUF | IV_FALSE | a_1_IBUF | IV_FALSE | a_2_IBUF | IV_FALSE | a_0_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 5 | IV_FALSE | b_0_IBUF | IV_FALSE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_FALSE | a_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 5 | IV_FALSE | b_0_IBUF | IV_FALSE | c_mux0001 | IV_FALSE | a_2_IBUF | IV_FALSE | b_1_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 6 | IV_FALSE | sel_1_IBUF | IV_FALSE | a_1_IBUF | IV_FALSE | a_2_IBUF | IV_TRUE | b_1_IBUF | IV_FALSE | b_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+
+MACROCELL_INSTANCE | NULL | EXP11_ | alutest_COPY_0_COPY_0 | 2147483648 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_0_OBUF.EXP | 527 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_0_OBUF.EXP | c_0_OBUF | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP11_.EXP | 526 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP11_.EXP | EXP11_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP11_.SI | EXP11_ | 0 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_0_OBUF.EXP | 527 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | c_0_OBUF.EXP | c_0_OBUF | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP11_.EXP | 517 | ? | 0 | 0 | EXP11_ | NULL | NULL | EXP11_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | c_0_OBUF.EXP
+SPPTERM | 4 | IV_TRUE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_TRUE | a_0_IBUF | IV_FALSE | b_1_IBUF
+SPPTERM | 4 | IV_FALSE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_FALSE | a_0_IBUF | IV_FALSE | b_1_IBUF
+SPPTERM | 5 | IV_FALSE | sel_1_IBUF | IV_TRUE | c_mux0001 | IV_TRUE | a_1_IBUF | IV_TRUE | a_0_IBUF | IV_TRUE | b_1_IBUF
+SPPTERM | 5 | IV_FALSE | sel_1_IBUF | IV_FALSE | c_mux0001 | IV_TRUE | a_1_IBUF | IV_FALSE | a_0_IBUF | IV_TRUE | b_1_IBUF
+SPPTERM | 5 | IV_TRUE | b_0_IBUF | IV_FALSE | c_mux0001 | IV_TRUE | a_1_IBUF | IV_TRUE | a_0_IBUF | IV_FALSE | b_1_IBUF
+
+MACROCELL_INSTANCE | NULL | EXP12_ | alutest_COPY_0_COPY_0 | 2147483648 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_3_IBUF | 463 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM | 473 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c__or0001/Maddsub_c__or0001_D2.Q | Maddsub_c__or0001/Maddsub_c__or0001_D2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP12_.EXP | 528 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP12_.EXP | EXP12_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP12_.SI | EXP12_ | 0 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_3_IBUF | 463 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM | 473 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c__or0001/Maddsub_c__or0001_D2.Q | Maddsub_c__or0001/Maddsub_c__or0001_D2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP12_.EXP | 519 | ? | 0 | 0 | EXP12_ | NULL | NULL | EXP12_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 5 | IV_FALSE | sel_1_IBUF | IV_TRUE | a_2_IBUF | IV_TRUE | b_2_IBUF | IV_FALSE | b_3_IBUF | IV_FALSE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM
+SPPTERM | 5 | IV_FALSE | sel_1_IBUF | IV_TRUE | a_2_IBUF | IV_FALSE | b_2_IBUF | IV_TRUE | b_3_IBUF | IV_FALSE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM
+SPPTERM | 5 | IV_FALSE | sel_1_IBUF | IV_FALSE | a_2_IBUF | IV_TRUE | b_2_IBUF | IV_FALSE | b_3_IBUF | IV_TRUE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM
+
+MACROCELL_INSTANCE | NULL | EXP13_ | alutest_COPY_0_COPY_0 | 2147483648 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM | 473 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c__or0001/Maddsub_c__or0001_D2.Q | Maddsub_c__or0001/Maddsub_c__or0001_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_3_IBUF | 463 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP13_.EXP | 529 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP13_.EXP | EXP13_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP13_.SI | EXP13_ | 0 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM | 473 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c__or0001/Maddsub_c__or0001_D2.Q | Maddsub_c__or0001/Maddsub_c__or0001_D2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_3_IBUF | 463 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP13_.EXP | 520 | ? | 0 | 0 | EXP13_ | NULL | NULL | EXP13_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 4 | IV_TRUE | sel_1_IBUF | IV_FALSE | c_mux0001 | IV_TRUE | a_2_IBUF | IV_TRUE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM
+SPPTERM | 4 | IV_FALSE | c_mux0001 | IV_TRUE | a_2_IBUF | IV_FALSE | b_3_IBUF | IV_TRUE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM
+SPPTERM | 5 | IV_FALSE | sel_1_IBUF | IV_TRUE | c_mux0001 | IV_TRUE | a_2_IBUF | IV_TRUE | b_3_IBUF | IV_TRUE | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM
+
+MACROCELL_INSTANCE | NULL | EXP14_ | alutest_COPY_0_COPY_0 | 2147483648 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM | 472 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.Q | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP14_.EXP | 530 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP14_.EXP | EXP14_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP14_.SI | EXP14_ | 0 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM | 472 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.Q | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP14_.EXP | 521 | ? | 0 | 0 | EXP14_ | NULL | NULL | EXP14_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 5 | IV_FALSE | c_mux0001 | IV_FALSE | a_0_IBUF | IV_FALSE | b_1_IBUF | IV_FALSE | b_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 6 | IV_FALSE | sel_1_IBUF | IV_FALSE | b_0_IBUF | IV_FALSE | c_mux0001 | IV_FALSE | b_1_IBUF | IV_FALSE | b_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 6 | IV_FALSE | sel_1_IBUF | IV_TRUE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_TRUE | b_1_IBUF | IV_TRUE | b_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 7 | IV_FALSE | sel_1_IBUF | IV_TRUE | b_0_IBUF | IV_TRUE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_FALSE | a_0_IBUF | IV_TRUE | b_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 7 | IV_FALSE | sel_1_IBUF | IV_TRUE | b_0_IBUF | IV_TRUE | c_mux0001 | IV_FALSE | a_0_IBUF | IV_TRUE | b_1_IBUF | IV_TRUE | b_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+
+MACROCELL_INSTANCE | NULL | EXP15_ | alutest_COPY_0_COPY_0 | 2147483648 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM | 472 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.Q | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP14_.EXP | 530 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP14_.EXP | EXP14_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP15_.EXP | 531 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP15_.EXP | EXP15_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP15_.SI | EXP15_ | 0 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_mux0001 | 456 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | c_mux0001 | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_2_IBUF | 458 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_2_IBUF | 462 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM | 472 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.Q | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel_1_IBUF | 454 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | sel_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_0_IBUF | 455 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_1_IBUF | 457 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_0_IBUF | 460 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | a_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_1_IBUF | 461 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | NULL | b_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP14_.EXP | 530 | ? | 0 | 0 | alutest_COPY_0_COPY_0 | NULL | EXP14_.EXP | EXP14_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP15_.EXP | 522 | ? | 0 | 0 | EXP15_ | NULL | NULL | EXP15_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 1 | IV_TRUE | EXP14_.EXP
+SPPTERM | 4 | IV_FALSE | c_mux0001 | IV_FALSE | a_2_IBUF | IV_FALSE | b_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 5 | IV_FALSE | sel_1_IBUF | IV_TRUE | c_mux0001 | IV_FALSE | a_2_IBUF | IV_TRUE | b_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 5 | IV_FALSE | b_0_IBUF | IV_FALSE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_FALSE | b_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 5 | IV_FALSE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_FALSE | a_0_IBUF | IV_FALSE | b_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+SPPTERM | 5 | IV_FALSE | c_mux0001 | IV_FALSE | a_1_IBUF | IV_FALSE | b_1_IBUF | IV_FALSE | b_2_IBUF | IV_TRUE | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM
+
+FB_INSTANCE | FOOBAR1_ | alutest_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | EXP6_ | 1 | NULL | 0 | NULL | 0 | 16 | 49152
+FBPIN | 2 | Maddsub_c__or0001/Maddsub_c__or0001_D2 | 1 | NULL | 0 | NULL | 0 | 13 | 49152
+FBPIN | 15 | NULL | 0 | sel_1_IBUF | 1 | NULL | 0 | 29 | 49152
+FBPIN | 16 | EXP7_ | 1 | NULL | 0 | NULL | 0 | 39 | 49152
+FBPIN | 17 | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D | 1 | c_mux0001 | 1 | NULL | 0 | 30 | 49152
+FBPIN | 18 | EXP8_ | 1 | b_0_IBUF | 1 | NULL | 0 | 40 | 49152
+
+FB_INSTANCE | FOOBAR2_ | alutest_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR3_ | alutest_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | NULL | 0 | b_1_IBUF | 1 | NULL | 0 | 41 | 49152
+FBPIN | 3 | NULL | 0 | b_3_IBUF | 1 | NULL | 0 | 49 | 49152
+FBPIN | 4 | NULL | 0 | a_0_IBUF | 1 | NULL | 0 | 50 | 49152
+FBPIN | 6 | NULL | 0 | a_2_IBUF | 1 | NULL | 0 | 53 | 49152
+FBPIN | 7 | NULL | 0 | a_3_IBUF | 1 | NULL | 0 | 54 | 49152
+FBPIN | 9 | NULL | 0 | b_2_IBUF | 1 | NULL | 0 | 42 | 49152
+FBPIN | 11 | NULL | 0 | a_1_IBUF | 1 | NULL | 0 | 52 | 49152
+
+FB_INSTANCE | FOOBAR4_ | alutest_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | EXP9_ | 1 | NULL | 0 | NULL | 0 | 65 | 49152
+FBPIN | 2 | EXP10_ | 1 | NULL | 0 | NULL | 0 | 67 | 49152
+FBPIN | 3 | c_2_OBUF | 1 | NULL | 0 | c<2> | 1 | 71 | 49152
+FBPIN | 4 | c_1_OBUF | 1 | NULL | 0 | c<1> | 1 | 72 | 49152
+FBPIN | 5 | EXP11_ | 1 | NULL | 0 | NULL | 0 | 68 | 49152
+FBPIN | 6 | c_0_OBUF | 1 | NULL | 0 | c<0> | 1 | 76 | 49152
+FBPIN | 7 | EXP12_ | 1 | NULL | 0 | NULL | 0 | 77 | 49152
+FBPIN | 8 | c_3_OBUF | 1 | NULL | 0 | c<3> | 1 | 70 | 49152
+FBPIN | 9 | EXP13_ | 1 | NULL | 0 | NULL | 0 | 66 | 49152
+FBPIN | 17 | EXP14_ | 1 | NULL | 0 | NULL | 0 | 90 | 49152
+FBPIN | 18 | EXP15_ | 1 | NULL | 0 | NULL | 0 | 79 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | alutest_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | A<3:0> | 4 | 0 | 0 | a<0> | 3 | a<1> | 2 | a<2> | 1 | a<3> | 0
+BUSINFO | B<3:0> | 4 | 0 | 0 | b<0> | 3 | b<1> | 2 | b<2> | 1 | b<3> | 0
+BUSINFO | C<3:0> | 4 | 0 | 1 | c<0> | 3 | c<1> | 2 | c<2> | 1 | c<3> | 0
+BUSINFO | SEL<1:0> | 2 | 0 | 0 | sel<0> | 1 | sel<1> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 3 | a<2> | 53 | 5 | a<1> | 52 | 6 | sel<0> | 30 | 7 | a<0> | 50 | 19 | b<1> | 41
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 27 | sel<1> | 29 | 43 | b<0> | 40
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | -1 | -1 | 129 | -1 | 131 | 132 | 133 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 139 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 130 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 141 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR4_ | 1 | Maddsub_c__or0001/Maddsub_c__or0001_D2.UIM | NULL | 3 | a<2> | 53 | 5 | a<1> | 52 | 6 | sel<0> | 30 | 7 | a<0> | 50
+FB_ORDER_OF_INPUTS | FOOBAR4_ | 9 | b<3> | 49 | 11 | b<2> | 42 | 16 | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D.UIM | NULL | 19 | b<1> | 41 | 27 | sel<1> | 29
+FB_ORDER_OF_INPUTS | FOOBAR4_ | 28 | a<3> | 54 | 43 | b<0> | 40
+
+FB_IMUX_INDEX | FOOBAR4_ | -1 | 1 | -1 | 129 | -1 | 131 | 132 | 133 | -1 | 135 | -1 | 137 | -1 | -1 | -1 | -1 | 16 | -1 | -1 | 139 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 130 | 127 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 141 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+

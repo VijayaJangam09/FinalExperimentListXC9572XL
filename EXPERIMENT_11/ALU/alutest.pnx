@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE ibis [
+<!ELEMENT ibis (part, pin+)>
+<!ELEMENT part EMPTY>
+<!ELEMENT pin EMPTY>
+<!ATTLIST part
+  arch   CDATA #REQUIRED
+  device CDATA #REQUIRED
+  spg    CDATA #REQUIRED
+  pkg    CDATA #REQUIRED>
+<!ATTLIST pin
+  nm     CDATA #REQUIRED
+  no     CDATA #REQUIRED
+  iostd  (TTL|LVTTL|LVCMOS2|NA) "NA"
+  sr     (SLOW|FAST|slow|fast) "SLOW"
+  dir    (BIDIR|bidir|INPUT|input|OUTPUT|output) "BIDIR">
+]>
+<ibis><part arch="xc9500xl" device="XC9572XL" pkg="TQ100" spg="-10"/><pin dir="input" nm="sel&lt;1&gt;" no="29"/><pin dir="input" nm="b&lt;0&gt;" no="40"/><pin dir="input" nm="sel&lt;0&gt;" no="30"/><pin dir="input" nm="a&lt;1&gt;" no="52"/><pin dir="input" nm="a&lt;2&gt;" no="53"/><pin dir="input" nm="a&lt;3&gt;" no="54"/><pin dir="input" nm="a&lt;0&gt;" no="50"/><pin dir="input" nm="b&lt;1&gt;" no="41"/><pin dir="input" nm="b&lt;2&gt;" no="42"/><pin dir="input" nm="b&lt;3&gt;" no="49"/><pin dir="output" nm="c&lt;0&gt;" no="76" sr="fast"/><pin dir="output" nm="c&lt;1&gt;" no="72" sr="fast"/><pin dir="output" nm="c&lt;2&gt;" no="71" sr="fast"/><pin dir="output" nm="c&lt;3&gt;" no="70" sr="fast"/></ibis>

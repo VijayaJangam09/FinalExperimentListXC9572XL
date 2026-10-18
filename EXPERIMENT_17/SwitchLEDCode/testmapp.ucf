@@ -1,0 +1,38 @@
+# CLOCK #
+#NET clk	LOC = P22; 	#J2-2 
+	
+  # RESET #	
+#NET rst 	LOC = P99; 	#J4-1 	
+net input_s0 loc = p54;
+net input_s1 loc = p53;
+net input_s2 loc = p52;
+net input_s3 loc = p50;
+net input_s4 loc = p49;
+net input_s5 loc = p42;
+net input_s6 loc = p41;
+net input_s7 loc = p40;
+net input_s8 loc = p39;
+net input_s9 loc = p37;
+net input_s10 loc = p36;
+net input_s11 loc = p35;
+net input_s12 loc = p33;
+net input_s13 loc = p32;
+net input_s14 loc = p30;
+net input_s15 loc = p29;
+
+net output_s0 loc = p76;
+net output_s1 loc = p72;
+net output_s2 loc = p71;
+net output_s3 loc = p70;
+net output_s4 loc = p68;
+net output_s5 loc = p67;
+net output_s6 loc = p66;
+net output_s7 loc = p65;
+net output_s8 loc = p64;
+net output_s9 loc = p63;
+net output_s10 loc = p61;
+net output_s11 loc = p60;
+net output_s12 loc = p59;
+net output_s13 loc = p58;
+net output_s14 loc = p56;
+net output_s15 loc = p55;

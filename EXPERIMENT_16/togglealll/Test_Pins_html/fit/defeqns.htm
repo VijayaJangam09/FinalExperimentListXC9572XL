@@ -1,0 +1,274 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+FTCPE_clk_div0: FTCPE port map (clk_div(0),'1',clk,rst,'0');
+</td></tr><tr><td>
+FTCPE_clk_div1: FTCPE port map (clk_div(1),clk_div(0),clk,rst,'0');
+</td></tr><tr><td>
+FTCPE_clk_div2: FTCPE port map (clk_div(2),clk_div_T(2),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clk_div_T(2) <= (clk_div(0) AND clk_div(1));
+</td></tr><tr><td>
+FTCPE_clk_div3: FTCPE port map (clk_div(3),clk_div_T(3),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clk_div_T(3) <= (clk_div(0) AND clk_div(1) AND clk_div(2));
+</td></tr><tr><td>
+FTCPE_clk_div4: FTCPE port map (clk_div(4),clk_div_T(4),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clk_div_T(4) <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3));
+</td></tr><tr><td>
+FTCPE_clk_div5: FTCPE port map (clk_div(5),clk_div_T(5),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clk_div_T(5) <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4));
+</td></tr><tr><td>
+FTCPE_clk_div6: FTCPE port map (clk_div(6),clk_div_T(6),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clk_div_T(6) <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5));
+</td></tr><tr><td>
+FTCPE_clk_div7: FTCPE port map (clk_div(7),clk_div_T(7),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clk_div_T(7) <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6));
+</td></tr><tr><td>
+FTCPE_clk_div8: FTCPE port map (clk_div(8),clk_div_T(8),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clk_div_T(8) <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7));
+</td></tr><tr><td>
+FTCPE_clk_div9: FTCPE port map (clk_div(9),clk_div_T(9),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clk_div_T(9) <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8));
+</td></tr><tr><td>
+FDCPE_input_s0: FDCPE port map (input_s0,input_s0_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s0_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s0_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s1: FDCPE port map (input_s1,input_s1_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s1_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s1_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s10: FDCPE port map (input_s10,input_s10_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s10_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s10_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s11: FDCPE port map (input_s11,input_s11_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s11_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s11_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s12: FDCPE port map (input_s12,input_s12_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s12_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s12_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s13: FDCPE port map (input_s13,input_s13_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s13_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s13_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s14: FDCPE port map (input_s14,input_s14_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s14_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s14_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s15: FDCPE port map (input_s15,input_s15_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s15_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s15_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s2: FDCPE port map (input_s2,input_s2_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s2_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s2_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s3: FDCPE port map (input_s3,input_s3_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s3_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s3_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s4: FDCPE port map (input_s4,input_s4_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s4_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s4_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s5: FDCPE port map (input_s5,input_s5_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s5_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s5_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s6: FDCPE port map (input_s6,input_s6_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s6_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s6_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s7: FDCPE port map (input_s7,input_s7_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s7_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s7_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s8: FDCPE port map (input_s8,input_s8_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s8_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s8_D <= output_s0;
+</td></tr><tr><td>
+FDCPE_input_s9: FDCPE port map (input_s9,input_s9_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s9_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input_s9_D <= output_s0;
+</td></tr><tr><td>
+FTCPE_output_s0: FTCPE port map (output_s0,output_s0_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s0_T <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s1: FTCPE port map (output_s1,output_s1_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s1_T <= (output_s0 AND clk_div(0) AND clk_div(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(2) AND clk_div(3) AND clk_div(4) AND clk_div(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(6) AND clk_div(7) AND clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s10: FTCPE port map (output_s10,output_s10_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s10_T <= (output_s0 AND output_s1 AND output_s2 AND output_s3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s4 AND output_s5 AND output_s6 AND output_s7 AND output_s8 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s9 AND clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s11: FTCPE port map (output_s11,output_s11_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s11_T <= (output_s0 AND output_s1 AND output_s2 AND output_s3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s4 AND output_s5 AND output_s6 AND output_s7 AND output_s8 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s9 AND output_s10 AND clk_div(0) AND clk_div(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(2) AND clk_div(3) AND clk_div(4) AND clk_div(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(6) AND clk_div(7) AND clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s12: FTCPE port map (output_s12,output_s12_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s12_T <= (output_s0 AND output_s1 AND output_s2 AND output_s3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s4 AND output_s5 AND output_s6 AND output_s7 AND output_s8 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s9 AND output_s10 AND output_s11 AND clk_div(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(1) AND clk_div(2) AND clk_div(3) AND clk_div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(5) AND clk_div(6) AND clk_div(7) AND clk_div(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s13: FTCPE port map (output_s13,output_s13_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s13_T <= (output_s0 AND output_s1 AND output_s2 AND output_s3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s4 AND output_s5 AND output_s6 AND output_s7 AND output_s8 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s9 AND output_s10 AND output_s11 AND output_s12 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(0) AND clk_div(1) AND clk_div(2) AND clk_div(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(4) AND clk_div(5) AND clk_div(6) AND clk_div(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+FDCPE_output_s14: FDCPE port map (output_s14,output_s14_D,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s14_D <= output_s15
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s14_D <= (output_s0 AND output_s1 AND output_s2 AND output_s3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s4 AND output_s5 AND output_s6 AND output_s7 AND output_s8 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s9 AND output_s10 AND output_s11 AND output_s12 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s13 AND clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s15: FTCPE port map (output_s15,output_s15_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s15_T <= (output_s0 AND output_s1 AND output_s2 AND output_s3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s4 AND output_s5 AND output_s6 AND output_s7 AND output_s8 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s9 AND output_s10 AND output_s11 AND output_s12 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s13 AND clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s2: FTCPE port map (output_s2,output_s2_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s2_T <= (output_s0 AND output_s1 AND clk_div(0) AND clk_div(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(2) AND clk_div(3) AND clk_div(4) AND clk_div(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(6) AND clk_div(7) AND clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s3: FTCPE port map (output_s3,output_s3_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s3_T <= (output_s0 AND output_s1 AND output_s2 AND clk_div(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(1) AND clk_div(2) AND clk_div(3) AND clk_div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(5) AND clk_div(6) AND clk_div(7) AND clk_div(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s4: FTCPE port map (output_s4,output_s4_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s4_T <= (output_s0 AND output_s1 AND output_s2 AND output_s3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(0) AND clk_div(1) AND clk_div(2) AND clk_div(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(4) AND clk_div(5) AND clk_div(6) AND clk_div(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s5: FTCPE port map (output_s5,output_s5_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s5_T <= (output_s0 AND output_s1 AND output_s2 AND output_s3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s4 AND clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(7) AND clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s6: FTCPE port map (output_s6,output_s6_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s6_T <= (output_s0 AND output_s1 AND output_s2 AND output_s3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s4 AND output_s5 AND clk_div(0) AND clk_div(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(2) AND clk_div(3) AND clk_div(4) AND clk_div(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(6) AND clk_div(7) AND clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s7: FTCPE port map (output_s7,output_s7_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s7_T <= (output_s0 AND output_s1 AND output_s2 AND output_s3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s4 AND output_s5 AND output_s6 AND clk_div(0) AND clk_div(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(2) AND clk_div(3) AND clk_div(4) AND clk_div(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(6) AND clk_div(7) AND clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s8: FTCPE port map (output_s8,output_s8_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s8_T <= (output_s0 AND output_s1 AND output_s2 AND output_s3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s4 AND output_s5 AND output_s6 AND output_s7 AND clk_div(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(1) AND clk_div(2) AND clk_div(3) AND clk_div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(5) AND clk_div(6) AND clk_div(7) AND clk_div(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(9));
+</td></tr><tr><td>
+FTCPE_output_s9: FTCPE port map (output_s9,output_s9_T,clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_s9_T <= (output_s0 AND output_s1 AND output_s2 AND output_s3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	output_s4 AND output_s5 AND output_s6 AND output_s7 AND output_s8 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(0) AND clk_div(1) AND clk_div(2) AND clk_div(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(4) AND clk_div(5) AND clk_div(6) AND clk_div(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	clk_div(8) AND clk_div(9));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

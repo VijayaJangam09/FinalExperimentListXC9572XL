@@ -1,0 +1,4 @@
+AR seven_seg behavioral "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SevenSegmentCounter/testpinmap.vhd" sub00/vhpl03 1791788879
+AR test1 behavioral "/home/ise/Desktop/CPLD-B_OLD TEST CODES/debouncelogicnewload/testpinmap.vhd" sub00/vhpl01 1791440039
+EN seven_seg NULL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SevenSegmentCounter/testpinmap.vhd" sub00/vhpl02 1791788878
+EN test1 NULL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/debouncelogicnewload/testpinmap.vhd" sub00/vhpl00 1791440038

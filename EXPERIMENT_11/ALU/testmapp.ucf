@@ -1,0 +1,21 @@
+#ALU Pin Mapping
+net "sel<1>" loc = p29;
+net "sel<0>" loc = p30;
+#input A
+net "a<3>" loc = p54;
+net "a<2>" loc = p53;
+net "a<1>" loc = p52;
+net "a<0>" loc = p50;
+#input B
+net "b<3>"  loc = p49;
+net "b<2>" loc = p42;
+net "b<1>" loc = p41;
+net "b<0>" loc = p40;
+#output C
+net "c<0>" loc = p76; 
+net "c<1>" loc = p72; 
+net "c<2>" loc = p71;
+net "c<3>" loc = p70; 
+
+
+

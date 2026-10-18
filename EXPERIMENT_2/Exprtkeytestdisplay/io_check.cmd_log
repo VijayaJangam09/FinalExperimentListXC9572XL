@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "F:/development/2012_2013_projects/CPLD-B/TEST_CODES/board_test/IO_test/io_check.xst" -ofn "F:/development/2012_2013_projects/CPLD-B/TEST_CODES/board_test/IO_test/io_check.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc io_test.ucf -p xc9572xl-TQ100-10 io_check.ngc io_check.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper io_check.ngd 
+XSLTProcess io_check_build.xml 
+tsim -intstyle ise io_check io_check.nga 
+taengine -intstyle ise -f io_check -w --format html1 -l io_check_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n io_check -i io_check 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/IO_test/io_check.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/IO_test/io_check.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc io_test.ucf -p xc9572xl-TQ100-10 "io_check.ngc" io_check.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper io_check.ngd 
+XSLTProcess io_check_build.xml 
+tsim -intstyle ise io_check io_check.nga 
+taengine -intstyle ise -f io_check -w --format html1 -l io_check_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n io_check -i io_check 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 
+XSLTProcess io_check_build.xml 

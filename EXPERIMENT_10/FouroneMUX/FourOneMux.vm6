@@ -1,0 +1,119 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9572XL100 | XC9572XL-10-TQ100
+
+DEVICE | 9572XL | 9572XL100 | 
+
+NETWORK | FourOneMux | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_s3_IBUF | FourOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_s3 | 179 | PI | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_s3_IBUF | 171 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_s3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_SEL_1_IBUF | FourOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_SEL<1> | 180 | PI | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_SEL_1_IBUF | 172 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_SEL_0_IBUF | FourOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_SEL<0> | 181 | PI | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_SEL_0_IBUF | 173 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_s2_IBUF | FourOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_s2 | 182 | PI | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_s2_IBUF | 174 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_s2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_s1_IBUF | FourOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_s1 | 183 | PI | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_s1_IBUF | 175 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_s1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_s0_IBUF | FourOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_s0 | 184 | PI | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_s0_IBUF | 176 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_s0_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | OptxMapped | output_s15_OBUF | FourOneMux_COPY_0_COPY_0 | 2155872256 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s3_IBUF | 171 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_s3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_1_IBUF | 172 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_0_IBUF | 173 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s1_IBUF | 175 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_s1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s0_IBUF | 176 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_s0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s2_IBUF | 174 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_s2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | output_s15_OBUF | 177 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | output_s15_OBUF.Q | output_s15_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | output_s15_OBUF.SI | output_s15_OBUF | 0 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s3_IBUF | 171 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_s3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_1_IBUF | 172 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_0_IBUF | 173 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s1_IBUF | 175 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_s1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s0_IBUF | 176 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_s0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s2_IBUF | 174 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | input_s2_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | output_s15_OBUF.D1 | 186 | ? | 0 | 4096 | output_s15_OBUF | NULL | NULL | output_s15_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | output_s15_OBUF.D2 | 187 | ? | 0 | 4096 | output_s15_OBUF | NULL | NULL | output_s15_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | input_s3_IBUF | IV_TRUE | input_SEL_1_IBUF | IV_TRUE | input_SEL_0_IBUF
+SPPTERM | 3 | IV_TRUE | input_SEL_1_IBUF | IV_FALSE | input_SEL_0_IBUF | IV_TRUE | input_s2_IBUF
+SPPTERM | 3 | IV_FALSE | input_SEL_1_IBUF | IV_TRUE | input_SEL_0_IBUF | IV_TRUE | input_s1_IBUF
+SPPTERM | 3 | IV_FALSE | input_SEL_1_IBUF | IV_FALSE | input_SEL_0_IBUF | IV_TRUE | input_s0_IBUF
+
+SRFF_INSTANCE | output_s15_OBUF.REG | output_s15_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | output_s15_OBUF.D | 185 | ? | 0 | 0 | output_s15_OBUF | NULL | NULL | output_s15_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | output_s15_OBUF.Q | 188 | ? | 0 | 0 | output_s15_OBUF | NULL | NULL | output_s15_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | output_s15 | FourOneMux_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | output_s15_OBUF | 177 | ? | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | output_s15_OBUF.Q | output_s15_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | output_s15 | 178 | PO | 0 | 0 | FourOneMux_COPY_0_COPY_0 | NULL | NULL | output_s15 | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | FourOneMux_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 15 | NULL | 0 | input_SEL_1_IBUF | 1 | NULL | 0 | 29 | 49152
+FBPIN | 17 | NULL | 0 | input_SEL_0_IBUF | 1 | NULL | 0 | 30 | 49152
+
+FB_INSTANCE | FOOBAR2_ | FourOneMux_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR3_ | FourOneMux_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 4 | NULL | 0 | input_s3_IBUF | 1 | NULL | 0 | 50 | 49152
+FBPIN | 6 | NULL | 0 | input_s1_IBUF | 1 | NULL | 0 | 53 | 49152
+FBPIN | 7 | NULL | 0 | input_s0_IBUF | 1 | NULL | 0 | 54 | 49152
+FBPIN | 11 | NULL | 0 | input_s2_IBUF | 1 | NULL | 0 | 52 | 49152
+FBPIN | 14 | output_s15_OBUF | 1 | NULL | 0 | output_s15 | 1 | 55 | 49152
+
+FB_INSTANCE | FOOBAR4_ | FourOneMux_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | FourOneMux_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | INPUT_SEL<1:0> | 2 | 0 | 0 | input_SEL<0> | 1 | input_SEL<1> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 3 | input_s1 | 53 | 4 | input_SEL<1> | 29 | 5 | input_s2 | 52 | 6 | input_SEL<0> | 30 | 7 | input_s3 | 50
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 28 | input_s0 | 54
+
+FB_IMUX_INDEX | FOOBAR3_ | -1 | -1 | -1 | 129 | 130 | 131 | 132 | 133 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 127 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+

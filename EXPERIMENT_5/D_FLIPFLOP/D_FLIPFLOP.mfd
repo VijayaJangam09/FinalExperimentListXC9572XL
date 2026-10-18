@@ -1,0 +1,16 @@
+MDF Database:  version 1.0
+MDF_INFO | D_FLIPFLOP | XC9572XL-10-TQ100
+MACROCELL | 2 | 13 | Q_OBUF
+ATTRIBUTES | 8692482 | 0
+INPUTS | 1 | D
+INPUTP | 1 | 26
+EQ | 3 | 
+   Q.D = D;
+   Q.CLK = CLK;	// GCK
+   Q.AR = RST;	// GSR
+GLOBALS | 2 | 2 | CLK | 4 | RST
+
+PIN | D | 64 | 0 | N/A | 26 | 1 | 2 | 13
+PIN | CLK | 4096 | 0 | N/A | 20 | 1 | 2 | 13
+PIN | RST | 65536 | 0 | N/A | 92 | 1 | 2 | 13
+PIN | Q | 536871040 | 0 | N/A | 49

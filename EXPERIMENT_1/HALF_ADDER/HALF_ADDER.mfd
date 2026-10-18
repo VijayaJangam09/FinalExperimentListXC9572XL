@@ -1,0 +1,21 @@
+MDF Database:  version 1.0
+MDF_INFO | HALF_ADDER | XC9572XL-10-TQ100
+MACROCELL | 2 | 6 | CARRY_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | B  | A
+INPUTP | 2 | 27 | 26
+EQ | 1 | 
+   CARRY = B & A;
+
+MACROCELL | 2 | 13 | SUM_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | B  | A
+INPUTP | 2 | 27 | 26
+EQ | 2 | 
+   SUM = B
+	$ A;
+
+PIN | B | 64 | 0 | N/A | 27 | 2 | 2 | 6 | 2 | 13
+PIN | A | 64 | 0 | N/A | 26 | 2 | 2 | 6 | 2 | 13
+PIN | CARRY | 536871040 | 0 | N/A | 48
+PIN | SUM | 536871040 | 0 | N/A | 49

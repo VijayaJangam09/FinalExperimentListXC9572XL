@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/seven_segl_down.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/seven_segl_down.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "seven_segl_down.ngc" seven_segl_down.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper seven_segl_down.ngd 
+tsim -intstyle ise seven_segl_down seven_segl_down.nga 
+hprep6 -s IEEE1149 -n seven_segl_down -i seven_segl_down 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/seven_segl_down.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/seven_segl_down.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "seven_segl_down.ngc" seven_segl_down.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper seven_segl_down.ngd 
+XSLTProcess seven_segl_down_build.xml 
+tsim -intstyle ise seven_segl_down seven_segl_down.nga 
+hprep6 -s IEEE1149 -n seven_segl_down -i seven_segl_down 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/seven_segl_down.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/seven_segl_down.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "seven_segl_down.ngc" seven_segl_down.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper seven_segl_down.ngd 
+XSLTProcess seven_segl_down_build.xml 
+tsim -intstyle ise seven_segl_down seven_segl_down.nga 
+hprep6 -s IEEE1149 -n seven_segl_down -i seven_segl_down 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/seven_segl_down.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/seven_segl_down.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "seven_segl_down.ngc" seven_segl_down.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper seven_segl_down.ngd 
+XSLTProcess seven_segl_down_build.xml 
+tsim -intstyle ise seven_segl_down seven_segl_down.nga 
+hprep6 -s IEEE1149 -n seven_segl_down -i seven_segl_down 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/seven_segl_down.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/seven_segl_down.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "seven_segl_down.ngc" seven_segl_down.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper seven_segl_down.ngd 
+XSLTProcess seven_segl_down_build.xml 
+tsim -intstyle ise seven_segl_down seven_segl_down.nga 
+hprep6 -s IEEE1149 -n seven_segl_down -i seven_segl_down 

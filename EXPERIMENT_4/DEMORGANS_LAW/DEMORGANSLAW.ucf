@@ -1,0 +1,6 @@
+net A loc = pin29;
+net B loc = pin30;
+net LHS1 loc = pin55;
+net RHS1 loc = pin56;
+net LHS2 loc = pin58;
+net RHS2 loc = pin59;

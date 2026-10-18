@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="DEMORGANS_LAW.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="DEMORGANS_LAW.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DEMORGANS_LAW.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="DEMORGANS_LAW.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="DEMORGANS_LAW.jed"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DEMORGANS_LAW.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="DEMORGANS_LAW.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="DEMORGANS_LAW.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="DEMORGANS_LAW.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="DEMORGANS_LAW.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="DEMORGANS_LAW.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="DEMORGANS_LAW.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="DEMORGANS_LAW.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DEMORGANS_LAW.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="DEMORGANS_LAW.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="DEMORGANS_LAW.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DEMORGANS_LAW.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="DEMORGANS_LAW.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="DEMORGANS_LAW.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DEMORGANS_LAW.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="DEMORGANS_LAW_build.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="DEMORGANS_LAW_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEMORGANS_LAW_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="DEMORGANS_LAW_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DEMORGANS_LAW_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DEMORGANS_LAW_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1791799301" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1791799301">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1791799301" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8085755626855103360" xil_pn:start_ts="1791799301">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1791799305" xil_pn:in_ck="7317199974023087731" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="-407473571223744220" xil_pn:start_ts="1791799301">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.lso"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.ngc"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.ngr"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.prj"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.stx"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.syr"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.xst"/>
+      <outfile xil_pn:name="DEMORGANS_LAW_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1791799305" xil_pn:in_ck="5252663509523253776" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5977051559750144165" xil_pn:start_ts="1791799305">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1791799309" xil_pn:in_ck="-3189314956576272295" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="3931465504876573792" xil_pn:start_ts="1791799305">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.bld"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.ngd"/>
+      <outfile xil_pn:name="DEMORGANS_LAW_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1791799316" xil_pn:in_ck="7317199974023078986" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="-3776524824810341636" xil_pn:start_ts="1791799309">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.gyd"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.mfd"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.nga"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.pad"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.pnx"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.rpt"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.vm6"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.xml"/>
+      <outfile xil_pn:name="DEMORGANS_LAW_build.xml"/>
+      <outfile xil_pn:name="DEMORGANS_LAW_html"/>
+      <outfile xil_pn:name="DEMORGANS_LAW_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1791799319" xil_pn:in_ck="7317199974023087850" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1791799316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DEMORGANS_LAW.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1791799345" xil_pn:in_ck="7317199974023074564" xil_pn:name="TRAN_configureTargetDevice_CPLD" xil_pn:prop_ck="-154879694275837835" xil_pn:start_ts="1791799344">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:name="TRAN_timRpt">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+    </transform>
+  </transforms>
+
+</generated_project>

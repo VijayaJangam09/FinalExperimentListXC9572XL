@@ -1,0 +1,425 @@
+MDF Database:  version 1.0
+MDF_INFO | seven_seg | XC9572XL-10-TQ100
+MACROCELL | 0 | 15 | cnt<3>
+ATTRIBUTES | 4367168 | 0
+OUTPUTMC | 7 | 3 | 15 | 3 | 12 | 3 | 14 | 3 | 16 | 1 | 2 | 1 | 17 | 1 | 3
+INPUTS | 24 | cnt<1>  | cnt<2>  | cnt<0>  | div<0>  | div<10>  | div<11>  | div<12>  | div<13>  | div<14>  | div<15>  | div<16>  | div<17>  | div<18>  | div<19>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>  | div<20>
+INPUTMC | 24 | 0 | 17 | 0 | 16 | 0 | 14 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+EQ | 7 | 
+   cnt<3>.T = cnt<1> & cnt<2> & cnt<0>;
+   cnt<3>.CLK = clk;	// GCK
+   cnt<3>.AR = rst;	// GSR
+   cnt<3>.CE = !div<0> & !div<10> & !div<11> & !div<12> & !div<13> & 
+	!div<14> & !div<15> & !div<16> & !div<17> & !div<18> & 
+	!div<19> & !div<1> & !div<2> & !div<3> & !div<4> & !div<5> & 
+	!div<6> & !div<7> & !div<8> & !div<9> & !div<20>;
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 17 | cnt<1>
+ATTRIBUTES | 4367168 | 0
+OUTPUTMC | 9 | 0 | 15 | 0 | 16 | 3 | 15 | 3 | 12 | 3 | 14 | 3 | 16 | 1 | 2 | 1 | 17 | 1 | 3
+INPUTS | 22 | cnt<0>  | div<0>  | div<10>  | div<11>  | div<12>  | div<13>  | div<14>  | div<15>  | div<16>  | div<17>  | div<18>  | div<19>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>  | div<20>
+INPUTMC | 22 | 0 | 14 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+EQ | 7 | 
+   cnt<1>.T = cnt<0>;
+   cnt<1>.CLK = clk;	// GCK
+   cnt<1>.AR = rst;	// GSR
+   cnt<1>.CE = !div<0> & !div<10> & !div<11> & !div<12> & !div<13> & 
+	!div<14> & !div<15> & !div<16> & !div<17> & !div<18> & 
+	!div<19> & !div<1> & !div<2> & !div<3> & !div<4> & !div<5> & 
+	!div<6> & !div<7> & !div<8> & !div<9> & !div<20>;
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 16 | cnt<2>
+ATTRIBUTES | 4367168 | 0
+OUTPUTMC | 8 | 0 | 15 | 3 | 15 | 3 | 12 | 3 | 14 | 3 | 16 | 1 | 2 | 1 | 17 | 1 | 3
+INPUTS | 23 | cnt<1>  | cnt<0>  | div<0>  | div<10>  | div<11>  | div<12>  | div<13>  | div<14>  | div<15>  | div<16>  | div<17>  | div<18>  | div<19>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>  | div<20>
+INPUTMC | 23 | 0 | 17 | 0 | 14 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+EQ | 7 | 
+   cnt<2>.T = cnt<1> & cnt<0>;
+   cnt<2>.CLK = clk;	// GCK
+   cnt<2>.AR = rst;	// GSR
+   cnt<2>.CE = !div<0> & !div<10> & !div<11> & !div<12> & !div<13> & 
+	!div<14> & !div<15> & !div<16> & !div<17> & !div<18> & 
+	!div<19> & !div<1> & !div<2> & !div<3> & !div<4> & !div<5> & 
+	!div<6> & !div<7> & !div<8> & !div<9> & !div<20>;
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 14 | cnt<0>
+ATTRIBUTES | 4367168 | 0
+OUTPUTMC | 10 | 0 | 15 | 0 | 17 | 0 | 16 | 3 | 15 | 3 | 12 | 3 | 14 | 3 | 16 | 1 | 2 | 1 | 17 | 1 | 3
+INPUTS | 21 | div<0>  | div<10>  | div<11>  | div<12>  | div<13>  | div<14>  | div<15>  | div<16>  | div<17>  | div<18>  | div<19>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>  | div<20>
+INPUTMC | 21 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+EQ | 7 | 
+   cnt<0>.T = Vcc;
+   cnt<0>.CLK = clk;	// GCK
+   cnt<0>.AR = rst;	// GSR
+   cnt<0>.CE = !div<0> & !div<10> & !div<11> & !div<12> & !div<13> & 
+	!div<14> & !div<15> & !div<16> & !div<17> & !div<18> & 
+	!div<19> & !div<1> & !div<2> & !div<3> & !div<4> & !div<5> & 
+	!div<6> & !div<7> & !div<8> & !div<9> & !div<20>;
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 17 | div<0>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 24 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+INPUTS | 0
+EQ | 3 | 
+   div<0>.T = Vcc;
+   div<0>.CLK = clk;	// GCK
+   div<0>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 16 | div<10>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 14 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 1 | 0
+INPUTS | 10 | div<0>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>
+INPUTMC | 10 | 3 | 17 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4
+EQ | 4 | 
+   div<10>.T = div<0> & div<1> & div<2> & div<3> & div<4> & 
+	div<5> & div<6> & div<7> & div<8> & div<9>;
+   div<10>.CLK = clk;	// GCK
+   div<10>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 15 | div<11>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 13 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 1 | 0
+INPUTS | 11 | div<0>  | div<10>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>
+INPUTMC | 11 | 3 | 17 | 1 | 16 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4
+EQ | 4 | 
+   div<11>.T = div<0> & div<10> & div<1> & div<2> & div<3> & 
+	div<4> & div<5> & div<6> & div<7> & div<8> & div<9>;
+   div<11>.CLK = clk;	// GCK
+   div<11>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 14 | div<12>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 12 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 1 | 0
+INPUTS | 12 | div<0>  | div<10>  | div<11>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>
+INPUTMC | 12 | 3 | 17 | 1 | 16 | 1 | 15 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4
+EQ | 5 | 
+   div<12>.T = div<0> & div<10> & div<11> & div<1> & div<2> & 
+	div<3> & div<4> & div<5> & div<6> & div<7> & div<8> & 
+	div<9>;
+   div<12>.CLK = clk;	// GCK
+   div<12>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 13 | div<13>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 11 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 1 | 0
+INPUTS | 13 | div<0>  | div<10>  | div<11>  | div<12>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>
+INPUTMC | 13 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4
+EQ | 5 | 
+   div<13>.T = div<0> & div<10> & div<11> & div<12> & div<1> & 
+	div<2> & div<3> & div<4> & div<5> & div<6> & div<7> & 
+	div<8> & div<9>;
+   div<13>.CLK = clk;	// GCK
+   div<13>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 12 | div<14>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 10 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 1 | 0
+INPUTS | 14 | div<0>  | div<10>  | div<11>  | div<12>  | div<13>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>
+INPUTMC | 14 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4
+EQ | 5 | 
+   div<14>.T = div<0> & div<10> & div<11> & div<12> & div<13> & 
+	div<1> & div<2> & div<3> & div<4> & div<5> & div<6> & 
+	div<7> & div<8> & div<9>;
+   div<14>.CLK = clk;	// GCK
+   div<14>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 11 | div<15>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 9 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 1 | 0
+INPUTS | 15 | div<0>  | div<10>  | div<11>  | div<12>  | div<13>  | div<14>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>
+INPUTMC | 15 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4
+EQ | 5 | 
+   div<15>.T = div<0> & div<10> & div<11> & div<12> & div<13> & 
+	div<14> & div<1> & div<2> & div<3> & div<4> & div<5> & 
+	div<6> & div<7> & div<8> & div<9>;
+   div<15>.CLK = clk;	// GCK
+   div<15>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 10 | div<16>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 8 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 9 | 1 | 8 | 1 | 6 | 1 | 0
+INPUTS | 16 | div<0>  | div<10>  | div<11>  | div<12>  | div<13>  | div<14>  | div<15>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>
+INPUTMC | 16 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4
+EQ | 5 | 
+   div<16>.T = div<0> & div<10> & div<11> & div<12> & div<13> & 
+	div<14> & div<15> & div<1> & div<2> & div<3> & div<4> & 
+	div<5> & div<6> & div<7> & div<8> & div<9>;
+   div<16>.CLK = clk;	// GCK
+   div<16>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 9 | div<17>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 7 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 8 | 1 | 6 | 1 | 0
+INPUTS | 17 | div<0>  | div<10>  | div<11>  | div<12>  | div<13>  | div<14>  | div<15>  | div<16>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>
+INPUTMC | 17 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4
+EQ | 5 | 
+   div<17>.T = div<0> & div<10> & div<11> & div<12> & div<13> & 
+	div<14> & div<15> & div<16> & div<1> & div<2> & div<3> & 
+	div<4> & div<5> & div<6> & div<7> & div<8> & div<9>;
+   div<17>.CLK = clk;	// GCK
+   div<17>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 8 | div<18>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 6 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 6 | 1 | 0
+INPUTS | 18 | div<0>  | div<10>  | div<11>  | div<12>  | div<13>  | div<14>  | div<15>  | div<16>  | div<17>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>
+INPUTMC | 18 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4
+EQ | 6 | 
+   div<18>.T = div<0> & div<10> & div<11> & div<12> & div<13> & 
+	div<14> & div<15> & div<16> & div<17> & div<1> & div<2> & 
+	div<3> & div<4> & div<5> & div<6> & div<7> & div<8> & 
+	div<9>;
+   div<18>.CLK = clk;	// GCK
+   div<18>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 6 | div<19>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 5 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 0
+INPUTS | 19 | div<0>  | div<10>  | div<11>  | div<12>  | div<13>  | div<14>  | div<15>  | div<16>  | div<17>  | div<18>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>
+INPUTMC | 19 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4
+EQ | 6 | 
+   div<19>.T = div<0> & div<10> & div<11> & div<12> & div<13> & 
+	div<14> & div<15> & div<16> & div<17> & div<18> & div<1> & 
+	div<2> & div<3> & div<4> & div<5> & div<6> & div<7> & 
+	div<8> & div<9>;
+   div<19>.CLK = clk;	// GCK
+   div<19>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 13 | div<1>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 23 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+INPUTS | 1 | div<0>
+INPUTMC | 1 | 3 | 17
+EQ | 3 | 
+   div<1>.T = div<0>;
+   div<1>.CLK = clk;	// GCK
+   div<1>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 11 | div<2>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 22 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+INPUTS | 2 | div<0>  | div<1>
+INPUTMC | 2 | 3 | 17 | 3 | 13
+EQ | 3 | 
+   div<2>.T = div<0> & div<1>;
+   div<2>.CLK = clk;	// GCK
+   div<2>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 10 | div<3>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 21 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+INPUTS | 3 | div<0>  | div<1>  | div<2>
+INPUTMC | 3 | 3 | 17 | 3 | 13 | 3 | 11
+EQ | 3 | 
+   div<3>.T = div<0> & div<1> & div<2>;
+   div<3>.CLK = clk;	// GCK
+   div<3>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 9 | div<4>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 20 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+INPUTS | 4 | div<0>  | div<1>  | div<2>  | div<3>
+INPUTMC | 4 | 3 | 17 | 3 | 13 | 3 | 11 | 3 | 10
+EQ | 3 | 
+   div<4>.T = div<0> & div<1> & div<2> & div<3>;
+   div<4>.CLK = clk;	// GCK
+   div<4>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 8 | div<5>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 19 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+INPUTS | 5 | div<0>  | div<1>  | div<2>  | div<3>  | div<4>
+INPUTMC | 5 | 3 | 17 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9
+EQ | 3 | 
+   div<5>.T = div<0> & div<1> & div<2> & div<3> & div<4>;
+   div<5>.CLK = clk;	// GCK
+   div<5>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 7 | div<6>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 18 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+INPUTS | 6 | div<0>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>
+INPUTMC | 6 | 3 | 17 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8
+EQ | 4 | 
+   div<6>.T = div<0> & div<1> & div<2> & div<3> & div<4> & 
+	div<5>;
+   div<6>.CLK = clk;	// GCK
+   div<6>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 6 | div<7>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 17 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+INPUTS | 7 | div<0>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>
+INPUTMC | 7 | 3 | 17 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7
+EQ | 4 | 
+   div<7>.T = div<0> & div<1> & div<2> & div<3> & div<4> & 
+	div<5> & div<6>;
+   div<7>.CLK = clk;	// GCK
+   div<7>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 5 | div<8>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 16 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 4 | 1 | 0
+INPUTS | 8 | div<0>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>
+INPUTMC | 8 | 3 | 17 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6
+EQ | 4 | 
+   div<8>.T = div<0> & div<1> & div<2> & div<3> & div<4> & 
+	div<5> & div<6> & div<7>;
+   div<8>.CLK = clk;	// GCK
+   div<8>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 4 | div<9>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 15 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 1 | 0
+INPUTS | 9 | div<0>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>
+INPUTMC | 9 | 3 | 17 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5
+EQ | 4 | 
+   div<9>.T = div<0> & div<1> & div<2> & div<3> & div<4> & 
+	div<5> & div<6> & div<7> & div<8>;
+   div<9>.CLK = clk;	// GCK
+   div<9>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 0 | div<20>
+ATTRIBUTES | 4367104 | 0
+OUTPUTMC | 4 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14
+INPUTS | 20 | div<0>  | div<10>  | div<11>  | div<12>  | div<13>  | div<14>  | div<15>  | div<16>  | div<17>  | div<18>  | div<19>  | div<1>  | div<2>  | div<3>  | div<4>  | div<5>  | div<6>  | div<7>  | div<8>  | div<9>
+INPUTMC | 20 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4
+EQ | 6 | 
+   div<20>.T = div<0> & div<10> & div<11> & div<12> & div<13> & 
+	div<14> & div<15> & div<16> & div<17> & div<18> & 
+	div<19> & div<1> & div<2> & div<3> & div<4> & div<5> & 
+	div<6> & div<7> & div<8> & div<9>;
+   div<20>.CLK = clk;	// GCK
+   div<20>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 15 | seg_0_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 4 | cnt<3>  | cnt<1>  | cnt<2>  | cnt<0>
+INPUTMC | 4 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14
+EQ | 3 | 
+   seg<0> = cnt<3> & cnt<1> & cnt<2> & cnt<0>
+	# cnt<3> & !cnt<1> & cnt<2> & !cnt<0>
+	# !cnt<3> & !cnt<1> & !cnt<2> & !cnt<0>;
+
+MACROCELL | 3 | 12 | seg_1_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 4 | cnt<3>  | cnt<1>  | cnt<2>  | cnt<0>
+INPUTMC | 4 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14
+EQ | 4 | 
+   seg<1> = cnt<3> & cnt<1> & !cnt<2>
+	# !cnt<3> & !cnt<1> & !cnt<2>
+	# !cnt<3> & !cnt<1> & !cnt<0>
+	# !cnt<3> & !cnt<2> & !cnt<0>;
+
+MACROCELL | 3 | 14 | seg_2_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 4 | cnt<3>  | cnt<1>  | cnt<2>  | cnt<0>
+INPUTMC | 4 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14
+EQ | 4 | 
+   seg<2> = !cnt<3> & !cnt<1> & !cnt<2>
+	# !cnt<3> & !cnt<1> & !cnt<0>
+	# !cnt<3> & !cnt<2> & !cnt<0>
+	# cnt<3> & cnt<1> & cnt<2> & !cnt<0>;
+
+MACROCELL | 3 | 16 | seg_3_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 4 | cnt<1>  | cnt<2>  | cnt<0>  | cnt<3>
+INPUTMC | 4 | 0 | 17 | 0 | 16 | 0 | 14 | 0 | 15
+EQ | 5 | 
+   seg<3> = !cnt<3> & !cnt<1> & !cnt<2>
+	# !cnt<1> & !cnt<2> & cnt<0>
+	# cnt<3> & cnt<1> & cnt<2> & cnt<0>
+	# cnt<3> & !cnt<1> & cnt<2> & !cnt<0>
+	# !cnt<3> & cnt<1> & cnt<2> & !cnt<0>;
+
+MACROCELL | 1 | 2 | seg_4_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 4 | cnt<3>  | cnt<0>  | cnt<1>  | cnt<2>
+INPUTMC | 4 | 0 | 15 | 0 | 14 | 0 | 17 | 0 | 16
+EQ | 4 | 
+   seg<4> = cnt<3> & cnt<0>
+	# cnt<3> & !cnt<1> & cnt<2>
+	# cnt<1> & cnt<2> & cnt<0>
+	# !cnt<3> & !cnt<1> & !cnt<2> & !cnt<0>;
+
+MACROCELL | 1 | 17 | seg_5_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 4 | cnt<3>  | cnt<1>  | cnt<2>  | cnt<0>
+INPUTMC | 4 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14
+EQ | 3 | 
+   seg<5> = cnt<3> & cnt<1> & cnt<2>
+	# cnt<3> & !cnt<1> & cnt<0>
+	# !cnt<3> & !cnt<1> & !cnt<2> & !cnt<0>;
+
+MACROCELL | 1 | 3 | seg_6_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 4 | cnt<3>  | cnt<1>  | cnt<0>  | cnt<2>
+INPUTMC | 4 | 0 | 15 | 0 | 17 | 0 | 14 | 0 | 16
+EQ | 4 | 
+   seg<6> = !cnt<3> & !cnt<1> & !cnt<0>
+	# cnt<3> & cnt<1> & cnt<2> & cnt<0>
+	# cnt<3> & !cnt<1> & !cnt<2> & cnt<0>
+	# !cnt<3> & cnt<1> & !cnt<2> & cnt<0>;
+
+MACROCELL | 1 | 1 | an_0_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 0
+EQ | 1 | 
+   an<0> = Gnd;
+
+MACROCELL | 1 | 7 | an_1_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 0
+EQ | 1 | 
+   an<3> = Vcc;
+
+MACROCELL | 1 | 5 | an_1_OBUF$BUF0
+ATTRIBUTES | 264962 | 0
+INPUTS | 0
+EQ | 1 | 
+   an<2> = Vcc;
+
+MACROCELL | 1 | 4 | an_1_OBUF$BUF1
+ATTRIBUTES | 264962 | 0
+INPUTS | 0
+EQ | 1 | 
+   an<1> = Vcc;
+
+PIN | clk | 4096 | 0 | N/A | 20 | 25 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+PIN | rst | 65536 | 0 | N/A | 92 | 25 | 0 | 15 | 0 | 17 | 0 | 16 | 0 | 14 | 3 | 17 | 1 | 16 | 1 | 15 | 1 | 14 | 1 | 13 | 1 | 12 | 1 | 11 | 1 | 10 | 1 | 9 | 1 | 8 | 1 | 6 | 3 | 13 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 4 | 1 | 0
+PIN | seg<0> | 536871040 | 0 | N/A | 79
+PIN | seg<1> | 536871040 | 0 | N/A | 78
+PIN | seg<2> | 536871040 | 0 | N/A | 82
+PIN | seg<3> | 536871040 | 0 | N/A | 83
+PIN | seg<4> | 536871040 | 0 | N/A | 84
+PIN | seg<5> | 536871040 | 0 | N/A | 85
+PIN | seg<6> | 536871040 | 0 | N/A | 86
+PIN | an<0> | 536871040 | 0 | N/A | 87
+PIN | an<3> | 536871040 | 0 | N/A | 90
+PIN | an<2> | 536871040 | 0 | N/A | 89
+PIN | an<1> | 536871040 | 0 | N/A | 88

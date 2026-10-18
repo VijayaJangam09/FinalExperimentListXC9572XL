@@ -1,0 +1,17 @@
+V3 8
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/TESTALLIOSPINS/testpinmap.vhd" 2026/10/12.06:10:39 P.20131013
+EN work/Test_Pins 1791785592 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/TESTALLIOSPINS/testpinmap.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Test_Pins/Behavioral 1791785593 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/TESTALLIOSPINS/testpinmap.vhd" \
+      EN work/Test_Pins 1791785592
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/togglealll/testpinmap.vhd" 2026/10/08.11:25:05 P.20131013
+FL /home/ise/Desktop/testpinmapping/testpinmap.vhd 2026/10/07.07:30:47 P.20131013
+FL /home/ise/Desktop/togglealll/testpinmap.vhd 2026/10/07.09:13:57 P.20131013
+EN work/test1 1791364827 FL /home/ise/Desktop/togglealll/testpinmap.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/test1/Behavioral 1791364828 \
+      FL /home/ise/Desktop/togglealll/testpinmap.vhd EN work/test1 1791364827

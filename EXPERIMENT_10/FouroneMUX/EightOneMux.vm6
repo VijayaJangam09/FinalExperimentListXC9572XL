@@ -1,0 +1,231 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9572XL100 | XC9572XL-10-TQ100
+
+DEVICE | 9572XL | 9572XL100 | 
+
+NETWORK | EightOneMux | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_s7_IBUF | EightOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_s7 | 392 | PI | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_s7_IBUF | 379 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s7_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_SEL_2_IBUF | EightOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_SEL<2> | 393 | PI | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_SEL_2_IBUF | 380 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_s3_IBUF | EightOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_s3 | 394 | PI | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_s3_IBUF | 381 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_s1_IBUF | EightOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_s1 | 395 | PI | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_s1_IBUF | 382 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_s2_IBUF | EightOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_s2 | 396 | PI | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_s2_IBUF | 383 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_s0_IBUF | EightOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_s0 | 397 | PI | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_s0_IBUF | 384 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_SEL_1_IBUF | EightOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_SEL<1> | 398 | PI | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_SEL_1_IBUF | 385 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_SEL_0_IBUF | EightOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_SEL<0> | 399 | PI | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_SEL_0_IBUF | 386 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_s5_IBUF | EightOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_s5 | 400 | PI | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_s5_IBUF | 387 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s5_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_s6_IBUF | EightOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_s6 | 401 | PI | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_s6_IBUF | 388 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s6_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | input_s4_IBUF | EightOneMux_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | input_s4 | 402 | PI | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | input_s4_IBUF | 389 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s4_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | OptxMapped | output_s15_OBUF | EightOneMux_COPY_0_COPY_0 | 2155872256 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_2_IBUF | 380 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s1_IBUF | 382 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_1_IBUF | 385 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_0_IBUF | 386 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s5_IBUF | 387 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s7_IBUF | 379 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s3_IBUF | 381 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s4_IBUF | 389 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP6_.EXP | 409 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP7_.EXP | 410 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | output_s15_OBUF | 390 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | output_s15_OBUF.Q | output_s15_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | output_s15_OBUF.SI | output_s15_OBUF | 0 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_2_IBUF | 380 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s1_IBUF | 382 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_1_IBUF | 385 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_0_IBUF | 386 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s5_IBUF | 387 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s7_IBUF | 379 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s3_IBUF | 381 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s4_IBUF | 389 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP6_.EXP | 409 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | EXP7_.EXP | 410 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | output_s15_OBUF.D1 | 404 | ? | 0 | 4096 | output_s15_OBUF | NULL | NULL | output_s15_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | output_s15_OBUF.D2 | 405 | ? | 0 | 4096 | output_s15_OBUF | NULL | NULL | output_s15_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | EXP6_.EXP
+SPPTERM | 1 | IV_TRUE | EXP7_.EXP
+SPPTERM | 4 | IV_TRUE | input_s7_IBUF | IV_TRUE | input_SEL_2_IBUF | IV_TRUE | input_SEL_1_IBUF | IV_TRUE | input_SEL_0_IBUF
+SPPTERM | 4 | IV_TRUE | input_SEL_2_IBUF | IV_FALSE | input_SEL_1_IBUF | IV_TRUE | input_SEL_0_IBUF | IV_TRUE | input_s5_IBUF
+SPPTERM | 4 | IV_TRUE | input_SEL_2_IBUF | IV_FALSE | input_SEL_1_IBUF | IV_FALSE | input_SEL_0_IBUF | IV_TRUE | input_s4_IBUF
+SPPTERM | 4 | IV_FALSE | input_SEL_2_IBUF | IV_TRUE | input_s3_IBUF | IV_TRUE | input_SEL_1_IBUF | IV_TRUE | input_SEL_0_IBUF
+SPPTERM | 4 | IV_FALSE | input_SEL_2_IBUF | IV_TRUE | input_s1_IBUF | IV_FALSE | input_SEL_1_IBUF | IV_TRUE | input_SEL_0_IBUF
+
+SRFF_INSTANCE | output_s15_OBUF.REG | output_s15_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | output_s15_OBUF.D | 403 | ? | 0 | 0 | output_s15_OBUF | NULL | NULL | output_s15_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | output_s15_OBUF.Q | 406 | ? | 0 | 0 | output_s15_OBUF | NULL | NULL | output_s15_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | output_s15 | EightOneMux_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | output_s15_OBUF | 390 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | output_s15_OBUF.Q | output_s15_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | output_s15 | 391 | PO | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | output_s15 | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | EXP6_ | EightOneMux_COPY_0_COPY_0 | 2147483648 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_2_IBUF | 380 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s2_IBUF | 383 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_1_IBUF | 385 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_0_IBUF | 386 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s0_IBUF | 384 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP6_.EXP | 409 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | EXP6_.EXP | EXP6_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP6_.SI | EXP6_ | 0 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_2_IBUF | 380 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s2_IBUF | 383 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_1_IBUF | 385 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_0_IBUF | 386 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s0_IBUF | 384 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP6_.EXP | 407 | ? | 0 | 0 | EXP6_ | NULL | NULL | EXP6_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 4 | IV_FALSE | input_SEL_2_IBUF | IV_TRUE | input_s2_IBUF | IV_TRUE | input_SEL_1_IBUF | IV_FALSE | input_SEL_0_IBUF
+SPPTERM | 4 | IV_FALSE | input_SEL_2_IBUF | IV_TRUE | input_s0_IBUF | IV_FALSE | input_SEL_1_IBUF | IV_FALSE | input_SEL_0_IBUF
+
+MACROCELL_INSTANCE | NULL | EXP7_ | EightOneMux_COPY_0_COPY_0 | 2147483648 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_2_IBUF | 380 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_1_IBUF | 385 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_0_IBUF | 386 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s6_IBUF | 388 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s6_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 4 | 0 | MC_EXPORT
+NODE | EXP7_.EXP | 410 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | EXP7_.EXP | EXP7_ | 4 | 0 | MC_EXPORT
+
+SIGNAL_INSTANCE | EXP7_.SI | EXP7_ | 0 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_2_IBUF | 380 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_1_IBUF | 385 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_SEL_0_IBUF | 386 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_SEL_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | input_s6_IBUF | 388 | ? | 0 | 0 | EightOneMux_COPY_0_COPY_0 | NULL | NULL | input_s6_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 7 | 9 | MC_SI_EXPORT
+SIGNAL | NODE | EXP7_.EXP | 408 | ? | 0 | 0 | EXP7_ | NULL | NULL | EXP7_.SI | 7 | 9 | MC_SI_EXPORT
+SPPTERM | 4 | IV_TRUE | input_SEL_2_IBUF | IV_TRUE | input_SEL_1_IBUF | IV_FALSE | input_SEL_0_IBUF | IV_TRUE | input_s6_IBUF
+
+FB_INSTANCE | FOOBAR1_ | EightOneMux_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 13 | NULL | 0 | input_SEL_0_IBUF | 1 | NULL | 0 | 36 | 49152
+FBPIN | 16 | NULL | 0 | input_SEL_2_IBUF | 1 | NULL | 0 | 39 | 49152
+FBPIN | 18 | NULL | 0 | input_s7_IBUF | 1 | NULL | 0 | 40 | 49152
+
+FB_INSTANCE | FOOBAR2_ | EightOneMux_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 3 | NULL | 0 | input_s0_IBUF | 1 | NULL | 0 | 91 | 49152
+
+FB_INSTANCE | FOOBAR3_ | EightOneMux_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | NULL | 0 | input_s6_IBUF | 1 | NULL | 0 | 41 | 49152
+FBPIN | 3 | NULL | 0 | input_s4_IBUF | 1 | NULL | 0 | 49 | 49152
+FBPIN | 4 | NULL | 0 | input_s3_IBUF | 1 | NULL | 0 | 50 | 49152
+FBPIN | 6 | NULL | 0 | input_s1_IBUF | 1 | NULL | 0 | 53 | 49152
+FBPIN | 8 | NULL | 0 | input_SEL_1_IBUF | 1 | NULL | 0 | 37 | 49152
+FBPIN | 9 | NULL | 0 | input_s5_IBUF | 1 | NULL | 0 | 42 | 49152
+FBPIN | 11 | NULL | 0 | input_s2_IBUF | 1 | NULL | 0 | 52 | 49152
+FBPIN | 13 | EXP6_ | 1 | NULL | 0 | NULL | 0 | 63 | 49152
+FBPIN | 14 | output_s15_OBUF | 1 | NULL | 0 | output_s15 | 1 | 55 | 49152
+FBPIN | 15 | EXP7_ | 1 | NULL | 0 | NULL | 0 | 56 | 49152
+
+FB_INSTANCE | FOOBAR4_ | EightOneMux_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | EightOneMux_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | INPUT_SEL<2:0> | 3 | 0 | 0 | input_SEL<0> | 2 | input_SEL<1> | 1 | input_SEL<2> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 3 | input_s1 | 53 | 5 | input_s2 | 52 | 7 | input_s3 | 50 | 9 | input_s4 | 49 | 11 | input_s5 | 42
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 13 | input_s6 | 41 | 14 | input_SEL<0> | 36 | 15 | input_s7 | 40 | 16 | input_SEL<1> | 37 | 17 | input_SEL<2> | 39
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 50 | input_s0 | 91
+
+FB_IMUX_INDEX | FOOBAR3_ | -1 | -1 | -1 | 129 | -1 | 131 | -1 | 133 | -1 | 135 | -1 | 137 | -1 | 139 | 140 | 141 | 142 | 143 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 72 | -1 | -1 | -1
+

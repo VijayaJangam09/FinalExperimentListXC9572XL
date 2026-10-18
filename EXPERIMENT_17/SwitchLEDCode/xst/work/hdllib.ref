@@ -1,0 +1,4 @@
+AR test1 behavioral "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" sub00/vhpl01 1791365558
+EN test1 NULL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" sub00/vhpl00 1791365557
+AR switch_led behavioral "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" sub00/vhpl03 1791784118
+EN switch_led NULL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" sub00/vhpl02 1791784117

@@ -1,0 +1,915 @@
+ 
+cpldfit:  version P.20131013                        Xilinx Inc.
+                                  Fitter Report
+Design Name: seven_seg                           Date: 10-12-2026,  7:28AM
+Device Used: XC9572XL-10-TQ100
+Fitting Status: Successful
+
+*************************  Mapped Resource Summary  **************************
+
+Macrocells     Product Terms    Function Block   Registers      Pins           
+Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
+51 /72  ( 71%) 146 /360  ( 41%) 115/216 ( 53%)   39 /72  ( 54%) 13 /72  ( 18%)
+
+** Function Block Resources **
+
+Function    Mcells      FB Inps     Pterms      IO          
+Block       Used/Tot    Used/Tot    Used/Tot    Used/Tot    
+FB1          18/18*      38/54       33/90       1/18
+FB2          18/18*      38/54       51/90       8/18
+FB3           2/18        1/54        1/90       0/18
+FB4          13/18       38/54       61/90       4/18
+             -----       -----       -----      -----    
+             51/72      115/216     146/360     13/72 
+
+* - Resource is exhausted
+
+** Global Control Resources **
+
+Signal 'clk' mapped onto global clock net GCK1.
+Global output enable net(s) unused.
+Signal 'rst' mapped onto global set/reset net GSR.
+
+** Pin Resources **
+
+Signal Type    Required     Mapped  |  Pin Type            Used    Total 
+------------------------------------|------------------------------------
+Input         :    0           0    |  I/O              :    11      66
+Output        :   11          11    |  GCK/IO           :     1       3
+Bidirectional :    0           0    |  GTS/IO           :     0       2
+GCK           :    1           1    |  GSR/IO           :     1       1
+GTS           :    0           0    |
+GSR           :    1           1    |
+                 ----        ----
+        Total     13          13
+
+** Power Data **
+
+There are 51 macrocells in high performance mode (MCHP).
+There are 0 macrocells in low power mode (MCLP).
+End of Mapped Resource Summary
+**************************  Errors and Warnings  ***************************
+
+WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
+   use the default filename of 'seven_seg.ise'.
+INFO:Cpld - Inferring BUFG constraint for signal 'clk' based upon the LOC
+   constraint 'P22'. It is recommended that you declare this BUFG explicitedly
+   in your design. Note that for certain device families the output of a BUFG
+   constraint can not drive a gated clock, and the BUFG constraint will be
+   ignored.
+WARNING:Cpld:896 - Unable to map all desired signals into function block, FB2,
+   because too many function block product terms are required. Buffering output
+   signal seg<6> to allow all signals assigned to this function block to be
+   placed.
+*************************  Summary of Mapped Logic  ************************
+
+** 11 Outputs **
+
+Signal              Total Total Loc     Pin  Pin     Pin     Pwr  Slew Reg Init
+Name                Pts   Inps          No.  Type    Use     Mode Rate State
+an<0>               1     2     FB2_2   94   I/O     O       STD  FAST 
+seg<4>              12    18    FB2_3   91   I/O     O       STD  FAST 
+seg<6>              1     1     FB2_4   93   I/O     O       STD  FAST 
+an<1>               1     2     FB2_5   95   I/O     O       STD  FAST 
+an<2>               1     2     FB2_6   96   I/O     O       STD  FAST 
+an<3>               1     2     FB2_8   97   I/O     O       STD  FAST 
+seg<5>              12    18    FB2_18  92   I/O     O       STD  FAST 
+seg<1>              16    18    FB4_13  85   I/O     O       STD  FAST 
+seg<2>              12    18    FB4_15  89   I/O     O       STD  FAST 
+seg<0>              8     18    FB4_16  86   I/O     O       STD  FAST 
+seg<3>              16    18    FB4_17  90   I/O     O       STD  FAST 
+
+** 40 Buried Nodes **
+
+Signal              Total Total Loc     Pwr  Reg Init
+Name                Pts   Inps          Mode State
+hex_cnt<0>          1     23    FB1_1   STD  RESET
+div<3>              1     3     FB1_2   STD  RESET
+div<2>              1     2     FB1_3   STD  RESET
+hex_cnt<9>          2     32    FB1_4   STD  RESET
+hex_cnt<8>          2     31    FB1_5   STD  RESET
+hex_cnt<7>          2     30    FB1_6   STD  RESET
+hex_cnt<6>          2     29    FB1_7   STD  RESET
+hex_cnt<5>          2     28    FB1_8   STD  RESET
+hex_cnt<4>          2     27    FB1_9   STD  RESET
+hex_cnt<3>          2     26    FB1_10  STD  RESET
+hex_cnt<2>          2     25    FB1_11  STD  RESET
+hex_cnt<1>          2     24    FB1_12  STD  RESET
+hex_cnt<15>         2     38    FB1_13  STD  RESET
+hex_cnt<14>         2     37    FB1_14  STD  RESET
+hex_cnt<13>         2     36    FB1_15  STD  RESET
+hex_cnt<12>         2     35    FB1_16  STD  RESET
+hex_cnt<11>         2     34    FB1_17  STD  RESET
+hex_cnt<10>         2     33    FB1_18  STD  RESET
+div<20>             1     20    FB2_1   STD  RESET
+div<19>             1     19    FB2_7   STD  RESET
+div<18>             1     18    FB2_9   STD  RESET
+div<17>             1     17    FB2_10  STD  RESET
+div<16>             1     16    FB2_11  STD  RESET
+div<15>             1     15    FB2_12  STD  RESET
+div<13>             1     13    FB2_13  STD  RESET
+div<12>             1     12    FB2_14  STD  RESET
+seg<6>_BUFR         12    18    FB2_15  STD  
+div<14>             1     14    FB2_16  STD  RESET
+div<21>             1     21    FB2_17  STD  RESET
+div<1>              1     1     FB3_17  STD  RESET
+div<0>              0     0     FB3_18  STD  RESET
+div<10>             1     10    FB4_2   STD  RESET
+div<9>              1     9     FB4_3   STD  RESET
+div<8>              1     8     FB4_4   STD  RESET
+div<7>              1     7     FB4_5   STD  RESET
+div<6>              1     6     FB4_6   STD  RESET
+div<5>              1     5     FB4_7   STD  RESET
+div<4>              1     4     FB4_8   STD  RESET
+div<22>             1     22    FB4_9   STD  RESET
+div<11>             1     11    FB4_10  STD  RESET
+
+** 2 Inputs **
+
+Signal              Loc     Pin  Pin     Pin     
+Name                        No.  Type    Use     
+clk                 FB1_9   22   GCK/I/O GCK
+rst                 FB2_9   99   GSR/I/O GSR
+
+Legend:
+Pin No. - ~ - User Assigned
+**************************  Function Block Details  ************************
+Legend:
+Total Pt     - Total product terms used by the macrocell signal
+Imp Pt       - Product terms imported from other macrocells
+Exp Pt       - Product terms exported to other macrocells
+               in direction shown
+Unused Pt    - Unused local product terms remaining in macrocell
+Loc          - Location where logic was mapped in device
+Pin Type/Use - I  - Input             GCK - Global Clock
+               O  - Output            GTS - Global Output Enable
+              (b) - Buried macrocell  GSR - Global Set/Reset
+X            - Signal used as input to the macrocell logic.
+Pin No.      - ~  - User Assigned
+*********************************** FB1  ***********************************
+Number of function block inputs used/remaining:               38/16
+Number of signals used by logic mapping into function block:  38
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+hex_cnt<0>            1       0     0   4     FB1_1   16    I/O     (b)
+div<3>                1       0     0   4     FB1_2   13    I/O     (b)
+div<2>                1       0     0   4     FB1_3   18    I/O     (b)
+hex_cnt<9>            2       0     0   3     FB1_4   20    I/O     (b)
+hex_cnt<8>            2       0     0   3     FB1_5   14    I/O     (b)
+hex_cnt<7>            2       0     0   3     FB1_6   15    I/O     (b)
+hex_cnt<6>            2       0     0   3     FB1_7   25    I/O     (b)
+hex_cnt<5>            2       0     0   3     FB1_8   17    I/O     (b)
+hex_cnt<4>            2       0     0   3     FB1_9   22    GCK/I/O GCK
+hex_cnt<3>            2       0     0   3     FB1_10  28    I/O     (b)
+hex_cnt<2>            2       0     0   3     FB1_11  23    GCK/I/O (b)
+hex_cnt<1>            2       0     0   3     FB1_12  33    I/O     (b)
+hex_cnt<15>           2       0     0   3     FB1_13  36    I/O     (b)
+hex_cnt<14>           2       0     0   3     FB1_14  27    GCK/I/O (b)
+hex_cnt<13>           2       0     0   3     FB1_15  29    I/O     (b)
+hex_cnt<12>           2       0     0   3     FB1_16  39    I/O     (b)
+hex_cnt<11>           2       0     0   3     FB1_17  30    I/O     (b)
+hex_cnt<10>           2       0     0   3     FB1_18  40    I/O     (b)
+
+Signals Used by Logic in Function Block
+  1: div<0>            14: div<21>           27: hex_cnt<12> 
+  2: div<10>           15: div<22>           28: hex_cnt<13> 
+  3: div<11>           16: div<2>            29: hex_cnt<14> 
+  4: div<12>           17: div<3>            30: hex_cnt<1> 
+  5: div<13>           18: div<4>            31: hex_cnt<2> 
+  6: div<14>           19: div<5>            32: hex_cnt<3> 
+  7: div<15>           20: div<6>            33: hex_cnt<4> 
+  8: div<16>           21: div<7>            34: hex_cnt<5> 
+  9: div<17>           22: div<8>            35: hex_cnt<6> 
+ 10: div<18>           23: div<9>            36: hex_cnt<7> 
+ 11: div<19>           24: hex_cnt<0>        37: hex_cnt<8> 
+ 12: div<1>            25: hex_cnt<10>       38: hex_cnt<9> 
+ 13: div<20>           26: hex_cnt<11>      
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+hex_cnt<0>           XXXXXXXXXXXXXXXXXXXXXXX................. 23
+div<3>               X..........X...X........................ 3
+div<2>               X..........X............................ 2
+hex_cnt<9>           XXXXXXXXXXXXXXXXXXXXXXXX.....XXXXXXXX... 32
+hex_cnt<8>           XXXXXXXXXXXXXXXXXXXXXXXX.....XXXXXXX.... 31
+hex_cnt<7>           XXXXXXXXXXXXXXXXXXXXXXXX.....XXXXXX..... 30
+hex_cnt<6>           XXXXXXXXXXXXXXXXXXXXXXXX.....XXXXX...... 29
+hex_cnt<5>           XXXXXXXXXXXXXXXXXXXXXXXX.....XXXX....... 28
+hex_cnt<4>           XXXXXXXXXXXXXXXXXXXXXXXX.....XXX........ 27
+hex_cnt<3>           XXXXXXXXXXXXXXXXXXXXXXXX.....XX......... 26
+hex_cnt<2>           XXXXXXXXXXXXXXXXXXXXXXXX.....X.......... 25
+hex_cnt<1>           XXXXXXXXXXXXXXXXXXXXXXXX................ 24
+hex_cnt<15>          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.. 38
+hex_cnt<14>          XXXXXXXXXXXXXXXXXXXXXXXXXXXX.XXXXXXXXX.. 37
+hex_cnt<13>          XXXXXXXXXXXXXXXXXXXXXXXXXXX..XXXXXXXXX.. 36
+hex_cnt<12>          XXXXXXXXXXXXXXXXXXXXXXXXXX...XXXXXXXXX.. 35
+hex_cnt<11>          XXXXXXXXXXXXXXXXXXXXXXXXX....XXXXXXXXX.. 34
+hex_cnt<10>          XXXXXXXXXXXXXXXXXXXXXXXX.....XXXXXXXXX.. 33
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB2  ***********************************
+Number of function block inputs used/remaining:               38/16
+Number of signals used by logic mapping into function block:  38
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+div<20>               1       0   /\4   0     FB2_1   87    I/O     (b)
+an<0>                 1       0   \/3   1     FB2_2   94    I/O     O
+seg<4>               12       7<-   0   0     FB2_3   91    I/O     O
+seg<6>                1       0   /\4   0     FB2_4   93    I/O     O
+an<1>                 1       0     0   4     FB2_5   95    I/O     O
+an<2>                 1       0     0   4     FB2_6   96    I/O     O
+div<19>               1       0     0   4     FB2_7   3     GTS/I/O (b)
+an<3>                 1       0     0   4     FB2_8   97    I/O     O
+div<18>               1       0     0   4     FB2_9   99    GSR/I/O GSR
+div<17>               1       0     0   4     FB2_10  1     I/O     (b)
+div<16>               1       0     0   4     FB2_11  4     GTS/I/O (b)
+div<15>               1       0     0   4     FB2_12  6     I/O     (b)
+div<13>               1       0     0   4     FB2_13  8     I/O     (b)
+div<12>               1       0   \/4   0     FB2_14  9     I/O     (b)
+seg<6>_BUFR          12       7<-   0   0     FB2_15  11    I/O     (b)
+div<14>               1       0   /\3   1     FB2_16  10    I/O     (b)
+div<21>               1       0   \/3   1     FB2_17  12    I/O     (b)
+seg<5>               12       7<-   0   0     FB2_18  92    I/O     O
+
+Signals Used by Logic in Function Block
+  1: div<0>            14: div<2>            27: hex_cnt<14> 
+  2: div<10>           15: div<3>            28: hex_cnt<15> 
+  3: div<11>           16: div<4>            29: hex_cnt<1> 
+  4: div<12>           17: div<5>            30: hex_cnt<2> 
+  5: div<13>           18: div<6>            31: hex_cnt<3> 
+  6: div<14>           19: div<7>            32: hex_cnt<4> 
+  7: div<15>           20: div<8>            33: hex_cnt<5> 
+  8: div<16>           21: div<9>            34: hex_cnt<6> 
+  9: div<17>           22: hex_cnt<0>        35: hex_cnt<7> 
+ 10: div<18>           23: hex_cnt<10>       36: hex_cnt<8> 
+ 11: div<19>           24: hex_cnt<11>       37: hex_cnt<9> 
+ 12: div<1>            25: hex_cnt<12>       38: seg<6>_BUFR 
+ 13: div<20>           26: hex_cnt<13>      
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+div<20>              XXXXXXXXXXXX.XXXXXXXX................... 20
+an<0>                .....XX................................. 2
+seg<4>               .....XX..............XXXXXXXXXXXXXXXX... 18
+seg<6>               .....................................X.. 1
+an<1>                .....XX................................. 2
+an<2>                .....XX................................. 2
+div<19>              XXXXXXXXXX.X.XXXXXXXX................... 19
+an<3>                .....XX................................. 2
+div<18>              XXXXXXXXX..X.XXXXXXXX................... 18
+div<17>              XXXXXXXX...X.XXXXXXXX................... 17
+div<16>              XXXXXXX....X.XXXXXXXX................... 16
+div<15>              XXXXXX.....X.XXXXXXXX................... 15
+div<13>              XXXX.......X.XXXXXXXX................... 13
+div<12>              XXX........X.XXXXXXXX................... 12
+seg<6>_BUFR          .....XX..............XXXXXXXXXXXXXXXX... 18
+div<14>              XXXXX......X.XXXXXXXX................... 14
+div<21>              XXXXXXXXXXXXXXXXXXXXX................... 21
+seg<5>               .....XX..............XXXXXXXXXXXXXXXX... 18
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB3  ***********************************
+Number of function block inputs used/remaining:               1/53
+Number of signals used by logic mapping into function block:  1
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+(unused)              0       0     0   5     FB3_1   41    I/O     
+(unused)              0       0     0   5     FB3_2   32    I/O     
+(unused)              0       0     0   5     FB3_3   49    I/O     
+(unused)              0       0     0   5     FB3_4   50    I/O     
+(unused)              0       0     0   5     FB3_5   35    I/O     
+(unused)              0       0     0   5     FB3_6   53    I/O     
+(unused)              0       0     0   5     FB3_7   54    I/O     
+(unused)              0       0     0   5     FB3_8   37    I/O     
+(unused)              0       0     0   5     FB3_9   42    I/O     
+(unused)              0       0     0   5     FB3_10  60    I/O     
+(unused)              0       0     0   5     FB3_11  52    I/O     
+(unused)              0       0     0   5     FB3_12  61    I/O     
+(unused)              0       0     0   5     FB3_13  63    I/O     
+(unused)              0       0     0   5     FB3_14  55    I/O     
+(unused)              0       0     0   5     FB3_15  56    I/O     
+(unused)              0       0     0   5     FB3_16  64    I/O     
+div<1>                1       0     0   4     FB3_17  58    I/O     (b)
+div<0>                0       0     0   5     FB3_18  59    I/O     (b)
+
+Signals Used by Logic in Function Block
+  1: div<0>           
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+div<1>               X....................................... 1
+div<0>               ........................................ 0
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB4  ***********************************
+Number of function block inputs used/remaining:               38/16
+Number of signals used by logic mapping into function block:  38
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+(unused)              0       0   /\5   0     FB4_1   65    I/O     (b)
+div<10>               1       0   /\4   0     FB4_2   67    I/O     (b)
+div<9>                1       0     0   4     FB4_3   71    I/O     (b)
+div<8>                1       0     0   4     FB4_4   72    I/O     (b)
+div<7>                1       0     0   4     FB4_5   68    I/O     (b)
+div<6>                1       0     0   4     FB4_6   76    I/O     (b)
+div<5>                1       0     0   4     FB4_7   77    I/O     (b)
+div<4>                1       0     0   4     FB4_8   70    I/O     (b)
+div<22>               1       0     0   4     FB4_9   66    I/O     (b)
+div<11>               1       0   \/3   1     FB4_10  81    I/O     (b)
+(unused)              0       0   \/5   0     FB4_11  74    I/O     (b)
+(unused)              0       0   \/5   0     FB4_12  82    I/O     (b)
+seg<1>               16      13<- \/2   0     FB4_13  85    I/O     O
+(unused)              0       0   \/5   0     FB4_14  78    I/O     (b)
+seg<2>               12       7<-   0   0     FB4_15  89    I/O     O
+seg<0>                8       3<-   0   0     FB4_16  86    I/O     O
+seg<3>               16      14<- /\3   0     FB4_17  90    I/O     O
+(unused)              0       0   /\5   0     FB4_18  79    I/O     (b)
+
+Signals Used by Logic in Function Block
+  1: div<0>            14: div<21>           27: hex_cnt<13> 
+  2: div<10>           15: div<2>            28: hex_cnt<14> 
+  3: div<11>           16: div<3>            29: hex_cnt<15> 
+  4: div<12>           17: div<4>            30: hex_cnt<1> 
+  5: div<13>           18: div<5>            31: hex_cnt<2> 
+  6: div<14>           19: div<6>            32: hex_cnt<3> 
+  7: div<15>           20: div<7>            33: hex_cnt<4> 
+  8: div<16>           21: div<8>            34: hex_cnt<5> 
+  9: div<17>           22: div<9>            35: hex_cnt<6> 
+ 10: div<18>           23: hex_cnt<0>        36: hex_cnt<7> 
+ 11: div<19>           24: hex_cnt<10>       37: hex_cnt<8> 
+ 12: div<1>            25: hex_cnt<11>       38: hex_cnt<9> 
+ 13: div<20>           26: hex_cnt<12>      
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+div<10>              X..........X..XXXXXXXX.................. 10
+div<9>               X..........X..XXXXXXX................... 9
+div<8>               X..........X..XXXXXX.................... 8
+div<7>               X..........X..XXXXX..................... 7
+div<6>               X..........X..XXXX...................... 6
+div<5>               X..........X..XXX....................... 5
+div<4>               X..........X..XX........................ 4
+div<22>              XXXXXXXXXXXXXXXXXXXXXX.................. 22
+div<11>              XX.........X..XXXXXXXX.................. 11
+seg<1>               .....XX...............XXXXXXXXXXXXXXXX.. 18
+seg<2>               .....XX...............XXXXXXXXXXXXXXXX.. 18
+seg<0>               .....XX...............XXXXXXXXXXXXXXXX.. 18
+seg<3>               .....XX...............XXXXXXXXXXXXXXXX.. 18
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*******************************  Equations  ********************************
+
+********** Mapped Logic **********
+
+
+
+
+
+
+
+
+
+
+
+
+an(0) <= NOT ((NOT div(15) AND NOT div(14)));
+
+
+an(1) <= NOT ((NOT div(15) AND div(14)));
+
+
+an(2) <= NOT ((div(15) AND NOT div(14)));
+
+
+an(3) <= NOT ((div(15) AND div(14)));
+
+FTCPE_div0: FTCPE port map (div(0),'1',clk,rst,'0');
+
+FTCPE_div1: FTCPE port map (div(1),div(0),clk,rst,'0');
+
+FTCPE_div2: FTCPE port map (div(2),div_T(2),clk,rst,'0');
+div_T(2) <= (div(0) AND div(1));
+
+FTCPE_div3: FTCPE port map (div(3),div_T(3),clk,rst,'0');
+div_T(3) <= (div(0) AND div(1) AND div(2));
+
+FTCPE_div4: FTCPE port map (div(4),div_T(4),clk,rst,'0');
+div_T(4) <= (div(0) AND div(1) AND div(2) AND div(3));
+
+FTCPE_div5: FTCPE port map (div(5),div_T(5),clk,rst,'0');
+div_T(5) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4));
+
+FTCPE_div6: FTCPE port map (div(6),div_T(6),clk,rst,'0');
+div_T(6) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+	div(5));
+
+FTCPE_div7: FTCPE port map (div(7),div_T(7),clk,rst,'0');
+div_T(7) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+	div(5) AND div(6));
+
+FTCPE_div8: FTCPE port map (div(8),div_T(8),clk,rst,'0');
+div_T(8) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+	div(5) AND div(6) AND div(7));
+
+FTCPE_div9: FTCPE port map (div(9),div_T(9),clk,rst,'0');
+div_T(9) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+	div(5) AND div(6) AND div(7) AND div(8));
+
+FTCPE_div10: FTCPE port map (div(10),div_T(10),clk,rst,'0');
+div_T(10) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+	div(5) AND div(6) AND div(7) AND div(8) AND div(9));
+
+FTCPE_div11: FTCPE port map (div(11),div_T(11),clk,rst,'0');
+div_T(11) <= (div(0) AND div(10) AND div(1) AND div(2) AND div(3) AND 
+	div(4) AND div(5) AND div(6) AND div(7) AND div(8) AND div(9));
+
+FTCPE_div12: FTCPE port map (div(12),div_T(12),clk,rst,'0');
+div_T(12) <= (div(0) AND div(10) AND div(11) AND div(1) AND div(2) AND 
+	div(3) AND div(4) AND div(5) AND div(6) AND div(7) AND div(8) AND 
+	div(9));
+
+FTCPE_div13: FTCPE port map (div(13),div_T(13),clk,rst,'0');
+div_T(13) <= (div(0) AND div(10) AND div(11) AND div(12) AND div(1) AND 
+	div(2) AND div(3) AND div(4) AND div(5) AND div(6) AND div(7) AND 
+	div(8) AND div(9));
+
+FTCPE_div14: FTCPE port map (div(14),div_T(14),clk,rst,'0');
+div_T(14) <= (div(0) AND div(10) AND div(11) AND div(12) AND div(13) AND 
+	div(1) AND div(2) AND div(3) AND div(4) AND div(5) AND div(6) AND 
+	div(7) AND div(8) AND div(9));
+
+FTCPE_div15: FTCPE port map (div(15),div_T(15),clk,rst,'0');
+div_T(15) <= (div(14) AND div(0) AND div(10) AND div(11) AND div(12) AND 
+	div(13) AND div(1) AND div(2) AND div(3) AND div(4) AND div(5) AND 
+	div(6) AND div(7) AND div(8) AND div(9));
+
+FTCPE_div16: FTCPE port map (div(16),div_T(16),clk,rst,'0');
+div_T(16) <= (div(15) AND div(14) AND div(0) AND div(10) AND div(11) AND 
+	div(12) AND div(13) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+	div(5) AND div(6) AND div(7) AND div(8) AND div(9));
+
+FTCPE_div17: FTCPE port map (div(17),div_T(17),clk,rst,'0');
+div_T(17) <= (div(15) AND div(14) AND div(0) AND div(10) AND div(11) AND 
+	div(12) AND div(13) AND div(16) AND div(1) AND div(2) AND div(3) AND 
+	div(4) AND div(5) AND div(6) AND div(7) AND div(8) AND div(9));
+
+FTCPE_div18: FTCPE port map (div(18),div_T(18),clk,rst,'0');
+div_T(18) <= (div(15) AND div(14) AND div(0) AND div(10) AND div(11) AND 
+	div(12) AND div(13) AND div(16) AND div(17) AND div(1) AND div(2) AND 
+	div(3) AND div(4) AND div(5) AND div(6) AND div(7) AND div(8) AND 
+	div(9));
+
+FTCPE_div19: FTCPE port map (div(19),div_T(19),clk,rst,'0');
+div_T(19) <= (div(15) AND div(14) AND div(0) AND div(10) AND div(11) AND 
+	div(12) AND div(13) AND div(16) AND div(17) AND div(18) AND div(1) AND 
+	div(2) AND div(3) AND div(4) AND div(5) AND div(6) AND div(7) AND 
+	div(8) AND div(9));
+
+FTCPE_div20: FTCPE port map (div(20),div_T(20),clk,rst,'0');
+div_T(20) <= (div(15) AND div(14) AND div(0) AND div(10) AND div(11) AND 
+	div(12) AND div(13) AND div(16) AND div(17) AND div(18) AND 
+	div(19) AND div(1) AND div(2) AND div(3) AND div(4) AND div(5) AND 
+	div(6) AND div(7) AND div(8) AND div(9));
+
+FTCPE_div21: FTCPE port map (div(21),div_T(21),clk,rst,'0');
+div_T(21) <= (div(15) AND div(14) AND div(0) AND div(10) AND div(11) AND 
+	div(12) AND div(13) AND div(16) AND div(17) AND div(18) AND 
+	div(19) AND div(1) AND div(20) AND div(2) AND div(3) AND div(4) AND 
+	div(5) AND div(6) AND div(7) AND div(8) AND div(9));
+
+FTCPE_div22: FTCPE port map (div(22),div_T(22),clk,rst,'0');
+div_T(22) <= (div(15) AND div(14) AND div(0) AND div(10) AND div(11) AND 
+	div(12) AND div(13) AND div(16) AND div(17) AND div(18) AND 
+	div(19) AND div(1) AND div(20) AND div(21) AND div(2) AND div(3) AND 
+	div(4) AND div(5) AND div(6) AND div(7) AND div(8) AND div(9));
+
+FTCPE_hex_cnt0: FTCPE port map (hex_cnt(0),'1',clk,rst,'0',hex_cnt_CE(0));
+hex_cnt_CE(0) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt1: FTCPE port map (hex_cnt(1),hex_cnt(0),clk,rst,'0',hex_cnt_CE(1));
+hex_cnt_CE(1) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt2: FTCPE port map (hex_cnt(2),hex_cnt_T(2),clk,rst,'0',hex_cnt_CE(2));
+hex_cnt_T(2) <= (hex_cnt(0) AND hex_cnt(1));
+hex_cnt_CE(2) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt3: FTCPE port map (hex_cnt(3),hex_cnt_T(3),clk,rst,'0',hex_cnt_CE(3));
+hex_cnt_T(3) <= (hex_cnt(0) AND hex_cnt(1) AND hex_cnt(2));
+hex_cnt_CE(3) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt4: FTCPE port map (hex_cnt(4),hex_cnt_T(4),clk,rst,'0',hex_cnt_CE(4));
+hex_cnt_T(4) <= (hex_cnt(0) AND hex_cnt(1) AND hex_cnt(2) AND 
+	hex_cnt(3));
+hex_cnt_CE(4) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt5: FTCPE port map (hex_cnt(5),hex_cnt_T(5),clk,rst,'0',hex_cnt_CE(5));
+hex_cnt_T(5) <= (hex_cnt(0) AND hex_cnt(1) AND hex_cnt(2) AND 
+	hex_cnt(3) AND hex_cnt(4));
+hex_cnt_CE(5) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt6: FTCPE port map (hex_cnt(6),hex_cnt_T(6),clk,rst,'0',hex_cnt_CE(6));
+hex_cnt_T(6) <= (hex_cnt(0) AND hex_cnt(1) AND hex_cnt(2) AND 
+	hex_cnt(3) AND hex_cnt(4) AND hex_cnt(5));
+hex_cnt_CE(6) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt7: FTCPE port map (hex_cnt(7),hex_cnt_T(7),clk,rst,'0',hex_cnt_CE(7));
+hex_cnt_T(7) <= (hex_cnt(0) AND hex_cnt(1) AND hex_cnt(2) AND 
+	hex_cnt(3) AND hex_cnt(4) AND hex_cnt(5) AND hex_cnt(6));
+hex_cnt_CE(7) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt8: FTCPE port map (hex_cnt(8),hex_cnt_T(8),clk,rst,'0',hex_cnt_CE(8));
+hex_cnt_T(8) <= (hex_cnt(0) AND hex_cnt(1) AND hex_cnt(2) AND 
+	hex_cnt(3) AND hex_cnt(4) AND hex_cnt(5) AND hex_cnt(6) AND 
+	hex_cnt(7));
+hex_cnt_CE(8) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt9: FTCPE port map (hex_cnt(9),hex_cnt_T(9),clk,rst,'0',hex_cnt_CE(9));
+hex_cnt_T(9) <= (hex_cnt(0) AND hex_cnt(1) AND hex_cnt(2) AND 
+	hex_cnt(3) AND hex_cnt(4) AND hex_cnt(5) AND hex_cnt(6) AND 
+	hex_cnt(7) AND hex_cnt(8));
+hex_cnt_CE(9) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt10: FTCPE port map (hex_cnt(10),hex_cnt_T(10),clk,rst,'0',hex_cnt_CE(10));
+hex_cnt_T(10) <= (hex_cnt(0) AND hex_cnt(1) AND hex_cnt(2) AND 
+	hex_cnt(3) AND hex_cnt(4) AND hex_cnt(5) AND hex_cnt(6) AND 
+	hex_cnt(7) AND hex_cnt(8) AND hex_cnt(9));
+hex_cnt_CE(10) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt11: FTCPE port map (hex_cnt(11),hex_cnt_T(11),clk,rst,'0',hex_cnt_CE(11));
+hex_cnt_T(11) <= (hex_cnt(0) AND hex_cnt(10) AND hex_cnt(1) AND 
+	hex_cnt(2) AND hex_cnt(3) AND hex_cnt(4) AND hex_cnt(5) AND 
+	hex_cnt(6) AND hex_cnt(7) AND hex_cnt(8) AND hex_cnt(9));
+hex_cnt_CE(11) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt12: FTCPE port map (hex_cnt(12),hex_cnt_T(12),clk,rst,'0',hex_cnt_CE(12));
+hex_cnt_T(12) <= (hex_cnt(0) AND hex_cnt(10) AND hex_cnt(11) AND 
+	hex_cnt(1) AND hex_cnt(2) AND hex_cnt(3) AND hex_cnt(4) AND 
+	hex_cnt(5) AND hex_cnt(6) AND hex_cnt(7) AND hex_cnt(8) AND 
+	hex_cnt(9));
+hex_cnt_CE(12) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt13: FTCPE port map (hex_cnt(13),hex_cnt_T(13),clk,rst,'0',hex_cnt_CE(13));
+hex_cnt_T(13) <= (hex_cnt(0) AND hex_cnt(10) AND hex_cnt(11) AND 
+	hex_cnt(12) AND hex_cnt(1) AND hex_cnt(2) AND hex_cnt(3) AND 
+	hex_cnt(4) AND hex_cnt(5) AND hex_cnt(6) AND hex_cnt(7) AND 
+	hex_cnt(8) AND hex_cnt(9));
+hex_cnt_CE(13) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt14: FTCPE port map (hex_cnt(14),hex_cnt_T(14),clk,rst,'0',hex_cnt_CE(14));
+hex_cnt_T(14) <= (hex_cnt(0) AND hex_cnt(10) AND hex_cnt(11) AND 
+	hex_cnt(12) AND hex_cnt(13) AND hex_cnt(1) AND hex_cnt(2) AND 
+	hex_cnt(3) AND hex_cnt(4) AND hex_cnt(5) AND hex_cnt(6) AND 
+	hex_cnt(7) AND hex_cnt(8) AND hex_cnt(9));
+hex_cnt_CE(14) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+FTCPE_hex_cnt15: FTCPE port map (hex_cnt(15),hex_cnt_T(15),clk,rst,'0',hex_cnt_CE(15));
+hex_cnt_T(15) <= (hex_cnt(0) AND hex_cnt(10) AND hex_cnt(11) AND 
+	hex_cnt(12) AND hex_cnt(13) AND hex_cnt(14) AND hex_cnt(1) AND 
+	hex_cnt(2) AND hex_cnt(3) AND hex_cnt(4) AND hex_cnt(5) AND 
+	hex_cnt(6) AND hex_cnt(7) AND hex_cnt(8) AND hex_cnt(9));
+hex_cnt_CE(15) <= (NOT div(15) AND NOT div(14) AND NOT div(0) AND NOT div(10) AND NOT div(11) AND 
+	NOT div(12) AND NOT div(13) AND NOT div(16) AND NOT div(17) AND NOT div(18) AND 
+	NOT div(19) AND NOT div(1) AND NOT div(20) AND NOT div(21) AND NOT div(2) AND NOT div(3) AND 
+	NOT div(4) AND NOT div(5) AND NOT div(6) AND NOT div(7) AND NOT div(8) AND NOT div(9) AND 
+	div(22));
+
+
+seg(0) <= ((hex_cnt(12) AND NOT hex_cnt(13) AND NOT hex_cnt(14) AND 
+	NOT hex_cnt(15) AND div(15) AND div(14))
+	OR (NOT hex_cnt(12) AND NOT hex_cnt(13) AND hex_cnt(14) AND 
+	NOT hex_cnt(15) AND div(15) AND div(14))
+	OR (hex_cnt(4) AND NOT hex_cnt(5) AND NOT hex_cnt(6) AND 
+	NOT hex_cnt(7) AND NOT div(15) AND div(14))
+	OR (hex_cnt(0) AND NOT hex_cnt(1) AND NOT hex_cnt(2) AND 
+	NOT hex_cnt(3) AND NOT div(15) AND NOT div(14))
+	OR (NOT hex_cnt(0) AND NOT hex_cnt(1) AND hex_cnt(2) AND 
+	NOT hex_cnt(3) AND NOT div(15) AND NOT div(14))
+	OR (hex_cnt(10) AND NOT hex_cnt(11) AND NOT hex_cnt(8) AND 
+	NOT hex_cnt(9) AND div(15) AND NOT div(14))
+	OR (NOT hex_cnt(10) AND NOT hex_cnt(11) AND hex_cnt(8) AND 
+	NOT hex_cnt(9) AND div(15) AND NOT div(14))
+	OR (NOT hex_cnt(4) AND NOT hex_cnt(5) AND hex_cnt(6) AND 
+	NOT hex_cnt(7) AND NOT div(15) AND div(14)));
+
+
+seg(1) <= NOT (((EXP8_.EXP)
+	OR (NOT hex_cnt(6) AND NOT div(15) AND div(14))
+	OR (hex_cnt(0) AND hex_cnt(1) AND NOT hex_cnt(3) AND NOT div(15) AND 
+	NOT div(14))
+	OR (hex_cnt(0) AND NOT hex_cnt(1) AND hex_cnt(3) AND NOT div(15) AND 
+	NOT div(14))
+	OR (NOT hex_cnt(0) AND NOT hex_cnt(1) AND NOT hex_cnt(3) AND NOT div(15) AND 
+	NOT div(14))
+	OR (hex_cnt(11) AND hex_cnt(8) AND NOT hex_cnt(9) AND div(15) AND 
+	NOT div(14))
+	OR (NOT hex_cnt(10) AND div(15) AND NOT div(14))
+	OR (NOT hex_cnt(14) AND div(15) AND div(14))
+	OR (NOT hex_cnt(2) AND NOT div(15) AND NOT div(14))));
+
+
+seg(2) <= ((seg_1_OBUF.EXP)
+	OR (NOT hex_cnt(12) AND hex_cnt(14) AND hex_cnt(15) AND 
+	div(15) AND div(14))
+	OR (hex_cnt(13) AND hex_cnt(14) AND hex_cnt(15) AND 
+	div(15) AND div(14))
+	OR (NOT hex_cnt(4) AND hex_cnt(6) AND hex_cnt(7) AND NOT div(15) AND 
+	div(14))
+	OR (NOT hex_cnt(0) AND hex_cnt(1) AND NOT hex_cnt(2) AND 
+	NOT hex_cnt(3) AND NOT div(15) AND NOT div(14))
+	OR (NOT hex_cnt(10) AND NOT hex_cnt(11) AND NOT hex_cnt(8) AND 
+	hex_cnt(9) AND div(15) AND NOT div(14))
+	OR (NOT hex_cnt(0) AND hex_cnt(2) AND hex_cnt(3) AND NOT div(15) AND 
+	NOT div(14))
+	OR (hex_cnt(10) AND hex_cnt(11) AND NOT hex_cnt(8) AND 
+	div(15) AND NOT div(14))
+	OR (hex_cnt(10) AND hex_cnt(11) AND hex_cnt(9) AND 
+	div(15) AND NOT div(14))
+	OR (hex_cnt(1) AND hex_cnt(2) AND hex_cnt(3) AND NOT div(15) AND 
+	NOT div(14))
+	OR (hex_cnt(5) AND hex_cnt(6) AND hex_cnt(7) AND NOT div(15) AND 
+	div(14)));
+
+
+seg(3) <= ((EXP7_.EXP)
+	OR (hex_cnt(12) AND hex_cnt(13) AND hex_cnt(14) AND 
+	div(15) AND div(14))
+	OR (hex_cnt(4) AND hex_cnt(5) AND hex_cnt(6) AND NOT div(15) AND 
+	div(14))
+	OR (hex_cnt(0) AND NOT hex_cnt(1) AND NOT hex_cnt(2) AND 
+	NOT hex_cnt(3) AND NOT div(15) AND NOT div(14))
+	OR (NOT hex_cnt(0) AND hex_cnt(1) AND NOT hex_cnt(2) AND 
+	hex_cnt(3) AND NOT div(15) AND NOT div(14))
+	OR (NOT hex_cnt(0) AND NOT hex_cnt(1) AND hex_cnt(2) AND 
+	NOT hex_cnt(3) AND NOT div(15) AND NOT div(14))
+	OR (hex_cnt(0) AND hex_cnt(1) AND hex_cnt(2) AND NOT div(15) AND 
+	NOT div(14))
+	OR (hex_cnt(10) AND hex_cnt(8) AND hex_cnt(9) AND div(15) AND 
+	NOT div(14)));
+
+
+seg(4) <= ((NOT hex_cnt(10) AND hex_cnt(8) AND NOT hex_cnt(9) AND div(15) AND 
+	NOT div(14))
+	OR (hex_cnt(12) AND NOT hex_cnt(13) AND NOT hex_cnt(14) AND 
+	div(15) AND div(14))
+	OR (hex_cnt(4) AND NOT hex_cnt(5) AND NOT hex_cnt(6) AND NOT div(15) AND 
+	div(14))
+	OR (hex_cnt(10) AND NOT hex_cnt(11) AND NOT hex_cnt(9) AND 
+	div(15) AND NOT div(14))
+	OR (NOT hex_cnt(13) AND hex_cnt(14) AND NOT hex_cnt(15) AND 
+	div(15) AND div(14))
+	OR (NOT hex_cnt(1) AND hex_cnt(2) AND NOT hex_cnt(3) AND NOT div(15) AND 
+	NOT div(14))
+	OR (NOT hex_cnt(5) AND hex_cnt(6) AND NOT hex_cnt(7) AND NOT div(15) AND 
+	div(14))
+	OR (hex_cnt(0) AND NOT hex_cnt(3) AND NOT div(15) AND NOT div(14))
+	OR (NOT hex_cnt(11) AND hex_cnt(8) AND div(15) AND NOT div(14))
+	OR (hex_cnt(12) AND NOT hex_cnt(15) AND div(15) AND div(14))
+	OR (hex_cnt(4) AND NOT hex_cnt(7) AND NOT div(15) AND div(14))
+	OR (hex_cnt(0) AND NOT hex_cnt(1) AND NOT hex_cnt(2) AND NOT div(15) AND 
+	NOT div(14)));
+
+
+seg(5) <= ((hex_cnt(12) AND hex_cnt(13) AND NOT hex_cnt(15) AND 
+	div(15) AND div(14))
+	OR (hex_cnt(12) AND NOT hex_cnt(14) AND NOT hex_cnt(15) AND 
+	div(15) AND div(14))
+	OR (hex_cnt(13) AND NOT hex_cnt(14) AND NOT hex_cnt(15) AND 
+	div(15) AND div(14))
+	OR (hex_cnt(4) AND NOT hex_cnt(6) AND NOT hex_cnt(7) AND NOT div(15) AND 
+	div(14))
+	OR (NOT hex_cnt(10) AND NOT hex_cnt(11) AND hex_cnt(8) AND 
+	div(15) AND NOT div(14))
+	OR (hex_cnt(4) AND hex_cnt(5) AND NOT hex_cnt(7) AND NOT div(15) AND 
+	div(14))
+	OR (hex_cnt(5) AND NOT hex_cnt(6) AND NOT hex_cnt(7) AND NOT div(15) AND 
+	div(14))
+	OR (hex_cnt(0) AND hex_cnt(1) AND NOT hex_cnt(3) AND NOT div(15) AND 
+	NOT div(14))
+	OR (hex_cnt(0) AND NOT hex_cnt(2) AND NOT hex_cnt(3) AND NOT div(15) AND 
+	NOT div(14))
+	OR (NOT hex_cnt(10) AND NOT hex_cnt(11) AND hex_cnt(9) AND 
+	div(15) AND NOT div(14))
+	OR (NOT hex_cnt(11) AND hex_cnt(8) AND hex_cnt(9) AND div(15) AND 
+	NOT div(14))
+	OR (hex_cnt(1) AND NOT hex_cnt(2) AND NOT hex_cnt(3) AND NOT div(15) AND 
+	NOT div(14)));
+
+
+seg(6) <= seg(6)_BUFR;
+
+
+seg(6)_BUFR <= ((NOT hex_cnt(13) AND hex_cnt(14) AND hex_cnt(15) AND 
+	div(15) AND div(14))
+	OR (NOT hex_cnt(13) AND NOT hex_cnt(14) AND NOT hex_cnt(15) AND 
+	div(15) AND div(14))
+	OR (NOT hex_cnt(5) AND NOT hex_cnt(6) AND NOT hex_cnt(7) AND NOT div(15) AND 
+	div(14))
+	OR (hex_cnt(0) AND hex_cnt(1) AND hex_cnt(2) AND 
+	NOT hex_cnt(3) AND NOT div(15) AND NOT div(14))
+	OR (hex_cnt(10) AND NOT hex_cnt(11) AND hex_cnt(8) AND 
+	hex_cnt(9) AND div(15) AND NOT div(14))
+	OR (hex_cnt(12) AND hex_cnt(13) AND hex_cnt(14) AND 
+	NOT hex_cnt(15) AND div(15) AND div(14))
+	OR (hex_cnt(4) AND hex_cnt(5) AND hex_cnt(6) AND 
+	NOT hex_cnt(7) AND NOT div(15) AND div(14))
+	OR (hex_cnt(10) AND hex_cnt(11) AND NOT hex_cnt(9) AND 
+	div(15) AND NOT div(14))
+	OR (NOT hex_cnt(10) AND NOT hex_cnt(11) AND NOT hex_cnt(9) AND 
+	div(15) AND NOT div(14))
+	OR (NOT hex_cnt(1) AND hex_cnt(2) AND hex_cnt(3) AND NOT div(15) AND 
+	NOT div(14))
+	OR (NOT hex_cnt(1) AND NOT hex_cnt(2) AND NOT hex_cnt(3) AND NOT div(15) AND 
+	NOT div(14))
+	OR (NOT hex_cnt(5) AND hex_cnt(6) AND hex_cnt(7) AND NOT div(15) AND 
+	div(14)));
+
+Register Legend:
+ FDCPE (Q,D,C,CLR,PRE,CE); 
+ FTCPE (Q,D,C,CLR,PRE,CE); 
+ LDCP  (Q,D,G,CLR,PRE); 
+
+******************************  Device Pin Out *****************************
+
+Device : XC9572XL-10-TQ100
+
+
+   --------------------------------------------------  
+  /100 98  96  94  92  90  88  86  84  82  80  78  76  \
+ |   99  97  95  93  91  89  87  85  83  81  79  77    |
+ | 1                                               75  | 
+ | 2                                               74  | 
+ | 3                                               73  | 
+ | 4                                               72  | 
+ | 5                                               71  | 
+ | 6                                               70  | 
+ | 7                                               69  | 
+ | 8                                               68  | 
+ | 9                                               67  | 
+ | 10                                              66  | 
+ | 11                                              65  | 
+ | 12                                              64  | 
+ | 13               XC9572XL-10-TQ100              63  | 
+ | 14                                              62  | 
+ | 15                                              61  | 
+ | 16                                              60  | 
+ | 17                                              59  | 
+ | 18                                              58  | 
+ | 19                                              57  | 
+ | 20                                              56  | 
+ | 21                                              55  | 
+ | 22                                              54  | 
+ | 23                                              53  | 
+ | 24                                              52  | 
+ | 25                                              51  | 
+ |   27  29  31  33  35  37  39  41  43  45  47  49    |
+  \26  28  30  32  34  36  38  40  42  44  46  48  50  /
+   --------------------------------------------------  
+
+
+Pin Signal                         Pin Signal                        
+No. Name                           No. Name                          
+  1 KPR                              51 VCC                           
+  2 NC                               52 KPR                           
+  3 KPR                              53 KPR                           
+  4 KPR                              54 KPR                           
+  5 VCC                              55 KPR                           
+  6 KPR                              56 KPR                           
+  7 NC                               57 VCC                           
+  8 KPR                              58 KPR                           
+  9 KPR                              59 KPR                           
+ 10 KPR                              60 KPR                           
+ 11 KPR                              61 KPR                           
+ 12 KPR                              62 GND                           
+ 13 KPR                              63 KPR                           
+ 14 KPR                              64 KPR                           
+ 15 KPR                              65 KPR                           
+ 16 KPR                              66 KPR                           
+ 17 KPR                              67 KPR                           
+ 18 KPR                              68 KPR                           
+ 19 NC                               69 GND                           
+ 20 KPR                              70 KPR                           
+ 21 GND                              71 KPR                           
+ 22 clk                              72 KPR                           
+ 23 KPR                              73 NC                            
+ 24 NC                               74 KPR                           
+ 25 KPR                              75 GND                           
+ 26 VCC                              76 KPR                           
+ 27 KPR                              77 KPR                           
+ 28 KPR                              78 KPR                           
+ 29 KPR                              79 KPR                           
+ 30 KPR                              80 NC                            
+ 31 GND                              81 KPR                           
+ 32 KPR                              82 KPR                           
+ 33 KPR                              83 TDO                           
+ 34 NC                               84 GND                           
+ 35 KPR                              85 seg<1>                        
+ 36 KPR                              86 seg<0>                        
+ 37 KPR                              87 KPR                           
+ 38 VCC                              88 VCC                           
+ 39 KPR                              89 seg<2>                        
+ 40 KPR                              90 seg<3>                        
+ 41 KPR                              91 seg<4>                        
+ 42 KPR                              92 seg<5>                        
+ 43 NC                               93 seg<6>                        
+ 44 GND                              94 an<0>                         
+ 45 TDI                              95 an<1>                         
+ 46 NC                               96 an<2>                         
+ 47 TMS                              97 an<3>                         
+ 48 TCK                              98 VCC                           
+ 49 KPR                              99 rst                           
+ 50 KPR                             100 GND                           
+
+
+Legend :  NC  = Not Connected, unbonded pin
+         PGND = Unused I/O configured as additional Ground pin
+         TIE  = Unused I/O floating -- must tie to VCC, GND or other signal
+         KPR  = Unused I/O with weak keeper (leave unconnected)
+         VCC  = Dedicated Power Pin
+         GND  = Dedicated Ground Pin
+         TDI  = Test Data In, JTAG pin
+         TDO  = Test Data Out, JTAG pin
+         TCK  = Test Clock, JTAG pin
+         TMS  = Test Mode Select, JTAG pin
+  PROHIBITED  = User reserved pin
+****************************  Compiler Options  ****************************
+
+Following is a list of all global compiler options used by the fitter run.
+
+Device(s) Specified                         : xc9572xl-10-TQ100
+Optimization Method                         : SPEED
+Multi-Level Logic Optimization              : ON
+Ignore Timing Specifications                : OFF
+Default Register Power Up Value             : LOW
+Keep User Location Constraints              : ON
+What-You-See-Is-What-You-Get                : OFF
+Exhaustive Fitting                          : OFF
+Keep Unused Inputs                          : OFF
+Slew Rate                                   : FAST
+Power Mode                                  : STD
+Ground on Unused IOs                        : OFF
+Set I/O Pin Termination                     : KEEPER
+Global Clock Optimization                   : ON
+Global Set/Reset Optimization               : ON
+Global Ouput Enable Optimization            : ON
+Input Limit                                 : 54
+Pterm Limit                                 : 25

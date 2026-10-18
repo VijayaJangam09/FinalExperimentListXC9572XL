@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/FULL_ADDER/FULL_ADDER.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/FULL_ADDER/FULL_ADDER.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc FULLADDER.ucf -p xc9572xl-TQ100-10 "FULL_ADDER.ngc" FULL_ADDER.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper FULL_ADDER.ngd 
+XSLTProcess FULL_ADDER_build.xml 
+tsim -intstyle ise FULL_ADDER FULL_ADDER.nga 
+hprep6 -s IEEE1149 -n FULL_ADDER -i FULL_ADDER 

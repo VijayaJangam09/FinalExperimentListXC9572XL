@@ -1,0 +1,4 @@
+net clk loc = pin22;
+net rst loc = pin99;
+net T loc = pin29;
+net Q loc = pin55;

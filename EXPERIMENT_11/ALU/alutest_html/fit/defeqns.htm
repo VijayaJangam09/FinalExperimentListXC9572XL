@@ -1,0 +1,129 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+Maddsub_c_Mxor_Result(2)__xor0000/Maddsub_c_Mxor_Result(2)__xor0000_D <= a(2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maddsub_c_Mxor_Result(2)__xor0000/Maddsub_c_Mxor_Result(2)__xor0000_D <= ((sel(0) AND a(1) AND NOT b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(0) AND a(0) AND NOT b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND NOT b(0) AND sel(0) AND a(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND NOT b(0) AND sel(0) AND NOT b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND NOT sel(0) AND a(1) AND b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND b(0) AND NOT sel(0) AND a(0) AND b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND sel(0) AND a(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND sel(0) AND a(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND a(1) AND a(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (b(0) AND a(1) AND a(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Maddsub_c__or0001/Maddsub_c__or0001_D2 <= ((sel(0) AND a(0) AND NOT b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND NOT b(0) AND sel(0) AND a(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND NOT b(0) AND sel(0) AND NOT b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND NOT sel(0) AND a(1) AND b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND b(0) AND NOT sel(0) AND a(0) AND b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND sel(0) AND a(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND sel(0) AND a(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND a(1) AND a(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (b(0) AND a(1) AND a(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(0) AND a(1) AND NOT b(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+c(0) <= NOT (a(0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c(0) <= NOT ((NOT sel(1) AND NOT b(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+c(1) <= NOT (((NOT sel(1) AND NOT b(0) AND NOT a(1) AND NOT b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (c_0_OBUF.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(0) AND NOT a(1) AND a(0) AND NOT b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(0) AND NOT a(1) AND NOT a(0) AND NOT b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND sel(0) AND a(1) AND a(0) AND b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND NOT sel(0) AND a(1) AND NOT a(0) AND b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (b(0) AND NOT sel(0) AND a(1) AND a(0) AND NOT b(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND sel(0) AND a(1) AND NOT a(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND sel(0) AND NOT a(1) AND a(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND NOT sel(0) AND a(1) AND a(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND NOT sel(0) AND NOT a(1) AND NOT a(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND NOT b(0) AND a(1) AND b(1))));
+</td></tr><tr><td>
+</td></tr><tr><td>
+c(2) <= ((EXP9_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND sel(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Maddsub_c_Mxor_Result(2)__xor0000/Maddsub_c_Mxor_Result(2)__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (b(0) AND NOT a(1) AND NOT a(2) AND NOT a(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c_Mxor_Result(2)__xor0000/Maddsub_c_Mxor_Result(2)__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT b(0) AND NOT sel(0) AND NOT a(1) AND NOT a(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c_Mxor_Result(2)__xor0000/Maddsub_c_Mxor_Result(2)__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT b(0) AND NOT sel(0) AND NOT a(2) AND NOT b(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c_Mxor_Result(2)__xor0000/Maddsub_c_Mxor_Result(2)__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND NOT a(1) AND NOT a(2) AND b(1) AND NOT b(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c_Mxor_Result(2)__xor0000/Maddsub_c_Mxor_Result(2)__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND NOT a(1) AND NOT a(2) AND NOT a(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c_Mxor_Result(2)__xor0000/Maddsub_c_Mxor_Result(2)__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(0) AND NOT a(1) AND NOT a(2) AND NOT b(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c_Mxor_Result(2)__xor0000/Maddsub_c_Mxor_Result(2)__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(0) AND NOT a(2) AND NOT a(0) AND NOT b(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c_Mxor_Result(2)__xor0000/Maddsub_c_Mxor_Result(2)__xor0000_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND b(0) AND NOT a(2) AND NOT a(0) AND b(1) AND NOT b(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c_Mxor_Result(2)__xor0000/Maddsub_c_Mxor_Result(2)__xor0000_D));
+</td></tr><tr><td>
+</td></tr><tr><td>
+c(3) <= a(3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c(3) <= ((NOT sel(1) AND a(2) AND b(2) AND NOT b(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Maddsub_c__or0001/Maddsub_c__or0001_D2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND a(2) AND NOT b(2) AND b(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Maddsub_c__or0001/Maddsub_c__or0001_D2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND NOT a(2) AND b(2) AND NOT b(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c__or0001/Maddsub_c__or0001_D2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND NOT sel(0) AND a(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c__or0001/Maddsub_c__or0001_D2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(0) AND a(2) AND NOT b(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c__or0001/Maddsub_c__or0001_D2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND sel(0) AND a(2) AND b(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c__or0001/Maddsub_c__or0001_D2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(1) AND sel(0) AND NOT a(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Maddsub_c__or0001/Maddsub_c__or0001_D2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (sel(0) AND NOT a(2) AND NOT b(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Maddsub_c__or0001/Maddsub_c__or0001_D2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND NOT sel(0) AND NOT a(2) AND b(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT Maddsub_c__or0001/Maddsub_c__or0001_D2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT sel(1) AND NOT a(2) AND NOT b(2) AND b(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Maddsub_c__or0001/Maddsub_c__or0001_D2));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

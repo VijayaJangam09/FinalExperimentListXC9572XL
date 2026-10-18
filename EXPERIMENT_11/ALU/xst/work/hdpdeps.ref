@@ -1,0 +1,19 @@
+V3 8
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/testpinmap.vhd" 2026/10/09.07:07:53 P.20131013
+EN work/alutest 1791786897 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/testpinmap.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/alutest/Behavioral 1791786898 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/ALU/testpinmap.vhd" \
+      EN work/alutest 1791786897
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" 2026/10/08.11:18:54 P.20131013
+EN work/Switch_LED 1791462989 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Switch_LED/Behavioral 1791462990 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" \
+      EN work/Switch_LED 1791462989
+FL /home/ise/Desktop/testpinmapping/testpinmap.vhd 2026/10/07.07:30:47 P.20131013
+FL /home/ise/Desktop/togglealll/testpinmap.vhd 2026/10/07.09:13:57 P.20131013

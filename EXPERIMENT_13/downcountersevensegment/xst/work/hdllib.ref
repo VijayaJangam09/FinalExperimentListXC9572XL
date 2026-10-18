@@ -1,0 +1,6 @@
+AR seven_seg behavioral "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/testpinmap.vhd" sub00/vhpl03 1791447110
+AR seven_segl_down behavioral "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/testpinmap.vhd" sub00/vhpl05 1791789286
+AR test1 behavioral "/home/ise/Desktop/CPLD-B_OLD TEST CODES/debouncelogicnewload/testpinmap.vhd" sub00/vhpl01 1791440039
+EN seven_seg NULL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/testpinmap.vhd" sub00/vhpl02 1791447109
+EN test1 NULL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/debouncelogicnewload/testpinmap.vhd" sub00/vhpl00 1791440038
+EN seven_segl_down NULL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/downcountersevensegment/testpinmap.vhd" sub00/vhpl04 1791789285

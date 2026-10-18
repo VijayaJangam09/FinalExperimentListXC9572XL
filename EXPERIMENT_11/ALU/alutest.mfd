@@ -1,0 +1,419 @@
+MDF Database:  version 1.0
+MDF_INFO | alutest | XC9572XL-10-TQ100
+MACROCELL | 3 | 5 | c_0_OBUF
+ATTRIBUTES | 264962 | 0
+OUTPUTMC | 1 | 3 | 4
+INPUTS | 6 | a<0>  | sel<1>  | b<0>  | sel<0>  | a<1>  | b<1>
+INPUTP | 6 | 44 | 26 | 36 | 27 | 46 | 37
+EXPORTS | 1 | 3 | 4
+EQ | 5 | 
+   !c<0> = a<0>
+	$ !sel<1> & !b<0>;
+    c_0_OBUF.EXP  =  b<0> & sel<0> & a<1> & !a<0> & !b<1>
+	# !sel<1> & b<0> & sel<0> & !a<1> & !a<0> & b<1>
+	# !sel<1> & b<0> & !sel<0> & !a<1> & a<0> & b<1>
+
+MACROCELL | 3 | 3 | c_1_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 8 | sel<1>  | sel<0>  | a<1>  | a<0>  | b<0>  | b<1>  | c_2_OBUF.EXP  | EXP11_.EXP
+INPUTMC | 2 | 3 | 2 | 3 | 4
+INPUTP | 6 | 26 | 27 | 46 | 44 | 36 | 37
+IMPORTS | 2 | 3 | 2 | 3 | 4
+EQ | 17 | 
+   !c<1> = sel<1> & sel<0> & a<1> & !a<0>
+	# sel<1> & sel<0> & !a<1> & a<0>
+	# sel<1> & !sel<0> & a<1> & a<0>
+	# sel<1> & !sel<0> & !a<1> & !a<0>
+	# !sel<1> & !b<0> & a<1> & b<1>
+;Imported pterms FB4_3
+	# !sel<1> & !b<0> & !a<1> & !b<1>
+;Imported pterms FB4_5
+	# sel<0> & !a<1> & a<0> & !b<1>
+	# !sel<0> & !a<1> & !a<0> & !b<1>
+	# !sel<1> & sel<0> & a<1> & a<0> & b<1>
+	# !sel<1> & !sel<0> & a<1> & !a<0> & b<1>
+	# b<0> & !sel<0> & a<1> & a<0> & !b<1>
+;Imported pterms FB4_6
+	# b<0> & sel<0> & a<1> & !a<0> & !b<1>
+	# !sel<1> & b<0> & sel<0> & !a<1> & !a<0> & b<1>
+	# !sel<1> & b<0> & !sel<0> & !a<1> & a<0> & b<1>;
+
+MACROCELL | 3 | 2 | c_2_OBUF
+ATTRIBUTES | 264962 | 0
+OUTPUTMC | 1 | 3 | 3
+INPUTS | 10 | sel<1>  | b<0>  | a<2>  | a<0>  | b<1>  | b<2>  | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D  | sel<0>  | a<1>  | EXP10_.EXP
+INPUTMC | 2 | 0 | 16 | 3 | 1
+INPUTP | 8 | 26 | 36 | 47 | 44 | 37 | 38 | 27 | 46
+EXPORTS | 1 | 3 | 3
+IMPORTS | 1 | 3 | 1
+EQ | 53 | 
+   c<2> = sel<1> & !a<1> & !a<2> & !a<0> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<0> & !a<1> & !a<2> & !b<1> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<0> & !a<2> & !a<0> & !b<1> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & b<0> & !a<2> & !a<0> & b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+;Imported pterms FB4_2
+	# sel<1> & sel<0> & 
+	!Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# b<0> & !a<1> & !a<2> & !a<0> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !b<0> & !sel<0> & !a<1> & !a<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !b<0> & !sel<0> & !a<2> & !b<1> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & !a<1> & !a<2> & b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+;Imported pterms FB4_1
+	# sel<0> & !b<2> & 
+	!Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# sel<1> & !sel<0> & !a<1> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# sel<1> & !sel<0> & !a<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# sel<1> & !sel<0> & !a<0> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & !sel<0> & b<2> & 
+	!Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+;Imported pterms FB4_18
+	# !sel<0> & !a<2> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & sel<0> & !a<2> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !b<0> & !sel<0> & !a<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<0> & !a<1> & !a<0> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<0> & !a<1> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+;Imported pterms FB4_17
+	# !sel<0> & !a<0> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & !b<0> & !sel<0> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & sel<0> & !a<1> & b<1> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & b<0> & sel<0> & !a<1> & !a<0> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & b<0> & sel<0> & !a<0> & b<1> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D;
+    c_2_OBUF.EXP  =  !sel<1> & !b<0> & !a<1> & !b<1>
+
+MACROCELL | 3 | 7 | c_3_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 9 | a<3>  | sel<1>  | sel<0>  | a<2>  | b<3>  | Maddsub_c__or0001/Maddsub_c__or0001_D2  | b<2>  | EXP12_.EXP  | EXP13_.EXP
+INPUTMC | 3 | 0 | 1 | 3 | 6 | 3 | 8
+INPUTP | 6 | 48 | 26 | 27 | 47 | 43 | 38
+IMPORTS | 2 | 3 | 6 | 3 | 8
+EQ | 23 | 
+   c<3> = a<3>
+	$ sel<1> & sel<0> & !a<2> & 
+	!Maddsub_c__or0001/Maddsub_c__or0001_D2
+	# sel<0> & !a<2> & !b<3> & 
+	!Maddsub_c__or0001/Maddsub_c__or0001_D2
+	# !sel<1> & !sel<0> & !a<2> & b<3> & 
+	!Maddsub_c__or0001/Maddsub_c__or0001_D2
+	# !sel<1> & !a<2> & !b<2> & b<3> & 
+	Maddsub_c__or0001/Maddsub_c__or0001_D2
+;Imported pterms FB4_7
+	# !sel<1> & a<2> & b<2> & !b<3> & 
+	!Maddsub_c__or0001/Maddsub_c__or0001_D2
+	# !sel<1> & a<2> & !b<2> & b<3> & 
+	!Maddsub_c__or0001/Maddsub_c__or0001_D2
+	# !sel<1> & !a<2> & b<2> & !b<3> & 
+	Maddsub_c__or0001/Maddsub_c__or0001_D2
+;Imported pterms FB4_9
+	# sel<1> & !sel<0> & a<2> & 
+	Maddsub_c__or0001/Maddsub_c__or0001_D2
+	# !sel<0> & a<2> & !b<3> & 
+	Maddsub_c__or0001/Maddsub_c__or0001_D2
+	# !sel<1> & sel<0> & a<2> & b<3> & 
+	Maddsub_c__or0001/Maddsub_c__or0001_D2;
+
+MACROCELL | 0 | 16 | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 5 | 3 | 2 | 3 | 0 | 3 | 1 | 3 | 16 | 3 | 17
+INPUTS | 8 | a<2>  | sel<1>  | sel<0>  | a<1>  | a<0>  | b<0>  | EXP7_.EXP  | EXP8_.EXP
+INPUTMC | 2 | 0 | 15 | 0 | 17
+INPUTP | 6 | 47 | 26 | 27 | 46 | 44 | 36
+IMPORTS | 2 | 0 | 15 | 0 | 17
+EQ | 13 | 
+   Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D = a<2>
+	$ sel<1> & sel<0> & a<1>
+	# sel<1> & sel<0> & a<0>
+	# sel<1> & a<1> & a<0>
+	# b<0> & a<1> & a<0>
+;Imported pterms FB1_16
+	# sel<0> & a<1> & !b<1>
+;Imported pterms FB1_18
+	# sel<0> & a<0> & !b<1>
+	# !sel<1> & !b<0> & sel<0> & a<1>
+	# !sel<1> & !b<0> & sel<0> & !b<1>
+	# !sel<1> & !sel<0> & a<1> & b<1>
+	# !sel<1> & b<0> & !sel<0> & a<0> & b<1>;
+
+MACROCELL | 0 | 1 | Maddsub_c__or0001/Maddsub_c__or0001_D2
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 3 | 3 | 7 | 3 | 6 | 3 | 8
+INPUTS | 7 | sel<1>  | sel<0>  | a<1>  | a<0>  | b<0>  | b<1>  | EXP6_.EXP
+INPUTMC | 1 | 0 | 0
+INPUTP | 6 | 26 | 27 | 46 | 44 | 36 | 37
+IMPORTS | 1 | 0 | 0
+EQ | 11 | 
+   Maddsub_c__or0001/Maddsub_c__or0001_D2 = sel<1> & sel<0> & a<1>
+	# sel<1> & sel<0> & a<0>
+	# sel<1> & a<1> & a<0>
+	# b<0> & a<1> & a<0>
+	# sel<0> & a<1> & !b<1>
+;Imported pterms FB1_1
+	# sel<0> & a<0> & !b<1>
+	# !sel<1> & !b<0> & sel<0> & a<1>
+	# !sel<1> & !b<0> & sel<0> & !b<1>
+	# !sel<1> & !sel<0> & a<1> & b<1>
+	# !sel<1> & b<0> & !sel<0> & a<0> & b<1>;
+
+MACROCELL | 0 | 0 | EXP6_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 0 | 1
+INPUTS | 6 | sel<0>  | a<0>  | b<1>  | sel<1>  | b<0>  | a<1>
+INPUTP | 6 | 27 | 44 | 37 | 26 | 36 | 46
+EXPORTS | 1 | 0 | 1
+EQ | 5 | 
+       EXP6_.EXP  =  sel<0> & a<0> & !b<1>
+	# !sel<1> & !b<0> & sel<0> & a<1>
+	# !sel<1> & !b<0> & sel<0> & !b<1>
+	# !sel<1> & !sel<0> & a<1> & b<1>
+	# !sel<1> & b<0> & !sel<0> & a<0> & b<1>
+
+MACROCELL | 0 | 15 | EXP7_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 0 | 16
+INPUTS | 3 | sel<0>  | a<1>  | b<1>
+INPUTP | 3 | 27 | 46 | 37
+EXPORTS | 1 | 0 | 16
+EQ | 1 | 
+       EXP7_.EXP  =  sel<0> & a<1> & !b<1>
+
+MACROCELL | 0 | 17 | EXP8_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 0 | 16
+INPUTS | 6 | sel<0>  | a<0>  | b<1>  | sel<1>  | b<0>  | a<1>
+INPUTP | 6 | 27 | 44 | 37 | 26 | 36 | 46
+EXPORTS | 1 | 0 | 16
+EQ | 5 | 
+       EXP8_.EXP  =  sel<0> & a<0> & !b<1>
+	# !sel<1> & !b<0> & sel<0> & a<1>
+	# !sel<1> & !b<0> & sel<0> & !b<1>
+	# !sel<1> & !sel<0> & a<1> & b<1>
+	# !sel<1> & b<0> & !sel<0> & a<0> & b<1>
+
+MACROCELL | 3 | 0 | EXP9_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 3 | 1
+INPUTS | 8 | sel<0>  | b<2>  | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D  | sel<1>  | a<1>  | a<2>  | a<0>  | EXP15_.EXP
+INPUTMC | 2 | 0 | 16 | 3 | 17
+INPUTP | 6 | 27 | 38 | 26 | 46 | 47 | 44
+EXPORTS | 1 | 3 | 1
+IMPORTS | 1 | 3 | 17
+EQ | 32 | 
+       EXP9_.EXP  =  sel<0> & !b<2> & 
+	!Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# sel<1> & !sel<0> & !a<1> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# sel<1> & !sel<0> & !a<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# sel<1> & !sel<0> & !a<0> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & !sel<0> & b<2> & 
+	!Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+;Imported pterms FB4_18
+	# !sel<0> & !a<2> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & sel<0> & !a<2> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !b<0> & !sel<0> & !a<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<0> & !a<1> & !a<0> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<0> & !a<1> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+;Imported pterms FB4_17
+	# !sel<0> & !a<0> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & !b<0> & !sel<0> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & sel<0> & !a<1> & b<1> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & b<0> & sel<0> & !a<1> & !a<0> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & b<0> & sel<0> & !a<0> & b<1> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+
+MACROCELL | 3 | 1 | EXP10_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 3 | 2
+INPUTS | 10 | sel<1>  | sel<0>  | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D  | b<0>  | a<1>  | a<2>  | a<0>  | b<1>  | b<2>  | EXP9_.EXP
+INPUTMC | 2 | 0 | 16 | 3 | 0
+INPUTP | 8 | 26 | 27 | 36 | 46 | 47 | 44 | 37 | 38
+EXPORTS | 1 | 3 | 2
+IMPORTS | 1 | 3 | 0
+EQ | 43 | 
+       EXP10_.EXP  =  sel<1> & sel<0> & 
+	!Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# b<0> & !a<1> & !a<2> & !a<0> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !b<0> & !sel<0> & !a<1> & !a<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !b<0> & !sel<0> & !a<2> & !b<1> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & !a<1> & !a<2> & b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+;Imported pterms FB4_1
+	# sel<0> & !b<2> & 
+	!Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# sel<1> & !sel<0> & !a<1> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# sel<1> & !sel<0> & !a<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# sel<1> & !sel<0> & !a<0> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & !sel<0> & b<2> & 
+	!Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+;Imported pterms FB4_18
+	# !sel<0> & !a<2> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & sel<0> & !a<2> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !b<0> & !sel<0> & !a<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<0> & !a<1> & !a<0> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<0> & !a<1> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+;Imported pterms FB4_17
+	# !sel<0> & !a<0> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & !b<0> & !sel<0> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & sel<0> & !a<1> & b<1> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & b<0> & sel<0> & !a<1> & !a<0> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & b<0> & sel<0> & !a<0> & b<1> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+
+MACROCELL | 3 | 4 | EXP11_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 3 | 3
+INPUTS | 7 | sel<0>  | a<1>  | a<0>  | b<1>  | sel<1>  | b<0>  | c_0_OBUF.EXP
+INPUTMC | 1 | 3 | 5
+INPUTP | 6 | 27 | 46 | 44 | 37 | 26 | 36
+EXPORTS | 1 | 3 | 3
+IMPORTS | 1 | 3 | 5
+EQ | 9 | 
+       EXP11_.EXP  =  sel<0> & !a<1> & a<0> & !b<1>
+	# !sel<0> & !a<1> & !a<0> & !b<1>
+	# !sel<1> & sel<0> & a<1> & a<0> & b<1>
+	# !sel<1> & !sel<0> & a<1> & !a<0> & b<1>
+	# b<0> & !sel<0> & a<1> & a<0> & !b<1>
+;Imported pterms FB4_6
+	# b<0> & sel<0> & a<1> & !a<0> & !b<1>
+	# !sel<1> & b<0> & sel<0> & !a<1> & !a<0> & b<1>
+	# !sel<1> & b<0> & !sel<0> & !a<1> & a<0> & b<1>
+
+MACROCELL | 3 | 6 | EXP12_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 3 | 7
+INPUTS | 5 | sel<1>  | a<2>  | b<2>  | b<3>  | Maddsub_c__or0001/Maddsub_c__or0001_D2
+INPUTMC | 1 | 0 | 1
+INPUTP | 4 | 26 | 47 | 38 | 43
+EXPORTS | 1 | 3 | 7
+EQ | 6 | 
+       EXP12_.EXP  =  !sel<1> & a<2> & b<2> & !b<3> & 
+	!Maddsub_c__or0001/Maddsub_c__or0001_D2
+	# !sel<1> & a<2> & !b<2> & b<3> & 
+	!Maddsub_c__or0001/Maddsub_c__or0001_D2
+	# !sel<1> & !a<2> & b<2> & !b<3> & 
+	Maddsub_c__or0001/Maddsub_c__or0001_D2
+
+MACROCELL | 3 | 8 | EXP13_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 3 | 7
+INPUTS | 5 | sel<1>  | sel<0>  | a<2>  | Maddsub_c__or0001/Maddsub_c__or0001_D2  | b<3>
+INPUTMC | 1 | 0 | 1
+INPUTP | 4 | 26 | 27 | 47 | 43
+EXPORTS | 1 | 3 | 7
+EQ | 6 | 
+       EXP13_.EXP  =  sel<1> & !sel<0> & a<2> & 
+	Maddsub_c__or0001/Maddsub_c__or0001_D2
+	# !sel<0> & a<2> & !b<3> & 
+	Maddsub_c__or0001/Maddsub_c__or0001_D2
+	# !sel<1> & sel<0> & a<2> & b<3> & 
+	Maddsub_c__or0001/Maddsub_c__or0001_D2
+
+MACROCELL | 3 | 16 | EXP14_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 3 | 17
+INPUTS | 8 | sel<0>  | a<0>  | b<1>  | b<2>  | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D  | sel<1>  | b<0>  | a<1>
+INPUTMC | 1 | 0 | 16
+INPUTP | 7 | 27 | 44 | 37 | 38 | 26 | 36 | 46
+EXPORTS | 1 | 3 | 17
+EQ | 10 | 
+       EXP14_.EXP  =  !sel<0> & !a<0> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & !b<0> & !sel<0> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & sel<0> & !a<1> & b<1> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & b<0> & sel<0> & !a<1> & !a<0> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & b<0> & sel<0> & !a<0> & b<1> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+
+MACROCELL | 3 | 17 | EXP15_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 3 | 0
+INPUTS | 10 | sel<0>  | a<2>  | b<2>  | Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D  | sel<1>  | b<0>  | a<1>  | a<0>  | b<1>  | EXP14_.EXP
+INPUTMC | 2 | 0 | 16 | 3 | 16
+INPUTP | 8 | 27 | 47 | 38 | 26 | 36 | 46 | 44 | 37
+EXPORTS | 1 | 3 | 0
+IMPORTS | 1 | 3 | 16
+EQ | 21 | 
+       EXP15_.EXP  =  !sel<0> & !a<2> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & sel<0> & !a<2> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !b<0> & !sel<0> & !a<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<0> & !a<1> & !a<0> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<0> & !a<1> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+;Imported pterms FB4_17
+	# !sel<0> & !a<0> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & !b<0> & !sel<0> & !b<1> & !b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & sel<0> & !a<1> & b<1> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & b<0> & sel<0> & !a<1> & !a<0> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+	# !sel<1> & b<0> & sel<0> & !a<0> & b<1> & b<2> & 
+	Maddsub_c_Mxor_Result<2>__xor0000/Maddsub_c_Mxor_Result<2>__xor0000_D
+
+PIN | sel<1> | 64 | 0 | N/A | 26 | 15 | 3 | 5 | 3 | 3 | 3 | 2 | 3 | 7 | 0 | 16 | 0 | 1 | 0 | 0 | 0 | 17 | 3 | 0 | 3 | 1 | 3 | 4 | 3 | 6 | 3 | 8 | 3 | 16 | 3 | 17
+PIN | b<0> | 64 | 0 | N/A | 36 | 11 | 3 | 5 | 3 | 3 | 3 | 2 | 0 | 16 | 0 | 1 | 0 | 0 | 0 | 17 | 3 | 1 | 3 | 4 | 3 | 16 | 3 | 17
+PIN | sel<0> | 64 | 0 | N/A | 27 | 15 | 3 | 3 | 3 | 2 | 3 | 7 | 0 | 16 | 0 | 1 | 0 | 0 | 0 | 15 | 0 | 17 | 3 | 0 | 3 | 1 | 3 | 4 | 3 | 5 | 3 | 8 | 3 | 16 | 3 | 17
+PIN | a<1> | 64 | 0 | N/A | 46 | 13 | 3 | 3 | 3 | 2 | 0 | 16 | 0 | 1 | 0 | 0 | 0 | 15 | 0 | 17 | 3 | 0 | 3 | 1 | 3 | 4 | 3 | 5 | 3 | 16 | 3 | 17
+PIN | a<2> | 64 | 0 | N/A | 47 | 8 | 3 | 2 | 3 | 7 | 0 | 16 | 3 | 0 | 3 | 1 | 3 | 6 | 3 | 8 | 3 | 17
+PIN | a<3> | 64 | 0 | N/A | 48 | 1 | 3 | 7
+PIN | a<0> | 64 | 0 | N/A | 44 | 12 | 3 | 5 | 3 | 3 | 3 | 2 | 0 | 16 | 0 | 1 | 0 | 0 | 0 | 17 | 3 | 0 | 3 | 1 | 3 | 4 | 3 | 16 | 3 | 17
+PIN | b<1> | 64 | 0 | N/A | 37 | 11 | 3 | 3 | 3 | 2 | 0 | 15 | 0 | 1 | 0 | 0 | 0 | 17 | 3 | 1 | 3 | 4 | 3 | 5 | 3 | 16 | 3 | 17
+PIN | b<2> | 64 | 0 | N/A | 38 | 7 | 3 | 2 | 3 | 7 | 3 | 0 | 3 | 1 | 3 | 6 | 3 | 16 | 3 | 17
+PIN | b<3> | 64 | 0 | N/A | 43 | 3 | 3 | 7 | 3 | 6 | 3 | 8
+PIN | c<0> | 536871040 | 0 | N/A | 70
+PIN | c<1> | 536871040 | 0 | N/A | 67
+PIN | c<2> | 536871040 | 0 | N/A | 66
+PIN | c<3> | 536871040 | 0 | N/A | 65

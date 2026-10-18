@@ -1,0 +1,217 @@
+MDF Database:  version 1.0
+MDF_INFO | io_check | XC9572XL-10-TQ100
+MACROCELL | 1 | 14 | shift_s<0>
+ATTRIBUTES | 8819458 | 0
+OUTPUTMC | 5 | 0 | 1 | 1 | 15 | 1 | 9 | 3 | 6 | 0 | 7
+INPUTS | 1 | IO_S<7>
+INPUTMC | 1 | 1 | 16
+EQ | 3 | 
+   IO_S<8>.D = IO_S<7>;
+   IO_S<8>.CLK = clk;	// GCK
+   IO_S<8>.AP = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+MACROCELL | 0 | 1 | shift_s<1>
+ATTRIBUTES | 8823554 | 0
+OUTPUTMC | 5 | 1 | 13 | 1 | 11 | 3 | 10 | 0 | 2 | 0 | 4
+INPUTS | 1 | IO_S<8>
+INPUTMC | 1 | 1 | 14
+EQ | 3 | 
+   IO_S<9>.D = IO_S<8>;
+   IO_S<9>.CLK = clk;	// GCK
+   IO_S<9>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 13 | shift_s<2>
+ATTRIBUTES | 8823554 | 0
+OUTPUTMC | 4 | 1 | 16 | 1 | 10 | 0 | 6 | 0 | 5
+INPUTS | 1 | IO_S<9>
+INPUTMC | 1 | 0 | 1
+EQ | 3 | 
+   IO_S<6>.D = IO_S<9>;
+   IO_S<6>.CLK = clk;	// GCK
+   IO_S<6>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 16 | shift_s<3>
+ATTRIBUTES | 8823554 | 0
+OUTPUTMC | 5 | 1 | 14 | 1 | 12 | 0 | 9 | 0 | 0 | 1 | 6
+INPUTS | 1 | IO_S<6>
+INPUTMC | 1 | 1 | 13
+EQ | 3 | 
+   IO_S<7>.D = IO_S<6>;
+   IO_S<7>.CLK = clk;	// GCK
+   IO_S<7>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 12 | shift_s<0>$BUF0
+ATTRIBUTES | 8688386 | 0
+INPUTS | 1 | IO_S<7>
+INPUTMC | 1 | 1 | 16
+EQ | 3 | 
+   IO_S<4>.D = IO_S<7>;
+   IO_S<4>.CLK = clk;	// GCK
+   IO_S<4>.AP = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+MACROCELL | 0 | 9 | shift_s<0>$BUF1
+ATTRIBUTES | 8688386 | 0
+INPUTS | 1 | IO_S<7>
+INPUTMC | 1 | 1 | 16
+EQ | 3 | 
+   IO_S<16>.D = IO_S<7>;
+   IO_S<16>.CLK = clk;	// GCK
+   IO_S<16>.AP = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+MACROCELL | 0 | 0 | shift_s<0>$BUF2
+ATTRIBUTES | 8688386 | 0
+INPUTS | 1 | IO_S<7>
+INPUTMC | 1 | 1 | 16
+EQ | 3 | 
+   IO_S<12>.D = IO_S<7>;
+   IO_S<12>.CLK = clk;	// GCK
+   IO_S<12>.AP = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+MACROCELL | 1 | 6 | shift_s<0>$BUF3
+ATTRIBUTES | 8688386 | 0
+INPUTS | 1 | IO_S<7>
+INPUTMC | 1 | 1 | 16
+EQ | 3 | 
+   IO_S<0>.D = IO_S<7>;
+   IO_S<0>.CLK = clk;	// GCK
+   IO_S<0>.AP = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 1 | rst
+
+MACROCELL | 1 | 15 | shift_s<1>$BUF0
+ATTRIBUTES | 8692482 | 0
+INPUTS | 1 | IO_S<8>
+INPUTMC | 1 | 1 | 14
+EQ | 3 | 
+   IO_S<5>.D = IO_S<8>;
+   IO_S<5>.CLK = clk;	// GCK
+   IO_S<5>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 9 | shift_s<1>$BUF1
+ATTRIBUTES | 8692482 | 0
+INPUTS | 1 | IO_S<8>
+INPUTMC | 1 | 1 | 14
+EQ | 3 | 
+   IO_S<1>.D = IO_S<8>;
+   IO_S<1>.CLK = clk;	// GCK
+   IO_S<1>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 6 | shift_s<1>$BUF2
+ATTRIBUTES | 8692482 | 0
+INPUTS | 1 | IO_S<8>
+INPUTMC | 1 | 1 | 14
+EQ | 3 | 
+   IO_S<17>.D = IO_S<8>;
+   IO_S<17>.CLK = clk;	// GCK
+   IO_S<17>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 7 | shift_s<1>$BUF3
+ATTRIBUTES | 8692482 | 0
+INPUTS | 1 | IO_S<8>
+INPUTMC | 1 | 1 | 14
+EQ | 3 | 
+   IO_S<13>.D = IO_S<8>;
+   IO_S<13>.CLK = clk;	// GCK
+   IO_S<13>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 11 | shift_s<2>$BUF0
+ATTRIBUTES | 8692482 | 0
+INPUTS | 1 | IO_S<9>
+INPUTMC | 1 | 0 | 1
+EQ | 3 | 
+   IO_S<2>.D = IO_S<9>;
+   IO_S<2>.CLK = clk;	// GCK
+   IO_S<2>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 3 | 10 | shift_s<2>$BUF1
+ATTRIBUTES | 8692482 | 0
+INPUTS | 1 | IO_S<9>
+INPUTMC | 1 | 0 | 1
+EQ | 3 | 
+   IO_S<18>.D = IO_S<9>;
+   IO_S<18>.CLK = clk;	// GCK
+   IO_S<18>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 2 | shift_s<2>$BUF2
+ATTRIBUTES | 8692482 | 0
+INPUTS | 1 | IO_S<9>
+INPUTMC | 1 | 0 | 1
+EQ | 3 | 
+   IO_S<14>.D = IO_S<9>;
+   IO_S<14>.CLK = clk;	// GCK
+   IO_S<14>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 4 | shift_s<2>$BUF3
+ATTRIBUTES | 8692482 | 0
+INPUTS | 1 | IO_S<9>
+INPUTMC | 1 | 0 | 1
+EQ | 3 | 
+   IO_S<10>.D = IO_S<9>;
+   IO_S<10>.CLK = clk;	// GCK
+   IO_S<10>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 1 | 10 | shift_s<3>$BUF0
+ATTRIBUTES | 8692482 | 0
+INPUTS | 1 | IO_S<6>
+INPUTMC | 1 | 1 | 13
+EQ | 3 | 
+   IO_S<3>.D = IO_S<6>;
+   IO_S<3>.CLK = clk;	// GCK
+   IO_S<3>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 6 | shift_s<3>$BUF1
+ATTRIBUTES | 8692482 | 0
+INPUTS | 1 | IO_S<6>
+INPUTMC | 1 | 1 | 13
+EQ | 3 | 
+   IO_S<15>.D = IO_S<6>;
+   IO_S<15>.CLK = clk;	// GCK
+   IO_S<15>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+MACROCELL | 0 | 5 | shift_s<3>$BUF2
+ATTRIBUTES | 8692482 | 0
+INPUTS | 1 | IO_S<6>
+INPUTMC | 1 | 1 | 13
+EQ | 3 | 
+   IO_S<11>.D = IO_S<6>;
+   IO_S<11>.CLK = clk;	// GCK
+   IO_S<11>.AR = rst;	// GSR
+GLOBALS | 2 | 2 | clk | 4 | rst
+
+PIN | clk | 4096 | 0 | N/A | 20 | 19 | 1 | 14 | 0 | 1 | 1 | 13 | 1 | 16 | 1 | 12 | 0 | 9 | 0 | 0 | 1 | 6 | 1 | 15 | 1 | 9 | 3 | 6 | 0 | 7 | 1 | 11 | 3 | 10 | 0 | 2 | 0 | 4 | 1 | 10 | 0 | 6 | 0 | 5
+PIN | rst | 65536 | 0 | N/A | 92 | 19 | 1 | 14 | 0 | 1 | 1 | 13 | 1 | 16 | 1 | 12 | 0 | 9 | 0 | 0 | 1 | 6 | 1 | 15 | 1 | 9 | 3 | 6 | 0 | 7 | 1 | 11 | 3 | 10 | 0 | 2 | 0 | 4 | 1 | 10 | 0 | 6 | 0 | 5
+PIN | IO_S<8> | 536871040 | 0 | N/A | 9
+PIN | IO_S<9> | 536871040 | 0 | N/A | 11
+PIN | IO_S<6> | 536871040 | 0 | N/A | 7
+PIN | IO_S<7> | 536871040 | 0 | N/A | 10
+PIN | IO_S<4> | 536871040 | 0 | N/A | 6
+PIN | IO_S<16> | 536871040 | 0 | N/A | 25
+PIN | IO_S<12> | 536871040 | 0 | N/A | 14
+PIN | IO_S<0> | 536871040 | 0 | N/A | 2
+PIN | IO_S<5> | 536871040 | 0 | N/A | 8
+PIN | IO_S<1> | 536871040 | 0 | N/A | 1
+PIN | IO_S<17> | 536871040 | 0 | N/A | 71
+PIN | IO_S<13> | 536871040 | 0 | N/A | 15
+PIN | IO_S<2> | 536871040 | 0 | N/A | 5
+PIN | IO_S<18> | 536871040 | 0 | N/A | 68
+PIN | IO_S<14> | 536871040 | 0 | N/A | 16
+PIN | IO_S<10> | 536871040 | 0 | N/A | 12
+PIN | IO_S<3> | 536871040 | 0 | N/A | 3
+PIN | IO_S<15> | 536871040 | 0 | N/A | 22
+PIN | IO_S<11> | 536871040 | 0 | N/A | 13

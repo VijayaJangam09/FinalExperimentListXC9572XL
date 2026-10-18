@@ -1,0 +1,19 @@
+MDF Database:  version 1.0
+MDF_INFO | FourOneMux | XC9572XL-10-TQ100
+MACROCELL | 2 | 13 | output_s15_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 6 | input_s3  | input_SEL<1>  | input_SEL<0>  | input_s1  | input_s0  | input_s2
+INPUTP | 6 | 44 | 26 | 27 | 47 | 48 | 46
+EQ | 4 | 
+   output_s15 = input_s3 & input_SEL<1> & input_SEL<0>
+	# input_SEL<1> & !input_SEL<0> & input_s2
+	# !input_SEL<1> & input_SEL<0> & input_s1
+	# !input_SEL<1> & !input_SEL<0> & input_s0;
+
+PIN | input_s3 | 64 | 0 | N/A | 44 | 1 | 2 | 13
+PIN | input_SEL<1> | 64 | 0 | N/A | 26 | 1 | 2 | 13
+PIN | input_SEL<0> | 64 | 0 | N/A | 27 | 1 | 2 | 13
+PIN | input_s2 | 64 | 0 | N/A | 46 | 1 | 2 | 13
+PIN | input_s1 | 64 | 0 | N/A | 47 | 1 | 2 | 13
+PIN | input_s0 | 64 | 0 | N/A | 48 | 1 | 2 | 13
+PIN | output_s15 | 536871040 | 0 | N/A | 49

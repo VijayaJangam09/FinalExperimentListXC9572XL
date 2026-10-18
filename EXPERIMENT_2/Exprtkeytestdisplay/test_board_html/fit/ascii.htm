@@ -1,0 +1,662 @@
+<html><body>
+<pre>
+ 
+cpldfit:  version P.20131013                        Xilinx Inc.
+                                  Fitter Report
+Design Name: test_board                          Date: 10- 6-2026, 11:43AM
+Device Used: XC9572XL-10-TQ100
+Fitting Status: Successful
+
+*************************  Mapped Resource Summary  **************************
+
+Macrocells     Product Terms    Function Block   Registers      Pins           
+Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
+39 /72  ( 54%) 48  /360  ( 13%) 52 /216 ( 24%)   27 /72  ( 37%) 20 /72  ( 28%)
+
+** Function Block Resources **
+
+Function    Mcells      FB Inps     Pterms      IO          
+Block       Used/Tot    Used/Tot    Used/Tot    Used/Tot    
+FB1           0/18        0/54        0/90       3/18
+FB2          13/18       21/54       14/90       8/18
+FB3           8/18       10/54       15/90       1/18
+FB4          18/18*      21/54       19/90       8/18
+             -----       -----       -----      -----    
+             39/72       52/216      48/360     20/72 
+
+* - Resource is exhausted
+
+** Global Control Resources **
+
+Signal 'clk' mapped onto global clock net GCK1.
+Global output enable net(s) unused.
+Signal 'rst' mapped onto global set/reset net GSR.
+
+** Pin Resources **
+
+Signal Type    Required     Mapped  |  Pin Type            Used    Total 
+------------------------------------|------------------------------------
+Input         :    4           4    |  I/O              :    18      66
+Output        :   14          14    |  GCK/IO           :     1       3
+Bidirectional :    0           0    |  GTS/IO           :     0       2
+GCK           :    1           1    |  GSR/IO           :     1       1
+GTS           :    0           0    |
+GSR           :    1           1    |
+                 ----        ----
+        Total     20          20
+
+** Power Data **
+
+There are 39 macrocells in high performance mode (MCHP).
+There are 0 macrocells in low power mode (MCLP).
+End of Mapped Resource Summary
+**************************  Errors and Warnings  ***************************
+
+WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
+   use the default filename of 'test_board.ise'.
+INFO:Cpld - Inferring BUFG constraint for signal 'clk' based upon the LOC
+   constraint 'P22'. It is recommended that you declare this BUFG explicitedly
+   in your design. Note that for certain device families the output of a BUFG
+   constraint can not drive a gated clock, and the BUFG constraint will be
+   ignored.
+WARNING:Cpld:936 - The output buffer 'output_s<9>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<8>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<7>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<6>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<5>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<4>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<3>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<2>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<1>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<14>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<13>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<12>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<11>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<10>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:936 - The output buffer 'output_s<0>_OBUF' is missing an input and
+   will be deleted.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<0>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<10>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<11>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<12>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<13>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<1>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<2>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<3>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<4>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<5>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<6>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<7>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<8>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+WARNING:Cpld:1007 - Removing unused input(s) 'input_s<9>'.  The input(s) are
+   unused after optimization. Please verify functionality via simulation.
+*************************  Summary of Mapped Logic  ************************
+
+** 14 Outputs **
+
+Signal              Total Total Loc     Pin  Pin     Pin     Pwr  Slew Reg Init
+Name                Pts   Inps          No.  Type    Use     Mode Rate State
+sel<0>              0     0     FB2_2   94   I/O     O       STD  FAST 
+seg7<2>             3     4     FB2_3   91   I/O     O       STD  FAST 
+seg7<0>             1     4     FB2_4   93   I/O     O       STD  FAST 
+sel<1>              0     0     FB2_5   95   I/O     O       STD  FAST 
+sel<2>              0     0     FB2_6   96   I/O     O       STD  FAST 
+sel<3>              0     0     FB2_8   97   I/O     O       STD  FAST 
+seg7<1>             3     4     FB2_18  92   I/O     O       STD  FAST 
+output_sand15       1     2     FB3_14  55   I/O     O       STD  FAST 
+sl<0>               1     1     FB4_10  81   I/O     O       STD  FAST RESET
+sl<1>               2     2     FB4_12  82   I/O     O       STD  FAST SET
+seg7<5>             0     0     FB4_13  85   I/O     O       STD  FAST 
+seg7<4>             1     4     FB4_15  89   I/O     O       STD  FAST 
+seg7<6>             2     4     FB4_16  86   I/O     O       STD  FAST 
+seg7<3>             2     4     FB4_17  90   I/O     O       STD  FAST 
+
+** 25 Buried Nodes **
+
+Signal              Total Total Loc     Pwr  Reg Init
+Name                Pts   Inps          Mode State
+divider<8>          1     8     FB2_12  STD  RESET
+divider<7>          1     7     FB2_13  STD  RESET
+divider<6>          1     6     FB2_14  STD  RESET
+divider<5>          1     5     FB2_15  STD  RESET
+divider<16>         1     16    FB2_16  STD  RESET
+d<1>                2     2     FB2_17  STD  RESET
+display_s<3>        2     5     FB3_11  STD  RESET
+display_s<2>        2     5     FB3_12  STD  RESET
+display_s<1>        2     5     FB3_13  STD  RESET
+display_s<0>        2     5     FB3_15  STD  RESET
+d<3>                2     2     FB3_16  STD  RESET
+d<2>                2     2     FB3_17  STD  RESET
+d<0>                2     3     FB3_18  STD  RESET
+divider<9>          1     9     FB4_1   STD  RESET
+divider<4>          1     4     FB4_2   STD  RESET
+divider<3>          1     3     FB4_3   STD  RESET
+divider<2>          1     2     FB4_4   STD  RESET
+divider<1>          1     1     FB4_5   STD  RESET
+divider<15>         1     15    FB4_6   STD  RESET
+divider<14>         1     14    FB4_7   STD  RESET
+divider<13>         1     13    FB4_8   STD  RESET
+divider<12>         1     12    FB4_9   STD  RESET
+divider<11>         1     11    FB4_11  STD  RESET
+divider<10>         1     10    FB4_14  STD  RESET
+divider<0>          0     0     FB4_18  STD  RESET
+
+** 6 Inputs **
+
+Signal              Loc     Pin  Pin     Pin     
+Name                        No.  Type    Use     
+clk                 FB1_9   22   GCK/I/O GCK
+input_sand15        FB1_15  29   I/O     I
+input_sand14        FB1_17  30   I/O     I
+rst                 FB2_9   99   GSR/I/O GSR
+rl<0>               FB4_14  78   I/O     I
+rl<1>               FB4_18  79   I/O     I
+
+Legend:
+Pin No. - ~ - User Assigned
+**************************  Function Block Details  ************************
+Legend:
+Total Pt     - Total product terms used by the macrocell signal
+Imp Pt       - Product terms imported from other macrocells
+Exp Pt       - Product terms exported to other macrocells
+               in direction shown
+Unused Pt    - Unused local product terms remaining in macrocell
+Loc          - Location where logic was mapped in device
+Pin Type/Use - I  - Input             GCK - Global Clock
+               O  - Output            GTS - Global Output Enable
+              (b) - Buried macrocell  GSR - Global Set/Reset
+X            - Signal used as input to the macrocell logic.
+Pin No.      - ~  - User Assigned
+*********************************** FB1  ***********************************
+Number of function block inputs used/remaining:               0/54
+Number of signals used by logic mapping into function block:  0
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+(unused)              0       0     0   5     FB1_1   16    I/O     
+(unused)              0       0     0   5     FB1_2   13    I/O     
+(unused)              0       0     0   5     FB1_3   18    I/O     
+(unused)              0       0     0   5     FB1_4   20    I/O     
+(unused)              0       0     0   5     FB1_5   14    I/O     
+(unused)              0       0     0   5     FB1_6   15    I/O     
+(unused)              0       0     0   5     FB1_7   25    I/O     
+(unused)              0       0     0   5     FB1_8   17    I/O     
+(unused)              0       0     0   5     FB1_9   22    GCK/I/O GCK
+(unused)              0       0     0   5     FB1_10  28    I/O     
+(unused)              0       0     0   5     FB1_11  23    GCK/I/O 
+(unused)              0       0     0   5     FB1_12  33    I/O     
+(unused)              0       0     0   5     FB1_13  36    I/O     
+(unused)              0       0     0   5     FB1_14  27    GCK/I/O 
+(unused)              0       0     0   5     FB1_15  29    I/O     I
+(unused)              0       0     0   5     FB1_16  39    I/O     
+(unused)              0       0     0   5     FB1_17  30    I/O     I
+(unused)              0       0     0   5     FB1_18  40    I/O     
+*********************************** FB2  ***********************************
+Number of function block inputs used/remaining:               21/33
+Number of signals used by logic mapping into function block:  21
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+(unused)              0       0     0   5     FB2_1   87    I/O     
+sel<0>                0       0     0   5     FB2_2   94    I/O     O
+seg7<2>               3       0     0   2     FB2_3   91    I/O     O
+seg7<0>               1       0     0   4     FB2_4   93    I/O     O
+sel<1>                0       0     0   5     FB2_5   95    I/O     O
+sel<2>                0       0     0   5     FB2_6   96    I/O     O
+(unused)              0       0     0   5     FB2_7   3     GTS/I/O 
+sel<3>                0       0     0   5     FB2_8   97    I/O     O
+(unused)              0       0     0   5     FB2_9   99    GSR/I/O GSR
+(unused)              0       0     0   5     FB2_10  1     I/O     
+(unused)              0       0     0   5     FB2_11  4     GTS/I/O 
+divider<8>            1       0     0   4     FB2_12  6     I/O     (b)
+divider<7>            1       0     0   4     FB2_13  8     I/O     (b)
+divider<6>            1       0     0   4     FB2_14  9     I/O     (b)
+divider<5>            1       0     0   4     FB2_15  11    I/O     (b)
+divider<16>           1       0     0   4     FB2_16  10    I/O     (b)
+d<1>                  2       0     0   3     FB2_17  12    I/O     (b)
+seg7<1>               3       0     0   2     FB2_18  92    I/O     O
+
+Signals Used by Logic in Function Block
+  1: d<0>               8: divider<11>       15: divider<3> 
+  2: display_s<0>       9: divider<12>       16: divider<4> 
+  3: display_s<1>      10: divider<13>       17: divider<5> 
+  4: display_s<2>      11: divider<14>       18: divider<6> 
+  5: display_s<3>      12: divider<15>       19: divider<7> 
+  6: divider<0>        13: divider<1>        20: divider<8> 
+  7: divider<10>       14: divider<2>        21: divider<9> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+sel<0>               ........................................ 0
+seg7<2>              .XXXX................................... 4
+seg7<0>              .XXXX................................... 4
+sel<1>               ........................................ 0
+sel<2>               ........................................ 0
+sel<3>               ........................................ 0
+divider<8>           .....X......XXXXXXX..................... 8
+divider<7>           .....X......XXXXXX...................... 7
+divider<6>           .....X......XXXXX....................... 6
+divider<5>           .....X......XXXX........................ 5
+divider<16>          .....XXXXXXXXXXXXXXXX................... 16
+d<1>                 X........X.............................. 2
+seg7<1>              .XXXX................................... 4
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB3  ***********************************
+Number of function block inputs used/remaining:               10/44
+Number of signals used by logic mapping into function block:  10
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+(unused)              0       0     0   5     FB3_1   41    I/O     
+(unused)              0       0     0   5     FB3_2   32    I/O     
+(unused)              0       0     0   5     FB3_3   49    I/O     
+(unused)              0       0     0   5     FB3_4   50    I/O     
+(unused)              0       0     0   5     FB3_5   35    I/O     
+(unused)              0       0     0   5     FB3_6   53    I/O     
+(unused)              0       0     0   5     FB3_7   54    I/O     
+(unused)              0       0     0   5     FB3_8   37    I/O     
+(unused)              0       0     0   5     FB3_9   42    I/O     
+(unused)              0       0     0   5     FB3_10  60    I/O     
+display_s<3>          2       0     0   3     FB3_11  52    I/O     (b)
+display_s<2>          2       0     0   3     FB3_12  61    I/O     (b)
+display_s<1>          2       0     0   3     FB3_13  63    I/O     (b)
+output_sand15         1       0     0   4     FB3_14  55    I/O     O
+display_s<0>          2       0     0   3     FB3_15  56    I/O     (b)
+d<3>                  2       0     0   3     FB3_16  64    I/O     (b)
+d<2>                  2       0     0   3     FB3_17  58    I/O     (b)
+d<0>                  2       0     0   3     FB3_18  59    I/O     (b)
+
+Signals Used by Logic in Function Block
+  1: d<0>               5: divider<13>        8: rl<0> 
+  2: d<1>               6: input_sand14       9: rl<1> 
+  3: d<2>               7: input_sand15      10: sl<0> 
+  4: d<3>             
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+display_s<3>         XXXX.....X.............................. 5
+display_s<2>         XXXX.....X.............................. 5
+display_s<1>         XXXX....X............................... 5
+output_sand15        .....XX................................. 2
+display_s<0>         XXXX...X................................ 5
+d<3>                 ..X.X................................... 2
+d<2>                 .X..X................................... 2
+d<0>                 ....X..XX............................... 3
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*********************************** FB4  ***********************************
+Number of function block inputs used/remaining:               21/33
+Number of signals used by logic mapping into function block:  21
+Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
+Name                Pt      Pt    Pt  Pt               #    Type    Use
+divider<9>            1       0     0   4     FB4_1   65    I/O     (b)
+divider<4>            1       0     0   4     FB4_2   67    I/O     (b)
+divider<3>            1       0     0   4     FB4_3   71    I/O     (b)
+divider<2>            1       0     0   4     FB4_4   72    I/O     (b)
+divider<1>            1       0     0   4     FB4_5   68    I/O     (b)
+divider<15>           1       0     0   4     FB4_6   76    I/O     (b)
+divider<14>           1       0     0   4     FB4_7   77    I/O     (b)
+divider<13>           1       0     0   4     FB4_8   70    I/O     (b)
+divider<12>           1       0     0   4     FB4_9   66    I/O     (b)
+sl<0>                 1       0     0   4     FB4_10  81    I/O     O
+divider<11>           1       0     0   4     FB4_11  74    I/O     (b)
+sl<1>                 2       0     0   3     FB4_12  82    I/O     O
+seg7<5>               0       0     0   5     FB4_13  85    I/O     O
+divider<10>           1       0     0   4     FB4_14  78    I/O     I
+seg7<4>               1       0     0   4     FB4_15  89    I/O     O
+seg7<6>               2       0     0   3     FB4_16  86    I/O     O
+seg7<3>               2       0     0   3     FB4_17  90    I/O     O
+divider<0>            0       0     0   5     FB4_18  79    I/O     I
+
+Signals Used by Logic in Function Block
+  1: display_s<0>       8: divider<12>       15: divider<4> 
+  2: display_s<1>       9: divider<13>       16: divider<5> 
+  3: display_s<2>      10: divider<14>       17: divider<6> 
+  4: display_s<3>      11: divider<16>       18: divider<7> 
+  5: divider<0>        12: divider<1>        19: divider<8> 
+  6: divider<10>       13: divider<2>        20: divider<9> 
+  7: divider<11>       14: divider<3>        21: sl<0> 
+
+Signal                        1         2         3         4 FB
+Name                0----+----0----+----0----+----0----+----0 Inputs
+divider<9>           ....X......XXXXXXXX..................... 9
+divider<4>           ....X......XXX.......................... 4
+divider<3>           ....X......XX........................... 3
+divider<2>           ....X......X............................ 2
+divider<1>           ....X................................... 1
+divider<15>          ....XXXXXX.XXXXXXXXX.................... 15
+divider<14>          ....XXXXX..XXXXXXXXX.................... 14
+divider<13>          ....XXXX...XXXXXXXXX.................... 13
+divider<12>          ....XXX....XXXXXXXXX.................... 12
+sl<0>                ..........X............................. 1
+divider<11>          ....XX.....XXXXXXXXX.................... 11
+sl<1>                ..........X.........X................... 2
+seg7<5>              ........................................ 0
+divider<10>          ....X......XXXXXXXXX.................... 10
+seg7<4>              XXXX.................................... 4
+seg7<6>              XXXX.................................... 4
+seg7<3>              XXXX.................................... 4
+divider<0>           ........................................ 0
+                    0----+----1----+----2----+----3----+----4
+                              0         0         0         0
+*******************************  Equations  ********************************
+
+********** Mapped Logic **********
+
+FDCPE_d0: FDCPE port map (d(0),d_D(0),divider(13),rst,'0');
+d_D(0) <= (rl(0) AND rl(1));
+
+FDCPE_d1: FDCPE port map (d(1),d(0),divider(13),rst,'0');
+
+FDCPE_d2: FDCPE port map (d(2),d(1),divider(13),rst,'0');
+
+FDCPE_d3: FDCPE port map (d(3),d(2),divider(13),rst,'0');
+
+FDCPE_display_s0: FDCPE port map (display_s(0),rl(0),display_s_C(0),rst,'0');
+display_s_C(0) <= (d(0) AND d(1) AND d(2) AND d(3));
+
+FDCPE_display_s1: FDCPE port map (display_s(1),rl(1),display_s_C(1),rst,'0');
+display_s_C(1) <= (d(0) AND d(1) AND d(2) AND d(3));
+
+FDCPE_display_s2: FDCPE port map (display_s(2),sl(0),display_s_C(2),rst,'0');
+display_s_C(2) <= (d(0) AND d(1) AND d(2) AND d(3));
+
+FDCPE_display_s3: FDCPE port map (display_s(3),NOT sl(0),display_s_C(3),rst,'0');
+display_s_C(3) <= (d(0) AND d(1) AND d(2) AND d(3));
+
+FTCPE_divider0: FTCPE port map (divider(0),'1',clk,rst,'0');
+
+FTCPE_divider1: FTCPE port map (divider(1),divider(0),clk,rst,'0');
+
+FTCPE_divider2: FTCPE port map (divider(2),divider_T(2),clk,rst,'0');
+divider_T(2) <= (divider(0) AND divider(1));
+
+FTCPE_divider3: FTCPE port map (divider(3),divider_T(3),clk,rst,'0');
+divider_T(3) <= (divider(0) AND divider(1) AND divider(2));
+
+FTCPE_divider4: FTCPE port map (divider(4),divider_T(4),clk,rst,'0');
+divider_T(4) <= (divider(0) AND divider(1) AND divider(2) AND 
+	divider(3));
+
+FTCPE_divider5: FTCPE port map (divider(5),divider_T(5),clk,rst,'0');
+divider_T(5) <= (divider(0) AND divider(1) AND divider(2) AND 
+	divider(3) AND divider(4));
+
+FTCPE_divider6: FTCPE port map (divider(6),divider_T(6),clk,rst,'0');
+divider_T(6) <= (divider(0) AND divider(1) AND divider(2) AND 
+	divider(3) AND divider(4) AND divider(5));
+
+FTCPE_divider7: FTCPE port map (divider(7),divider_T(7),clk,rst,'0');
+divider_T(7) <= (divider(0) AND divider(1) AND divider(2) AND 
+	divider(3) AND divider(4) AND divider(5) AND divider(6));
+
+FTCPE_divider8: FTCPE port map (divider(8),divider_T(8),clk,rst,'0');
+divider_T(8) <= (divider(0) AND divider(1) AND divider(2) AND 
+	divider(3) AND divider(4) AND divider(5) AND divider(6) AND 
+	divider(7));
+
+FTCPE_divider9: FTCPE port map (divider(9),divider_T(9),clk,rst,'0');
+divider_T(9) <= (divider(0) AND divider(1) AND divider(2) AND 
+	divider(3) AND divider(4) AND divider(5) AND divider(6) AND 
+	divider(7) AND divider(8));
+
+FTCPE_divider10: FTCPE port map (divider(10),divider_T(10),clk,rst,'0');
+divider_T(10) <= (divider(0) AND divider(1) AND divider(2) AND 
+	divider(3) AND divider(4) AND divider(5) AND divider(6) AND 
+	divider(7) AND divider(8) AND divider(9));
+
+FTCPE_divider11: FTCPE port map (divider(11),divider_T(11),clk,rst,'0');
+divider_T(11) <= (divider(0) AND divider(10) AND divider(1) AND 
+	divider(2) AND divider(3) AND divider(4) AND divider(5) AND 
+	divider(6) AND divider(7) AND divider(8) AND divider(9));
+
+FTCPE_divider12: FTCPE port map (divider(12),divider_T(12),clk,rst,'0');
+divider_T(12) <= (divider(0) AND divider(10) AND divider(11) AND 
+	divider(1) AND divider(2) AND divider(3) AND divider(4) AND 
+	divider(5) AND divider(6) AND divider(7) AND divider(8) AND 
+	divider(9));
+
+FTCPE_divider13: FTCPE port map (divider(13),divider_T(13),clk,rst,'0');
+divider_T(13) <= (divider(0) AND divider(10) AND divider(11) AND 
+	divider(12) AND divider(1) AND divider(2) AND divider(3) AND 
+	divider(4) AND divider(5) AND divider(6) AND divider(7) AND 
+	divider(8) AND divider(9));
+
+FTCPE_divider14: FTCPE port map (divider(14),divider_T(14),clk,rst,'0');
+divider_T(14) <= (divider(13) AND divider(0) AND divider(10) AND 
+	divider(11) AND divider(12) AND divider(1) AND divider(2) AND 
+	divider(3) AND divider(4) AND divider(5) AND divider(6) AND 
+	divider(7) AND divider(8) AND divider(9));
+
+FTCPE_divider15: FTCPE port map (divider(15),divider_T(15),clk,rst,'0');
+divider_T(15) <= (divider(13) AND divider(0) AND divider(10) AND 
+	divider(11) AND divider(12) AND divider(14) AND divider(1) AND 
+	divider(2) AND divider(3) AND divider(4) AND divider(5) AND 
+	divider(6) AND divider(7) AND divider(8) AND divider(9));
+
+FTCPE_divider16: FTCPE port map (divider(16),divider_T(16),clk,rst,'0');
+divider_T(16) <= (divider(13) AND divider(0) AND divider(10) AND 
+	divider(11) AND divider(12) AND divider(14) AND divider(15) AND 
+	divider(1) AND divider(2) AND divider(3) AND divider(4) AND 
+	divider(5) AND divider(6) AND divider(7) AND divider(8) AND 
+	divider(9));
+
+
+output_sand15 <= (input_sand14 AND NOT input_sand15);
+
+
+seg7(0) <= (NOT display_s(2) AND display_s(3) AND NOT display_s(0) AND 
+	display_s(1));
+
+
+seg7(1) <= ((display_s(2) AND NOT display_s(3) AND NOT display_s(0) AND 
+	display_s(1))
+	OR (NOT display_s(2) AND display_s(3) AND display_s(0) AND 
+	NOT display_s(1))
+	OR (NOT display_s(2) AND display_s(3) AND NOT display_s(0) AND 
+	display_s(1)));
+
+
+seg7(2) <= ((display_s(2) AND NOT display_s(3) AND display_s(0) AND 
+	NOT display_s(1))
+	OR (NOT display_s(2) AND display_s(3) AND display_s(0) AND 
+	NOT display_s(1))
+	OR (NOT display_s(2) AND display_s(3) AND NOT display_s(0) AND 
+	display_s(1)));
+
+
+seg7(3) <= ((display_s(2) AND NOT display_s(3) AND display_s(0) AND 
+	NOT display_s(1))
+	OR (NOT display_s(2) AND display_s(3) AND NOT display_s(0) AND 
+	display_s(1)));
+
+
+seg7(4) <= (display_s(2) AND NOT display_s(3) AND NOT display_s(0) AND 
+	display_s(1));
+
+
+seg7(5) <= '0';
+
+
+seg7(6) <= ((display_s(2) AND NOT display_s(3) AND display_s(0) AND 
+	NOT display_s(1))
+	OR (NOT display_s(2) AND display_s(3) AND NOT display_s(0) AND 
+	display_s(1)));
+
+
+sel(0) <= '0';
+
+
+sel(1) <= '0';
+
+
+sel(2) <= '0';
+
+
+sel(3) <= '0';
+
+FTCPE_sl0: FTCPE port map (sl(0),'1',divider(16),rst,'0');
+
+FDCPE_sl1: FDCPE port map (sl(1),sl(0),divider(16),'0',rst);
+
+Register Legend:
+ FDCPE (Q,D,C,CLR,PRE,CE); 
+ FTCPE (Q,D,C,CLR,PRE,CE); 
+ LDCP  (Q,D,G,CLR,PRE); 
+
+******************************  Device Pin Out *****************************
+
+Device : XC9572XL-10-TQ100
+
+
+   --------------------------------------------------  
+  /100 98  96  94  92  90  88  86  84  82  80  78  76  \
+ |   99  97  95  93  91  89  87  85  83  81  79  77    |
+ | 1                                               75  | 
+ | 2                                               74  | 
+ | 3                                               73  | 
+ | 4                                               72  | 
+ | 5                                               71  | 
+ | 6                                               70  | 
+ | 7                                               69  | 
+ | 8                                               68  | 
+ | 9                                               67  | 
+ | 10                                              66  | 
+ | 11                                              65  | 
+ | 12                                              64  | 
+ | 13               XC9572XL-10-TQ100              63  | 
+ | 14                                              62  | 
+ | 15                                              61  | 
+ | 16                                              60  | 
+ | 17                                              59  | 
+ | 18                                              58  | 
+ | 19                                              57  | 
+ | 20                                              56  | 
+ | 21                                              55  | 
+ | 22                                              54  | 
+ | 23                                              53  | 
+ | 24                                              52  | 
+ | 25                                              51  | 
+ |   27  29  31  33  35  37  39  41  43  45  47  49    |
+  \26  28  30  32  34  36  38  40  42  44  46  48  50  /
+   --------------------------------------------------  
+
+
+Pin Signal                         Pin Signal                        
+No. Name                           No. Name                          
+  1 KPR                              51 VCC                           
+  2 NC                               52 KPR                           
+  3 KPR                              53 KPR                           
+  4 KPR                              54 KPR                           
+  5 VCC                              55 output_sand15                 
+  6 KPR                              56 KPR                           
+  7 NC                               57 VCC                           
+  8 KPR                              58 KPR                           
+  9 KPR                              59 KPR                           
+ 10 KPR                              60 KPR                           
+ 11 KPR                              61 KPR                           
+ 12 KPR                              62 GND                           
+ 13 KPR                              63 KPR                           
+ 14 KPR                              64 KPR                           
+ 15 KPR                              65 KPR                           
+ 16 KPR                              66 KPR                           
+ 17 KPR                              67 KPR                           
+ 18 KPR                              68 KPR                           
+ 19 NC                               69 GND                           
+ 20 KPR                              70 KPR                           
+ 21 GND                              71 KPR                           
+ 22 clk                              72 KPR                           
+ 23 KPR                              73 NC                            
+ 24 NC                               74 KPR                           
+ 25 KPR                              75 GND                           
+ 26 VCC                              76 KPR                           
+ 27 KPR                              77 KPR                           
+ 28 KPR                              78 rl<0>                         
+ 29 input_sand15                     79 rl<1>                         
+ 30 input_sand14                     80 NC                            
+ 31 GND                              81 sl<0>                         
+ 32 KPR                              82 sl<1>                         
+ 33 KPR                              83 TDO                           
+ 34 NC                               84 GND                           
+ 35 KPR                              85 seg7<5>                       
+ 36 KPR                              86 seg7<6>                       
+ 37 KPR                              87 KPR                           
+ 38 VCC                              88 VCC                           
+ 39 KPR                              89 seg7<4>                       
+ 40 KPR                              90 seg7<3>                       
+ 41 KPR                              91 seg7<2>                       
+ 42 KPR                              92 seg7<1>                       
+ 43 NC                               93 seg7<0>                       
+ 44 GND                              94 sel<0>                        
+ 45 TDI                              95 sel<1>                        
+ 46 NC                               96 sel<2>                        
+ 47 TMS                              97 sel<3>                        
+ 48 TCK                              98 VCC                           
+ 49 KPR                              99 rst                           
+ 50 KPR                             100 GND                           
+
+
+Legend :  NC  = Not Connected, unbonded pin
+         PGND = Unused I/O configured as additional Ground pin
+         TIE  = Unused I/O floating -- must tie to VCC, GND or other signal
+         KPR  = Unused I/O with weak keeper (leave unconnected)
+         VCC  = Dedicated Power Pin
+         GND  = Dedicated Ground Pin
+         TDI  = Test Data In, JTAG pin
+         TDO  = Test Data Out, JTAG pin
+         TCK  = Test Clock, JTAG pin
+         TMS  = Test Mode Select, JTAG pin
+  PROHIBITED  = User reserved pin
+****************************  Compiler Options  ****************************
+
+Following is a list of all global compiler options used by the fitter run.
+
+Device(s) Specified                         : xc9572xl-10-TQ100
+Optimization Method                         : SPEED
+Multi-Level Logic Optimization              : ON
+Ignore Timing Specifications                : OFF
+Default Register Power Up Value             : LOW
+Keep User Location Constraints              : ON
+What-You-See-Is-What-You-Get                : OFF
+Exhaustive Fitting                          : OFF
+Keep Unused Inputs                          : OFF
+Slew Rate                                   : FAST
+Power Mode                                  : STD
+Ground on Unused IOs                        : OFF
+Set I/O Pin Termination                     : KEEPER
+Global Clock Optimization                   : ON
+Global Set/Reset Optimization               : ON
+Global Ouput Enable Optimization            : ON
+Input Limit                                 : 54
+Pterm Limit                                 : 25
+</pre>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

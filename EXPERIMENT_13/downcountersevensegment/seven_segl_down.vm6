@@ -1,0 +1,2369 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9572XL100 | XC9572XL-10-TQ100
+
+DEVICE | 9572XL | 9572XL100 | 
+
+NETWORK | seven_segl_down | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | clk_IBUF | seven_segl_down_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | clk | 2693 | PI | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | rst_IBUF | seven_segl_down_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | rst | 2694 | PI | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 6 | 5 | II_FSR
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | cnt<1> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 24 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<19> | 2660 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<19>.Q | div<19> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<20> | 2670 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<20>.Q | div<20> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | cnt<1>.SI | cnt<1> | 0 | 22 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<19> | 2660 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<19>.Q | div<19> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<20> | 2670 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<20>.Q | div<20> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | cnt<1>.D1 | 2696 | ? | 0 | 0 | cnt<1> | NULL | NULL | cnt<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | cnt<1>.D2 | 2697 | ? | 0 | 4096 | cnt<1> | NULL | NULL | cnt<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | cnt<0>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | cnt<1>.CE | 2698 | ? | 0 | 4096 | cnt<1> | NULL | NULL | cnt<1>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 21 | IV_FALSE | div<0> | IV_FALSE | div<10> | IV_FALSE | div<11> | IV_FALSE | div<12> | IV_FALSE | div<13> | IV_FALSE | div<14> | IV_FALSE | div<15> | IV_FALSE | div<16> | IV_FALSE | div<17> | IV_FALSE | div<18> | IV_FALSE | div<19> | IV_FALSE | div<1> | IV_FALSE | div<2> | IV_FALSE | div<3> | IV_FALSE | div<4> | IV_FALSE | div<5> | IV_FALSE | div<6> | IV_FALSE | div<7> | IV_FALSE | div<8> | IV_FALSE | div<9> | IV_FALSE | div<20>
+
+SRFF_INSTANCE | cnt<1>.REG | cnt<1> | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | cnt<1>.D | 2695 | ? | 0 | 0 | cnt<1> | NULL | NULL | cnt<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | cnt<1>.CE | 2698 | ? | 0 | 4096 | cnt<1> | NULL | NULL | cnt<1>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 21 | IV_FALSE | div<0> | IV_FALSE | div<10> | IV_FALSE | div<11> | IV_FALSE | div<12> | IV_FALSE | div<13> | IV_FALSE | div<14> | IV_FALSE | div<15> | IV_FALSE | div<16> | IV_FALSE | div<17> | IV_FALSE | div<18> | IV_FALSE | div<19> | IV_FALSE | div<1> | IV_FALSE | div<2> | IV_FALSE | div<3> | IV_FALSE | div<4> | IV_FALSE | div<5> | IV_FALSE | div<6> | IV_FALSE | div<7> | IV_FALSE | div<8> | IV_FALSE | div<9> | IV_FALSE | div<20>
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | cnt<1>.Q | 2699 | ? | 0 | 0 | cnt<1> | NULL | NULL | cnt<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | cnt<3> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 26 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<19> | 2660 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<19>.Q | div<19> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<20> | 2670 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<20>.Q | div<20> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | cnt<3>.SI | cnt<3> | 0 | 24 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<19> | 2660 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<19>.Q | div<19> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<20> | 2670 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<20>.Q | div<20> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | cnt<3>.D1 | 2701 | ? | 0 | 0 | cnt<3> | NULL | NULL | cnt<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | cnt<3>.D2 | 2702 | ? | 0 | 4096 | cnt<3> | NULL | NULL | cnt<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | cnt<1> | IV_TRUE | cnt<2> | IV_TRUE | cnt<0>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | cnt<3>.CE | 2703 | ? | 0 | 4096 | cnt<3> | NULL | NULL | cnt<3>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 21 | IV_FALSE | div<0> | IV_FALSE | div<10> | IV_FALSE | div<11> | IV_FALSE | div<12> | IV_FALSE | div<13> | IV_FALSE | div<14> | IV_FALSE | div<15> | IV_FALSE | div<16> | IV_FALSE | div<17> | IV_FALSE | div<18> | IV_FALSE | div<19> | IV_FALSE | div<1> | IV_FALSE | div<2> | IV_FALSE | div<3> | IV_FALSE | div<4> | IV_FALSE | div<5> | IV_FALSE | div<6> | IV_FALSE | div<7> | IV_FALSE | div<8> | IV_FALSE | div<9> | IV_FALSE | div<20>
+
+SRFF_INSTANCE | cnt<3>.REG | cnt<3> | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | cnt<3>.D | 2700 | ? | 0 | 0 | cnt<3> | NULL | NULL | cnt<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | cnt<3>.CE | 2703 | ? | 0 | 4096 | cnt<3> | NULL | NULL | cnt<3>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 21 | IV_FALSE | div<0> | IV_FALSE | div<10> | IV_FALSE | div<11> | IV_FALSE | div<12> | IV_FALSE | div<13> | IV_FALSE | div<14> | IV_FALSE | div<15> | IV_FALSE | div<16> | IV_FALSE | div<17> | IV_FALSE | div<18> | IV_FALSE | div<19> | IV_FALSE | div<1> | IV_FALSE | div<2> | IV_FALSE | div<3> | IV_FALSE | div<4> | IV_FALSE | div<5> | IV_FALSE | div<6> | IV_FALSE | div<7> | IV_FALSE | div<8> | IV_FALSE | div<9> | IV_FALSE | div<20>
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | cnt<3>.Q | 2704 | ? | 0 | 0 | cnt<3> | NULL | NULL | cnt<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | cnt<2> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 25 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<19> | 2660 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<19>.Q | div<19> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<20> | 2670 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<20>.Q | div<20> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | cnt<2>.SI | cnt<2> | 0 | 23 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<19> | 2660 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<19>.Q | div<19> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<20> | 2670 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<20>.Q | div<20> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | cnt<2>.D1 | 2706 | ? | 0 | 0 | cnt<2> | NULL | NULL | cnt<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | cnt<2>.D2 | 2707 | ? | 0 | 4096 | cnt<2> | NULL | NULL | cnt<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cnt<1> | IV_TRUE | cnt<0>
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | cnt<2>.CE | 2708 | ? | 0 | 4096 | cnt<2> | NULL | NULL | cnt<2>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 21 | IV_FALSE | div<0> | IV_FALSE | div<10> | IV_FALSE | div<11> | IV_FALSE | div<12> | IV_FALSE | div<13> | IV_FALSE | div<14> | IV_FALSE | div<15> | IV_FALSE | div<16> | IV_FALSE | div<17> | IV_FALSE | div<18> | IV_FALSE | div<19> | IV_FALSE | div<1> | IV_FALSE | div<2> | IV_FALSE | div<3> | IV_FALSE | div<4> | IV_FALSE | div<5> | IV_FALSE | div<6> | IV_FALSE | div<7> | IV_FALSE | div<8> | IV_FALSE | div<9> | IV_FALSE | div<20>
+
+SRFF_INSTANCE | cnt<2>.REG | cnt<2> | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | cnt<2>.D | 2705 | ? | 0 | 0 | cnt<2> | NULL | NULL | cnt<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | cnt<2>.CE | 2708 | ? | 0 | 4096 | cnt<2> | NULL | NULL | cnt<2>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 21 | IV_FALSE | div<0> | IV_FALSE | div<10> | IV_FALSE | div<11> | IV_FALSE | div<12> | IV_FALSE | div<13> | IV_FALSE | div<14> | IV_FALSE | div<15> | IV_FALSE | div<16> | IV_FALSE | div<17> | IV_FALSE | div<18> | IV_FALSE | div<19> | IV_FALSE | div<1> | IV_FALSE | div<2> | IV_FALSE | div<3> | IV_FALSE | div<4> | IV_FALSE | div<5> | IV_FALSE | div<6> | IV_FALSE | div<7> | IV_FALSE | div<8> | IV_FALSE | div<9> | IV_FALSE | div<20>
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | cnt<2>.Q | 2709 | ? | 0 | 0 | cnt<2> | NULL | NULL | cnt<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | cnt<0> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 23 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<19> | 2660 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<19>.Q | div<19> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<20> | 2670 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<20>.Q | div<20> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | cnt<0>.SI | cnt<0> | 0 | 21 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<19> | 2660 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<19>.Q | div<19> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<20> | 2670 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<20>.Q | div<20> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | cnt<0>.D1 | 2711 | ? | 0 | 4096 | cnt<0> | NULL | NULL | cnt<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | cnt<0>.D2 | 2712 | ? | 0 | 4096 | cnt<0> | NULL | NULL | cnt<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | cnt<0>.CE | 2713 | ? | 0 | 4096 | cnt<0> | NULL | NULL | cnt<0>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 21 | IV_FALSE | div<0> | IV_FALSE | div<10> | IV_FALSE | div<11> | IV_FALSE | div<12> | IV_FALSE | div<13> | IV_FALSE | div<14> | IV_FALSE | div<15> | IV_FALSE | div<16> | IV_FALSE | div<17> | IV_FALSE | div<18> | IV_FALSE | div<19> | IV_FALSE | div<1> | IV_FALSE | div<2> | IV_FALSE | div<3> | IV_FALSE | div<4> | IV_FALSE | div<5> | IV_FALSE | div<6> | IV_FALSE | div<7> | IV_FALSE | div<8> | IV_FALSE | div<9> | IV_FALSE | div<20>
+
+SRFF_INSTANCE | cnt<0>.REG | cnt<0> | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | cnt<0>.D | 2710 | ? | 0 | 0 | cnt<0> | NULL | NULL | cnt<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | cnt<0>.CE | 2713 | ? | 0 | 4096 | cnt<0> | NULL | NULL | cnt<0>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 21 | IV_FALSE | div<0> | IV_FALSE | div<10> | IV_FALSE | div<11> | IV_FALSE | div<12> | IV_FALSE | div<13> | IV_FALSE | div<14> | IV_FALSE | div<15> | IV_FALSE | div<16> | IV_FALSE | div<17> | IV_FALSE | div<18> | IV_FALSE | div<19> | IV_FALSE | div<1> | IV_FALSE | div<2> | IV_FALSE | div<3> | IV_FALSE | div<4> | IV_FALSE | div<5> | IV_FALSE | div<6> | IV_FALSE | div<7> | IV_FALSE | div<8> | IV_FALSE | div<9> | IV_FALSE | div<20>
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | cnt<0>.Q | 2714 | ? | 0 | 0 | cnt<0> | NULL | NULL | cnt<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<0> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<0>.SI | div<0> | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<0>.D1 | 2716 | ? | 0 | 4096 | div<0> | NULL | NULL | div<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<0>.D2 | 2717 | ? | 0 | 4096 | div<0> | NULL | NULL | div<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+
+SRFF_INSTANCE | div<0>.REG | div<0> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<0>.D | 2715 | ? | 0 | 0 | div<0> | NULL | NULL | div<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<0>.Q | 2718 | ? | 0 | 0 | div<0> | NULL | NULL | div<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<10> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 12 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<10>.SI | div<10> | 0 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<10>.D1 | 2720 | ? | 0 | 0 | div<10> | NULL | NULL | div<10>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<10>.D2 | 2721 | ? | 0 | 4096 | div<10> | NULL | NULL | div<10>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 10 | IV_TRUE | div<0> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7> | IV_TRUE | div<8> | IV_TRUE | div<9>
+
+SRFF_INSTANCE | div<10>.REG | div<10> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<10>.D | 2719 | ? | 0 | 0 | div<10> | NULL | NULL | div<10>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<10>.Q | 2722 | ? | 0 | 0 | div<10> | NULL | NULL | div<10>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<11> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<11>.SI | div<11> | 0 | 11 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<11>.D1 | 2724 | ? | 0 | 0 | div<11> | NULL | NULL | div<11>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<11>.D2 | 2725 | ? | 0 | 4096 | div<11> | NULL | NULL | div<11>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 11 | IV_TRUE | div<0> | IV_TRUE | div<10> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7> | IV_TRUE | div<8> | IV_TRUE | div<9>
+
+SRFF_INSTANCE | div<11>.REG | div<11> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<11>.D | 2723 | ? | 0 | 0 | div<11> | NULL | NULL | div<11>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<11>.Q | 2726 | ? | 0 | 0 | div<11> | NULL | NULL | div<11>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<12> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 14 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<12>.SI | div<12> | 0 | 12 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<12>.D1 | 2728 | ? | 0 | 0 | div<12> | NULL | NULL | div<12>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<12>.D2 | 2729 | ? | 0 | 4096 | div<12> | NULL | NULL | div<12>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 12 | IV_TRUE | div<0> | IV_TRUE | div<10> | IV_TRUE | div<11> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7> | IV_TRUE | div<8> | IV_TRUE | div<9>
+
+SRFF_INSTANCE | div<12>.REG | div<12> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<12>.D | 2727 | ? | 0 | 0 | div<12> | NULL | NULL | div<12>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<12>.Q | 2730 | ? | 0 | 0 | div<12> | NULL | NULL | div<12>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<13> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 15 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<13>.SI | div<13> | 0 | 13 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<13>.D1 | 2732 | ? | 0 | 0 | div<13> | NULL | NULL | div<13>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<13>.D2 | 2733 | ? | 0 | 4096 | div<13> | NULL | NULL | div<13>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 13 | IV_TRUE | div<0> | IV_TRUE | div<10> | IV_TRUE | div<11> | IV_TRUE | div<12> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7> | IV_TRUE | div<8> | IV_TRUE | div<9>
+
+SRFF_INSTANCE | div<13>.REG | div<13> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<13>.D | 2731 | ? | 0 | 0 | div<13> | NULL | NULL | div<13>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<13>.Q | 2734 | ? | 0 | 0 | div<13> | NULL | NULL | div<13>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<14> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 16 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<14>.SI | div<14> | 0 | 14 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<14>.D1 | 2736 | ? | 0 | 0 | div<14> | NULL | NULL | div<14>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<14>.D2 | 2737 | ? | 0 | 4096 | div<14> | NULL | NULL | div<14>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 14 | IV_TRUE | div<0> | IV_TRUE | div<10> | IV_TRUE | div<11> | IV_TRUE | div<12> | IV_TRUE | div<13> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7> | IV_TRUE | div<8> | IV_TRUE | div<9>
+
+SRFF_INSTANCE | div<14>.REG | div<14> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<14>.D | 2735 | ? | 0 | 0 | div<14> | NULL | NULL | div<14>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<14>.Q | 2738 | ? | 0 | 0 | div<14> | NULL | NULL | div<14>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<15> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 17 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<15>.SI | div<15> | 0 | 15 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<15>.D1 | 2740 | ? | 0 | 0 | div<15> | NULL | NULL | div<15>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<15>.D2 | 2741 | ? | 0 | 4096 | div<15> | NULL | NULL | div<15>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 15 | IV_TRUE | div<0> | IV_TRUE | div<10> | IV_TRUE | div<11> | IV_TRUE | div<12> | IV_TRUE | div<13> | IV_TRUE | div<14> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7> | IV_TRUE | div<8> | IV_TRUE | div<9>
+
+SRFF_INSTANCE | div<15>.REG | div<15> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<15>.D | 2739 | ? | 0 | 0 | div<15> | NULL | NULL | div<15>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<15>.Q | 2742 | ? | 0 | 0 | div<15> | NULL | NULL | div<15>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<16> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 18 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<16>.SI | div<16> | 0 | 16 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<16>.D1 | 2744 | ? | 0 | 0 | div<16> | NULL | NULL | div<16>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<16>.D2 | 2745 | ? | 0 | 4096 | div<16> | NULL | NULL | div<16>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 16 | IV_TRUE | div<0> | IV_TRUE | div<10> | IV_TRUE | div<11> | IV_TRUE | div<12> | IV_TRUE | div<13> | IV_TRUE | div<14> | IV_TRUE | div<15> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7> | IV_TRUE | div<8> | IV_TRUE | div<9>
+
+SRFF_INSTANCE | div<16>.REG | div<16> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<16>.D | 2743 | ? | 0 | 0 | div<16> | NULL | NULL | div<16>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<16>.Q | 2746 | ? | 0 | 0 | div<16> | NULL | NULL | div<16>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<17> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 19 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<17>.SI | div<17> | 0 | 17 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<17>.D1 | 2748 | ? | 0 | 0 | div<17> | NULL | NULL | div<17>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<17>.D2 | 2749 | ? | 0 | 4096 | div<17> | NULL | NULL | div<17>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 17 | IV_TRUE | div<0> | IV_TRUE | div<10> | IV_TRUE | div<11> | IV_TRUE | div<12> | IV_TRUE | div<13> | IV_TRUE | div<14> | IV_TRUE | div<15> | IV_TRUE | div<16> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7> | IV_TRUE | div<8> | IV_TRUE | div<9>
+
+SRFF_INSTANCE | div<17>.REG | div<17> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<17>.D | 2747 | ? | 0 | 0 | div<17> | NULL | NULL | div<17>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<17>.Q | 2750 | ? | 0 | 0 | div<17> | NULL | NULL | div<17>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<18> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 20 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<18>.SI | div<18> | 0 | 18 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<18>.D1 | 2752 | ? | 0 | 0 | div<18> | NULL | NULL | div<18>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<18>.D2 | 2753 | ? | 0 | 4096 | div<18> | NULL | NULL | div<18>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 18 | IV_TRUE | div<0> | IV_TRUE | div<10> | IV_TRUE | div<11> | IV_TRUE | div<12> | IV_TRUE | div<13> | IV_TRUE | div<14> | IV_TRUE | div<15> | IV_TRUE | div<16> | IV_TRUE | div<17> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7> | IV_TRUE | div<8> | IV_TRUE | div<9>
+
+SRFF_INSTANCE | div<18>.REG | div<18> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<18>.D | 2751 | ? | 0 | 0 | div<18> | NULL | NULL | div<18>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<18>.Q | 2754 | ? | 0 | 0 | div<18> | NULL | NULL | div<18>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<19> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 21 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<19> | 2660 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<19>.Q | div<19> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<19>.SI | div<19> | 0 | 19 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<19>.D1 | 2756 | ? | 0 | 0 | div<19> | NULL | NULL | div<19>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<19>.D2 | 2757 | ? | 0 | 4096 | div<19> | NULL | NULL | div<19>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 19 | IV_TRUE | div<0> | IV_TRUE | div<10> | IV_TRUE | div<11> | IV_TRUE | div<12> | IV_TRUE | div<13> | IV_TRUE | div<14> | IV_TRUE | div<15> | IV_TRUE | div<16> | IV_TRUE | div<17> | IV_TRUE | div<18> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7> | IV_TRUE | div<8> | IV_TRUE | div<9>
+
+SRFF_INSTANCE | div<19>.REG | div<19> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<19>.D | 2755 | ? | 0 | 0 | div<19> | NULL | NULL | div<19>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<19>.Q | 2758 | ? | 0 | 0 | div<19> | NULL | NULL | div<19>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<1> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<1>.SI | div<1> | 0 | 1 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<1>.D1 | 2760 | ? | 0 | 0 | div<1> | NULL | NULL | div<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<1>.D2 | 2761 | ? | 0 | 4096 | div<1> | NULL | NULL | div<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | div<0>
+
+SRFF_INSTANCE | div<1>.REG | div<1> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<1>.D | 2759 | ? | 0 | 0 | div<1> | NULL | NULL | div<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<1>.Q | 2762 | ? | 0 | 0 | div<1> | NULL | NULL | div<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<2> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<2>.SI | div<2> | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<2>.D1 | 2764 | ? | 0 | 0 | div<2> | NULL | NULL | div<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<2>.D2 | 2765 | ? | 0 | 4096 | div<2> | NULL | NULL | div<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | div<0> | IV_TRUE | div<1>
+
+SRFF_INSTANCE | div<2>.REG | div<2> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<2>.D | 2763 | ? | 0 | 0 | div<2> | NULL | NULL | div<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<2>.Q | 2766 | ? | 0 | 0 | div<2> | NULL | NULL | div<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<3> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<3>.SI | div<3> | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<3>.D1 | 2768 | ? | 0 | 0 | div<3> | NULL | NULL | div<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<3>.D2 | 2769 | ? | 0 | 4096 | div<3> | NULL | NULL | div<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | div<0> | IV_TRUE | div<1> | IV_TRUE | div<2>
+
+SRFF_INSTANCE | div<3>.REG | div<3> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<3>.D | 2767 | ? | 0 | 0 | div<3> | NULL | NULL | div<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<3>.Q | 2770 | ? | 0 | 0 | div<3> | NULL | NULL | div<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<4> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<4>.SI | div<4> | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<4>.D1 | 2772 | ? | 0 | 0 | div<4> | NULL | NULL | div<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<4>.D2 | 2773 | ? | 0 | 4096 | div<4> | NULL | NULL | div<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | div<0> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3>
+
+SRFF_INSTANCE | div<4>.REG | div<4> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<4>.D | 2771 | ? | 0 | 0 | div<4> | NULL | NULL | div<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<4>.Q | 2774 | ? | 0 | 0 | div<4> | NULL | NULL | div<4>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<5> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 7 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<5>.SI | div<5> | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<5>.D1 | 2776 | ? | 0 | 0 | div<5> | NULL | NULL | div<5>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<5>.D2 | 2777 | ? | 0 | 4096 | div<5> | NULL | NULL | div<5>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | div<0> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4>
+
+SRFF_INSTANCE | div<5>.REG | div<5> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<5>.D | 2775 | ? | 0 | 0 | div<5> | NULL | NULL | div<5>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<5>.Q | 2778 | ? | 0 | 0 | div<5> | NULL | NULL | div<5>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<6> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<6>.SI | div<6> | 0 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<6>.D1 | 2780 | ? | 0 | 0 | div<6> | NULL | NULL | div<6>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<6>.D2 | 2781 | ? | 0 | 4096 | div<6> | NULL | NULL | div<6>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 6 | IV_TRUE | div<0> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5>
+
+SRFF_INSTANCE | div<6>.REG | div<6> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<6>.D | 2779 | ? | 0 | 0 | div<6> | NULL | NULL | div<6>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<6>.Q | 2782 | ? | 0 | 0 | div<6> | NULL | NULL | div<6>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<7> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 9 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<7>.SI | div<7> | 0 | 7 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<7>.D1 | 2784 | ? | 0 | 0 | div<7> | NULL | NULL | div<7>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<7>.D2 | 2785 | ? | 0 | 4096 | div<7> | NULL | NULL | div<7>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 7 | IV_TRUE | div<0> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6>
+
+SRFF_INSTANCE | div<7>.REG | div<7> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<7>.D | 2783 | ? | 0 | 0 | div<7> | NULL | NULL | div<7>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<7>.Q | 2786 | ? | 0 | 0 | div<7> | NULL | NULL | div<7>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<8> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<8>.SI | div<8> | 0 | 8 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<8>.D1 | 2788 | ? | 0 | 0 | div<8> | NULL | NULL | div<8>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<8>.D2 | 2789 | ? | 0 | 4096 | div<8> | NULL | NULL | div<8>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 8 | IV_TRUE | div<0> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7>
+
+SRFF_INSTANCE | div<8>.REG | div<8> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<8>.D | 2787 | ? | 0 | 0 | div<8> | NULL | NULL | div<8>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<8>.Q | 2790 | ? | 0 | 0 | div<8> | NULL | NULL | div<8>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<9> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 11 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<9>.SI | div<9> | 0 | 9 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<9>.D1 | 2792 | ? | 0 | 0 | div<9> | NULL | NULL | div<9>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<9>.D2 | 2793 | ? | 0 | 4096 | div<9> | NULL | NULL | div<9>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 9 | IV_TRUE | div<0> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7> | IV_TRUE | div<8>
+
+SRFF_INSTANCE | div<9>.REG | div<9> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<9>.D | 2791 | ? | 0 | 0 | div<9> | NULL | NULL | div<9>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<9>.Q | 2794 | ? | 0 | 0 | div<9> | NULL | NULL | div<9>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff+OptxMapped | div<20> | seven_segl_down_COPY_0_COPY_0 | 2155877376 | 22 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<19> | 2660 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<19>.Q | div<19> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | div<20> | 2670 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<20>.Q | div<20> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | div<20>.SI | div<20> | 0 | 20 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<0> | 2650 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<0>.Q | div<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<10> | 2651 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<10>.Q | div<10> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<11> | 2652 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<11>.Q | div<11> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<12> | 2653 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<12>.Q | div<12> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<13> | 2654 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<13>.Q | div<13> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<14> | 2655 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<14>.Q | div<14> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<15> | 2656 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<15>.Q | div<15> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<16> | 2657 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<16>.Q | div<16> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<17> | 2658 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<17>.Q | div<17> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<18> | 2659 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<18>.Q | div<18> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<19> | 2660 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<19>.Q | div<19> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<1> | 2661 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<1>.Q | div<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<2> | 2662 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<2>.Q | div<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<3> | 2663 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<3>.Q | div<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<4> | 2664 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<4>.Q | div<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<5> | 2665 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<5>.Q | div<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<6> | 2666 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<6>.Q | div<6> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<7> | 2667 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<7>.Q | div<7> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<8> | 2668 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<8>.Q | div<8> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | div<9> | 2669 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | div<9>.Q | div<9> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | div<20>.D1 | 2796 | ? | 0 | 0 | div<20> | NULL | NULL | div<20>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | div<20>.D2 | 2797 | ? | 0 | 4096 | div<20> | NULL | NULL | div<20>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 20 | IV_TRUE | div<0> | IV_TRUE | div<10> | IV_TRUE | div<11> | IV_TRUE | div<12> | IV_TRUE | div<13> | IV_TRUE | div<14> | IV_TRUE | div<15> | IV_TRUE | div<16> | IV_TRUE | div<17> | IV_TRUE | div<18> | IV_TRUE | div<19> | IV_TRUE | div<1> | IV_TRUE | div<2> | IV_TRUE | div<3> | IV_TRUE | div<4> | IV_TRUE | div<5> | IV_TRUE | div<6> | IV_TRUE | div<7> | IV_TRUE | div<8> | IV_TRUE | div<9>
+
+SRFF_INSTANCE | div<20>.REG | div<20> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | div<20>.D | 2795 | ? | 0 | 0 | div<20> | NULL | NULL | div<20>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_IBUF/FCLK | 2644 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | clk_IBUF | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | FSRIO_0 | 2645 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | rst_IBUF | 6 | 5 | II_FSR
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | div<20>.Q | 2798 | ? | 0 | 0 | div<20> | NULL | NULL | div<20>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | seg_0_OBUF | seven_segl_down_COPY_0_COPY_0 | 2155872256 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | seg_0_OBUF | 2671 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_0_OBUF.Q | seg_0_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | seg_0_OBUF.SI | seg_0_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | seg_0_OBUF.D1 | 2800 | ? | 0 | 4096 | seg_0_OBUF | NULL | NULL | seg_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | seg_0_OBUF.D2 | 2801 | ? | 0 | 4096 | seg_0_OBUF | NULL | NULL | seg_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | cnt<1> | IV_TRUE | cnt<3> | IV_TRUE | cnt<2> | IV_TRUE | cnt<0>
+SPPTERM | 4 | IV_TRUE | cnt<1> | IV_FALSE | cnt<3> | IV_FALSE | cnt<2> | IV_TRUE | cnt<0>
+SPPTERM | 4 | IV_FALSE | cnt<1> | IV_TRUE | cnt<3> | IV_TRUE | cnt<2> | IV_FALSE | cnt<0>
+SPPTERM | 4 | IV_FALSE | cnt<1> | IV_FALSE | cnt<3> | IV_TRUE | cnt<2> | IV_TRUE | cnt<0>
+SPPTERM | 4 | IV_FALSE | cnt<1> | IV_FALSE | cnt<3> | IV_FALSE | cnt<2> | IV_FALSE | cnt<0>
+
+SRFF_INSTANCE | seg_0_OBUF.REG | seg_0_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | seg_0_OBUF.D | 2799 | ? | 0 | 0 | seg_0_OBUF | NULL | NULL | seg_0_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | seg_0_OBUF.Q | 2802 | ? | 0 | 0 | seg_0_OBUF | NULL | NULL | seg_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | seg_1_OBUF | seven_segl_down_COPY_0_COPY_0 | 2155872256 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | seg_1_OBUF | 2672 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_1_OBUF.Q | seg_1_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | seg_1_OBUF.SI | seg_1_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | seg_1_OBUF.D1 | 2804 | ? | 0 | 4096 | seg_1_OBUF | NULL | NULL | seg_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | seg_1_OBUF.D2 | 2805 | ? | 0 | 4096 | seg_1_OBUF | NULL | NULL | seg_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | cnt<1> | IV_FALSE | cnt<3>
+SPPTERM | 3 | IV_TRUE | cnt<1> | IV_TRUE | cnt<3> | IV_FALSE | cnt<2>
+SPPTERM | 3 | IV_FALSE | cnt<3> | IV_FALSE | cnt<2> | IV_FALSE | cnt<0>
+
+SRFF_INSTANCE | seg_1_OBUF.REG | seg_1_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | seg_1_OBUF.D | 2803 | ? | 0 | 0 | seg_1_OBUF | NULL | NULL | seg_1_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | seg_1_OBUF.Q | 2806 | ? | 0 | 0 | seg_1_OBUF | NULL | NULL | seg_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | seg_2_OBUF | seven_segl_down_COPY_0_COPY_0 | 2155872256 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | seg_2_OBUF | 2673 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_2_OBUF.Q | seg_2_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | seg_2_OBUF.SI | seg_2_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | seg_2_OBUF.D1 | 2808 | ? | 0 | 4096 | seg_2_OBUF | NULL | NULL | seg_2_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | seg_2_OBUF.D2 | 2809 | ? | 0 | 4096 | seg_2_OBUF | NULL | NULL | seg_2_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | cnt<1> | IV_FALSE | cnt<3> | IV_FALSE | cnt<2>
+SPPTERM | 3 | IV_FALSE | cnt<1> | IV_FALSE | cnt<3> | IV_FALSE | cnt<0>
+SPPTERM | 3 | IV_FALSE | cnt<3> | IV_FALSE | cnt<2> | IV_FALSE | cnt<0>
+SPPTERM | 4 | IV_TRUE | cnt<1> | IV_TRUE | cnt<3> | IV_TRUE | cnt<2> | IV_FALSE | cnt<0>
+
+SRFF_INSTANCE | seg_2_OBUF.REG | seg_2_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | seg_2_OBUF.D | 2807 | ? | 0 | 0 | seg_2_OBUF | NULL | NULL | seg_2_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | seg_2_OBUF.Q | 2810 | ? | 0 | 0 | seg_2_OBUF | NULL | NULL | seg_2_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | seg_3_OBUF | seven_segl_down_COPY_0_COPY_0 | 2155872256 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | seg_3_OBUF | 2674 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_3_OBUF.Q | seg_3_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | seg_3_OBUF.SI | seg_3_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | seg_3_OBUF.D1 | 2812 | ? | 0 | 4096 | seg_3_OBUF | NULL | NULL | seg_3_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | seg_3_OBUF.D2 | 2813 | ? | 0 | 4096 | seg_3_OBUF | NULL | NULL | seg_3_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | cnt<1> | IV_FALSE | cnt<3> | IV_FALSE | cnt<2>
+SPPTERM | 3 | IV_FALSE | cnt<1> | IV_FALSE | cnt<2> | IV_TRUE | cnt<0>
+SPPTERM | 4 | IV_TRUE | cnt<1> | IV_TRUE | cnt<3> | IV_TRUE | cnt<2> | IV_TRUE | cnt<0>
+SPPTERM | 4 | IV_TRUE | cnt<1> | IV_FALSE | cnt<3> | IV_TRUE | cnt<2> | IV_FALSE | cnt<0>
+SPPTERM | 4 | IV_FALSE | cnt<1> | IV_TRUE | cnt<3> | IV_TRUE | cnt<2> | IV_FALSE | cnt<0>
+
+SRFF_INSTANCE | seg_3_OBUF.REG | seg_3_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | seg_3_OBUF.D | 2811 | ? | 0 | 0 | seg_3_OBUF | NULL | NULL | seg_3_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | seg_3_OBUF.Q | 2814 | ? | 0 | 0 | seg_3_OBUF | NULL | NULL | seg_3_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | seg_4_OBUF | seven_segl_down_COPY_0_COPY_0 | 2155872256 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | seg_4_OBUF | 2675 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_4_OBUF.Q | seg_4_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | seg_4_OBUF.SI | seg_4_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | seg_4_OBUF.D1 | 2816 | ? | 0 | 4096 | seg_4_OBUF | NULL | NULL | seg_4_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | seg_4_OBUF.D2 | 2817 | ? | 0 | 4096 | seg_4_OBUF | NULL | NULL | seg_4_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | cnt<3> | IV_TRUE | cnt<0>
+SPPTERM | 3 | IV_TRUE | cnt<1> | IV_TRUE | cnt<2> | IV_TRUE | cnt<0>
+SPPTERM | 3 | IV_FALSE | cnt<1> | IV_TRUE | cnt<3> | IV_TRUE | cnt<2>
+SPPTERM | 4 | IV_FALSE | cnt<1> | IV_FALSE | cnt<3> | IV_FALSE | cnt<2> | IV_FALSE | cnt<0>
+
+SRFF_INSTANCE | seg_4_OBUF.REG | seg_4_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | seg_4_OBUF.D | 2815 | ? | 0 | 0 | seg_4_OBUF | NULL | NULL | seg_4_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | seg_4_OBUF.Q | 2818 | ? | 0 | 0 | seg_4_OBUF | NULL | NULL | seg_4_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | seg_5_OBUF | seven_segl_down_COPY_0_COPY_0 | 2155872256 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | seg_5_OBUF | 2676 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_5_OBUF.Q | seg_5_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | seg_5_OBUF.SI | seg_5_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | seg_5_OBUF.D1 | 2820 | ? | 0 | 4096 | seg_5_OBUF | NULL | NULL | seg_5_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | seg_5_OBUF.D2 | 2821 | ? | 0 | 4096 | seg_5_OBUF | NULL | NULL | seg_5_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | cnt<1> | IV_TRUE | cnt<3> | IV_TRUE | cnt<2>
+SPPTERM | 3 | IV_FALSE | cnt<1> | IV_TRUE | cnt<3> | IV_TRUE | cnt<0>
+SPPTERM | 4 | IV_TRUE | cnt<1> | IV_FALSE | cnt<3> | IV_FALSE | cnt<2> | IV_TRUE | cnt<0>
+SPPTERM | 4 | IV_FALSE | cnt<1> | IV_FALSE | cnt<3> | IV_FALSE | cnt<2> | IV_FALSE | cnt<0>
+
+SRFF_INSTANCE | seg_5_OBUF.REG | seg_5_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | seg_5_OBUF.D | 2819 | ? | 0 | 0 | seg_5_OBUF | NULL | NULL | seg_5_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | seg_5_OBUF.Q | 2822 | ? | 0 | 0 | seg_5_OBUF | NULL | NULL | seg_5_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | seg_6_OBUF | seven_segl_down_COPY_0_COPY_0 | 2155872256 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | seg_6_OBUF | 2677 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_6_OBUF.Q | seg_6_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | seg_6_OBUF.SI | seg_6_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<1> | 2646 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<1>.Q | cnt<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<3> | 2647 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<3>.Q | cnt<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<0> | 2649 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<0>.Q | cnt<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cnt<2> | 2648 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | cnt<2>.Q | cnt<2> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | seg_6_OBUF.D1 | 2824 | ? | 0 | 4096 | seg_6_OBUF | NULL | NULL | seg_6_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | seg_6_OBUF.D2 | 2825 | ? | 0 | 4096 | seg_6_OBUF | NULL | NULL | seg_6_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | cnt<1> | IV_FALSE | cnt<3> | IV_FALSE | cnt<0>
+SPPTERM | 4 | IV_TRUE | cnt<1> | IV_TRUE | cnt<3> | IV_TRUE | cnt<2> | IV_TRUE | cnt<0>
+SPPTERM | 4 | IV_FALSE | cnt<1> | IV_TRUE | cnt<3> | IV_FALSE | cnt<2> | IV_TRUE | cnt<0>
+
+SRFF_INSTANCE | seg_6_OBUF.REG | seg_6_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | seg_6_OBUF.D | 2823 | ? | 0 | 0 | seg_6_OBUF | NULL | NULL | seg_6_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | seg_6_OBUF.Q | 2826 | ? | 0 | 0 | seg_6_OBUF | NULL | NULL | seg_6_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | FbkInv+Merge+OptxMapped | an_0_OBUF | seven_segl_down_COPY_0_COPY_0 | 2155907072 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | an_0_OBUF | 2678 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | an_0_OBUF.Q | an_0_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | an_0_OBUF.SI | an_0_OBUF | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | an_0_OBUF.D1 | 2828 | ? | 0 | 4096 | an_0_OBUF | NULL | NULL | an_0_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | an_0_OBUF.D2 | 2829 | ? | 0 | 4096 | an_0_OBUF | NULL | NULL | an_0_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | an_0_OBUF.REG | an_0_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | an_0_OBUF.D | 2827 | ? | 0 | 0 | an_0_OBUF | NULL | NULL | an_0_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | an_0_OBUF.Q | 2830 | ? | 0 | 0 | an_0_OBUF | NULL | NULL | an_0_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | FbkInv+Merge+OptxMapped | an_1_OBUF | seven_segl_down_COPY_0_COPY_0 | 2155907072 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | an_1_OBUF$Q | 2679 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | an_1_OBUF.Q | an_1_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | an_1_OBUF.SI | an_1_OBUF | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | an_1_OBUF.D1 | 2832 | ? | 0 | 4096 | an_1_OBUF | NULL | NULL | an_1_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | an_1_OBUF.D2 | 2833 | ? | 0 | 4096 | an_1_OBUF | NULL | NULL | an_1_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+
+SRFF_INSTANCE | an_1_OBUF.REG | an_1_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | an_1_OBUF.D | 2831 | ? | 0 | 0 | an_1_OBUF | NULL | NULL | an_1_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | an_1_OBUF.Q | 2834 | ? | 0 | 0 | an_1_OBUF | NULL | NULL | an_1_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | an_1_OBUF$BUF0 | seven_segl_down_COPY_0_COPY_0 | 2155872256 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | an_1_OBUF$BUF0 | 2680 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | an_1_OBUF$BUF0.Q | an_1_OBUF$BUF0 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | an_1_OBUF$BUF0.SI | an_1_OBUF$BUF0 | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | an_1_OBUF$BUF0.D1 | 2836 | ? | 0 | 4096 | an_1_OBUF$BUF0 | NULL | NULL | an_1_OBUF$BUF0.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | an_1_OBUF$BUF0.D2 | 2837 | ? | 0 | 6144 | an_1_OBUF$BUF0 | NULL | NULL | an_1_OBUF$BUF0.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+
+SRFF_INSTANCE | an_1_OBUF$BUF0.REG | an_1_OBUF$BUF0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | an_1_OBUF$BUF0.D | 2835 | ? | 0 | 0 | an_1_OBUF$BUF0 | NULL | NULL | an_1_OBUF$BUF0.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | an_1_OBUF$BUF0.Q | 2838 | ? | 0 | 0 | an_1_OBUF$BUF0 | NULL | NULL | an_1_OBUF$BUF0.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | OptxMapped | an_1_OBUF$BUF1 | seven_segl_down_COPY_0_COPY_0 | 2155872256 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | an_1_OBUF$BUF1 | 2681 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | an_1_OBUF$BUF1.Q | an_1_OBUF$BUF1 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | an_1_OBUF$BUF1.SI | an_1_OBUF$BUF1 | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | an_1_OBUF$BUF1.D1 | 2840 | ? | 0 | 4096 | an_1_OBUF$BUF1 | NULL | NULL | an_1_OBUF$BUF1.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | an_1_OBUF$BUF1.D2 | 2841 | ? | 0 | 6144 | an_1_OBUF$BUF1 | NULL | NULL | an_1_OBUF$BUF1.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+
+SRFF_INSTANCE | an_1_OBUF$BUF1.REG | an_1_OBUF$BUF1 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | an_1_OBUF$BUF1.D | 2839 | ? | 0 | 0 | an_1_OBUF$BUF1 | NULL | NULL | an_1_OBUF$BUF1.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | an_1_OBUF$BUF1.Q | 2842 | ? | 0 | 0 | an_1_OBUF$BUF1 | NULL | NULL | an_1_OBUF$BUF1.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | seg<0> | seven_segl_down_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | seg_0_OBUF | 2671 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_0_OBUF.Q | seg_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | seg<0> | 2682 | PO | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | seg<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | seg<1> | seven_segl_down_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | seg_1_OBUF | 2672 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_1_OBUF.Q | seg_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | seg<1> | 2683 | PO | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | seg<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | seg<2> | seven_segl_down_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | seg_2_OBUF | 2673 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_2_OBUF.Q | seg_2_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | seg<2> | 2684 | PO | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | seg<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | seg<3> | seven_segl_down_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | seg_3_OBUF | 2674 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_3_OBUF.Q | seg_3_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | seg<3> | 2685 | PO | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | seg<3> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | seg<4> | seven_segl_down_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | seg_4_OBUF | 2675 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_4_OBUF.Q | seg_4_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | seg<4> | 2686 | PO | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | seg<4> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | seg<5> | seven_segl_down_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | seg_5_OBUF | 2676 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_5_OBUF.Q | seg_5_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | seg<5> | 2687 | PO | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | seg<5> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | seg<6> | seven_segl_down_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | seg_6_OBUF | 2677 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | seg_6_OBUF.Q | seg_6_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | seg<6> | 2688 | PO | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | seg<6> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | an<0> | seven_segl_down_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | an_0_OBUF | 2678 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | an_0_OBUF.Q | an_0_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | an<0> | 2689 | PO | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | an<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | an<3> | seven_segl_down_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | an_1_OBUF$Q | 2679 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | an_1_OBUF.Q | an_1_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | an<3> | 2690 | PO | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | an<3> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | an<2> | seven_segl_down_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | an_1_OBUF$BUF0 | 2680 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | an_1_OBUF$BUF0.Q | an_1_OBUF$BUF0 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | an<2> | 2691 | PO | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | an<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | an<1> | seven_segl_down_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | an_1_OBUF$BUF1 | 2681 | ? | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | an_1_OBUF$BUF1.Q | an_1_OBUF$BUF1 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | an<1> | 2692 | PO | 0 | 0 | seven_segl_down_COPY_0_COPY_0 | NULL | NULL | an<1> | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | seven_segl_down_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 9 | NULL | 0 | clk_IBUF | 0 | NULL | 0 | 22 | 57344
+FBPIN | 15 | cnt<0> | 1 | NULL | 0 | NULL | 0 | 29 | 49152
+FBPIN | 16 | cnt<3> | 1 | NULL | 0 | NULL | 0 | 39 | 49152
+FBPIN | 17 | cnt<2> | 1 | NULL | 0 | NULL | 0 | 30 | 49152
+FBPIN | 18 | cnt<1> | 1 | NULL | 0 | NULL | 0 | 40 | 49152
+
+FB_INSTANCE | FOOBAR2_ | seven_segl_down_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | div<20> | 1 | NULL | 0 | NULL | 0 | 87 | 49152
+FBPIN | 2 | an_0_OBUF | 1 | NULL | 0 | an<0> | 1 | 94 | 49152
+FBPIN | 3 | seg_4_OBUF | 1 | NULL | 0 | seg<4> | 1 | 91 | 49152
+FBPIN | 4 | seg_6_OBUF | 1 | NULL | 0 | seg<6> | 1 | 93 | 49152
+FBPIN | 5 | an_1_OBUF$BUF1 | 1 | NULL | 0 | an<1> | 1 | 95 | 49152
+FBPIN | 6 | an_1_OBUF$BUF0 | 1 | NULL | 0 | an<2> | 1 | 96 | 49152
+FBPIN | 7 | div<19> | 1 | NULL | 0 | NULL | 0 | 3 | 53248
+FBPIN | 8 | an_1_OBUF | 1 | NULL | 0 | an<3> | 1 | 97 | 49152
+FBPIN | 9 | div<18> | 1 | rst_IBUF | 0 | NULL | 0 | 99 | 51200
+FBPIN | 10 | div<17> | 1 | NULL | 0 | NULL | 0 | 1 | 49152
+FBPIN | 11 | div<16> | 1 | NULL | 0 | NULL | 0 | 4 | 53248
+FBPIN | 12 | div<15> | 1 | NULL | 0 | NULL | 0 | 6 | 49152
+FBPIN | 13 | div<14> | 1 | NULL | 0 | NULL | 0 | 8 | 49152
+FBPIN | 14 | div<13> | 1 | NULL | 0 | NULL | 0 | 9 | 49152
+FBPIN | 15 | div<12> | 1 | NULL | 0 | NULL | 0 | 11 | 49152
+FBPIN | 16 | div<11> | 1 | NULL | 0 | NULL | 0 | 10 | 49152
+FBPIN | 17 | div<10> | 1 | NULL | 0 | NULL | 0 | 12 | 49152
+FBPIN | 18 | seg_5_OBUF | 1 | NULL | 0 | seg<5> | 1 | 92 | 49152
+
+FB_INSTANCE | FOOBAR3_ | seven_segl_down_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR4_ | seven_segl_down_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 5 | div<9> | 1 | NULL | 0 | NULL | 0 | 68 | 49152
+FBPIN | 6 | div<8> | 1 | NULL | 0 | NULL | 0 | 76 | 49152
+FBPIN | 7 | div<7> | 1 | NULL | 0 | NULL | 0 | 77 | 49152
+FBPIN | 8 | div<6> | 1 | NULL | 0 | NULL | 0 | 70 | 49152
+FBPIN | 9 | div<5> | 1 | NULL | 0 | NULL | 0 | 66 | 49152
+FBPIN | 10 | div<4> | 1 | NULL | 0 | NULL | 0 | 81 | 49152
+FBPIN | 11 | div<3> | 1 | NULL | 0 | NULL | 0 | 74 | 49152
+FBPIN | 12 | div<2> | 1 | NULL | 0 | NULL | 0 | 82 | 49152
+FBPIN | 13 | seg_1_OBUF | 1 | NULL | 0 | seg<1> | 1 | 85 | 49152
+FBPIN | 14 | div<1> | 1 | NULL | 0 | NULL | 0 | 78 | 49152
+FBPIN | 15 | seg_2_OBUF | 1 | NULL | 0 | seg<2> | 1 | 89 | 49152
+FBPIN | 16 | seg_0_OBUF | 1 | NULL | 0 | seg<0> | 1 | 86 | 49152
+FBPIN | 17 | seg_3_OBUF | 1 | NULL | 0 | seg<3> | 1 | 90 | 49152
+FBPIN | 18 | div<0> | 1 | NULL | 0 | NULL | 0 | 79 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | seven_segl_down_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | AN<3:0> | 4 | 0 | 1 | an<0> | 3 | an<1> | 2 | an<2> | 1 | an<3> | 0
+BUSINFO | SEG<6:0> | 7 | 0 | 1 | seg<0> | 6 | seg<1> | 5 | seg<2> | 4 | seg<3> | 3 | seg<4> | 2 | seg<5> | 1 | seg<6> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 0 | div<20> | NULL | 4 | div<9> | NULL | 5 | div<8> | NULL | 8 | div<18> | NULL | 9 | div<4> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 10 | div<16> | NULL | 11 | div<15> | NULL | 12 | div<14> | NULL | 14 | cnt<0> | NULL | 16 | div<10> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 19 | div<13> | NULL | 23 | div<12> | NULL | 24 | div<6> | NULL | 25 | div<1> | NULL | 32 | cnt<2> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 33 | div<5> | NULL | 34 | div<2> | NULL | 42 | div<3> | NULL | 43 | cnt<1> | NULL | 44 | div<11> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 45 | div<19> | NULL | 47 | div<17> | NULL | 49 | div<7> | NULL | 53 | div<0> | NULL
+
+FB_IMUX_INDEX | FOOBAR1_ | 18 | -1 | -1 | -1 | 58 | 59 | -1 | -1 | 26 | 63 | 28 | 29 | 30 | -1 | 14 | -1 | 34 | -1 | -1 | 31 | -1 | -1 | -1 | 32 | 61 | 67 | -1 | -1 | -1 | -1 | -1 | -1 | 16 | 62 | 65 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 64 | 17 | 33 | 24 | -1 | 27 | -1 | 60 | -1 | -1 | -1 | 71
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 4 | div<9> | NULL | 5 | div<8> | NULL | 8 | div<18> | NULL | 9 | div<4> | NULL | 10 | div<16> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 11 | div<15> | NULL | 12 | div<14> | NULL | 14 | cnt<0> | NULL | 16 | div<10> | NULL | 19 | div<13> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 23 | div<12> | NULL | 24 | div<6> | NULL | 25 | div<1> | NULL | 32 | cnt<2> | NULL | 33 | div<5> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 34 | div<2> | NULL | 36 | cnt<3> | NULL | 42 | div<3> | NULL | 43 | cnt<1> | NULL | 44 | div<11> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 45 | div<19> | NULL | 47 | div<17> | NULL | 49 | div<7> | NULL | 53 | div<0> | NULL
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | -1 | -1 | 58 | 59 | -1 | -1 | 26 | 63 | 28 | 29 | 30 | -1 | 14 | -1 | 34 | -1 | -1 | 31 | -1 | -1 | -1 | 32 | 61 | 67 | -1 | -1 | -1 | -1 | -1 | -1 | 16 | 62 | 65 | -1 | 15 | -1 | -1 | -1 | -1 | -1 | 64 | 17 | 33 | 24 | -1 | 27 | -1 | 60 | -1 | -1 | -1 | 71
+
+
+FB_ORDER_OF_INPUTS | FOOBAR4_ | 5 | div<8> | NULL | 9 | div<4> | NULL | 14 | cnt<0> | NULL | 24 | div<6> | NULL | 25 | div<1> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR4_ | 32 | cnt<2> | NULL | 33 | div<5> | NULL | 34 | div<2> | NULL | 36 | cnt<3> | NULL | 42 | div<3> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR4_ | 43 | cnt<1> | NULL | 49 | div<7> | NULL | 53 | div<0> | NULL
+
+FB_IMUX_INDEX | FOOBAR4_ | -1 | -1 | -1 | -1 | -1 | 59 | -1 | -1 | -1 | 63 | -1 | -1 | -1 | -1 | 14 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 61 | 67 | -1 | -1 | -1 | -1 | -1 | -1 | 16 | 62 | 65 | -1 | 15 | -1 | -1 | -1 | -1 | -1 | 64 | 17 | -1 | -1 | -1 | -1 | -1 | 60 | -1 | -1 | -1 | 71
+
+
+GLOBAL_FCLK | clk | 0 | 0
+
+GLOBAL_FSR | rst | 0 | 0

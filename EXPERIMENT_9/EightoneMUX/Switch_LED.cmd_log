@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Switch_LED.ngc" Switch_LED.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Switch_LED.ngd 
+tsim -intstyle ise Switch_LED Switch_LED.nga 
+hprep6 -s IEEE1149 -n Switch_LED -i Switch_LED 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Switch_LED.ngc" Switch_LED.ngd  
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Switch_LED.ngc" Switch_LED.ngd  
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Switch_LED.ngc" Switch_LED.ngd  
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Switch_LED.ngc" Switch_LED.ngd  
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Switch_LED.ngc" Switch_LED.ngd  
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/Switch_LED.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Switch_LED.ngc" Switch_LED.ngd  
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/Switch_LED.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/Switch_LED.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/Switch_LED.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/Switch_LED.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/Switch_LED.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/Switch_LED.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/Switch_LED.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/Switch_LED.syr" 
+XSLTProcess Switch_LED_build.xml 
+XSLTProcess Switch_LED_build.xml 
+XSLTProcess Switch_LED_build.xml 
+XSLTProcess Switch_LED_build.xml 
+XSLTProcess Switch_LED_build.xml 
+XSLTProcess Switch_LED_build.xml 
+XSLTProcess Switch_LED_build.xml 
+XSLTProcess Switch_LED_build.xml 

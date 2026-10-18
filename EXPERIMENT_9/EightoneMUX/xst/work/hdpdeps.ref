@@ -1,0 +1,19 @@
+V3 8
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/testpinmap.vhd" 2026/10/12.05:26:14 P.20131013
+EN work/EightOneMux 1791782823 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/testpinmap.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/EightOneMux/Behavioral 1791782824 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/testpinmap.vhd" \
+      EN work/EightOneMux 1791782823
+FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" 2026/10/08.11:18:54 P.20131013
+EN work/Switch_LED 1791459344 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Switch_LED/Behavioral 1791459345 \
+      FL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" \
+      EN work/Switch_LED 1791459344
+FL /home/ise/Desktop/testpinmapping/testpinmap.vhd 2026/10/07.07:30:47 P.20131013
+FL /home/ise/Desktop/togglealll/testpinmap.vhd 2026/10/07.09:13:57 P.20131013

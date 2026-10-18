@@ -1,0 +1,44 @@
+Pin Freeze File:  version P.20131013
+
+9572XL100 XC9572XL-10-TQ100
+clk S:PIN22
+rst S:PIN99
+IO_S<8> S:PIN11
+IO_S<12> S:PIN16
+IO_S<0> S:PIN3
+IO_S<4> S:PIN8
+IO_S<16> S:PIN28
+IO_S<9> S:PIN13
+IO_S<1> S:PIN1
+IO_S<13> S:PIN17
+IO_S<5> S:PIN10
+IO_S<17> S:PIN77
+IO_S<6> S:PIN9
+IO_S<18> S:PIN74
+IO_S<2> S:PIN6
+IO_S<10> S:PIN14
+IO_S<14> S:PIN18
+IO_S<7> S:PIN12
+IO_S<3> S:PIN4
+IO_S<15> S:PIN25
+IO_S<11> S:PIN15
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 shift_s<0>$BUF2 shift_s<1> shift_s<2>$BUF2
+PARTITION FB1_5 shift_s<2>$BUF3 shift_s<3>$BUF2 shift_s<3>$BUF1 shift_s<1>$BUF3
+		
+PARTITION FB1_10 shift_s<0>$BUF1
+
+PARTITION FB2_7 shift_s<0>$BUF3
+PARTITION FB2_10 shift_s<1>$BUF1 shift_s<3>$BUF0 shift_s<2>$BUF0 shift_s<0>$BUF0
+		 shift_s<2> shift_s<0> shift_s<1>$BUF0 shift_s<3>
+		
+
+
+PARTITION FB4_7 shift_s<1>$BUF2
+PARTITION FB4_11 shift_s<2>$BUF1
+
+

@@ -1,0 +1,58 @@
+Pin Freeze File:  version P.20131013
+
+9572XL100 XC9572XL-10-TQ100
+clk S:PIN22
+rst S:PIN99
+output_s0 S:PIN76
+input_s8 S:PIN39
+input_s15 S:PIN29
+input_s1 S:PIN53
+input_s2 S:PIN52
+input_s9 S:PIN37
+input_s3 S:PIN50
+input_s14 S:PIN30
+input_s4 S:PIN49
+input_s5 S:PIN42
+input_s6 S:PIN41
+input_s7 S:PIN40
+input_s0 S:PIN54
+input_s10 S:PIN36
+input_s11 S:PIN35
+input_s12 S:PIN33
+input_s13 S:PIN32
+output_s1 S:PIN72
+output_s2 S:PIN71
+output_s3 S:PIN70
+output_s4 S:PIN68
+output_s5 S:PIN67
+output_s6 S:PIN66
+output_s7 S:PIN65
+output_s8 S:PIN64
+output_s9 S:PIN63
+output_s10 S:PIN61
+output_s11 S:PIN60
+output_s12 S:PIN59
+output_s13 S:PIN58
+output_s15 S:PIN55
+output_s14 S:PIN56
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_12 clk_div<10>$BUF12 clk_div<10>$BUF14
+PARTITION FB1_15 clk_div<10>$BUF9 clk_div<10>$BUF1 clk_div<10>$BUF10 clk_div<10>$BUF2
+		
+PARTITION FB2_9 clk_div<9> clk_div<8> clk_div<7> clk_div<6>
+		 clk_div<5> clk_div<4> clk_div<3> clk_div<2>
+		 clk_div<1> clk_div<0>
+PARTITION FB3_1 clk_div<10>$BUF3 clk_div<10>$BUF11 clk_div<10>$BUF5 clk_div<10>$BUF6
+		 clk_div<10>$BUF13 clk_div<10>$BUF8 clk_div<10>$BUF15 clk_div<10>$BUF0
+		 clk_div<10>$BUF4 clk_div<21> clk_div<10>$BUF7 clk_div<20>
+		 clk_div<19> clk_div<24> clk_div<24>$BUF0 clk_div<18>
+		 clk_div<23> clk_div<22>
+PARTITION FB4_1 clk_div<17> clk_div<15> clk_div<12> clk_div<11>
+		 clk_div<14> clk_div<10>
+PARTITION FB4_8 clk_div<13> clk_div<16>
+
+

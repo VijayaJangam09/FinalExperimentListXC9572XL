@@ -1,0 +1,4 @@
+AR test1 behavioral /home/ise/Desktop/togglealll/testpinmap.vhd sub00/vhpl01 1791364828
+EN test1 NULL /home/ise/Desktop/togglealll/testpinmap.vhd sub00/vhpl00 1791364827
+EN test_pins NULL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/TESTALLIOSPINS/testpinmap.vhd" sub00/vhpl02 1791785775
+AR test_pins behavioral "/home/ise/Desktop/CPLD-B_OLD TEST CODES/TESTALLIOSPINS/testpinmap.vhd" sub00/vhpl03 1791785593

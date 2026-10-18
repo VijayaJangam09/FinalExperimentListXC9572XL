@@ -1,0 +1,5 @@
+net A loc = pin29;
+net B loc = pin30;
+net Cin loc = pin32;
+net SUM loc = pin55;
+net CARRY loc = pin56;

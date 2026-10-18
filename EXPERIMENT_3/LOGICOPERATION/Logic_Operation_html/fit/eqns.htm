@@ -1,0 +1,135 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="paths.js"></script><script src="eqns.js"></script><script>
+      var design = "Logic_Operation";
+      var device = "XC9572XL";
+      signals = new Array("output_s0","output_s1","output_s2","output_s3","output_s4","output_s5","output_s6","output_s7");
+      sigNegs = new Array("ON","OFF","OFF","ON","OFF","ON","OFF","OFF");
+      sigTypes = new Array("","","","","","","","");
+
+      
+            pterms["FB4_1_1"]=new Array("input_s13");
+          
+            pterms["FB4_2_1"]=new Array("input_s11");
+          
+            pterms["FB4_2_2"]=new Array("input_s10");
+          
+            pterms["FB4_3_1"]=new Array("input_s5","input_s4");
+          
+            pterms["FB4_4_1"]=new Array("/input_s3","/input_s2");
+          
+            pterms["FB4_5_1"]=new Array("input_s9");
+          
+            pterms["FB4_5_2"]=new Array("input_s8");
+          
+            pterms["FB4_6_1"]=new Array("input_s1","input_s0");
+          
+            pterms["FB4_8_1"]=new Array("/input_s7","/input_s6");
+          
+            pterms["FB4_9_1"]=new Array("/input_s12");
+          
+          d2["output_s7"]=new Array("FB4_1_1");
+          
+            d2imp["output_s7"]=new Array("1");
+          
+          d1["output_s5"]=new Array("FB4_2_1");
+          
+            d1imp["output_s5"]=new Array("1");
+          
+          d2["output_s5"]=new Array("FB4_2_2");
+          
+            d2imp["output_s5"]=new Array("1");
+          
+          d2["output_s2"]=new Array("FB4_3_1");
+          
+            d2imp["output_s2"]=new Array("1");
+          
+          d2["output_s1"]=new Array("FB4_4_1");
+          
+            d2imp["output_s1"]=new Array("1");
+          
+          d1["output_s4"]=new Array("FB4_5_1");
+          
+            d1imp["output_s4"]=new Array("1");
+          
+          d2["output_s4"]=new Array("FB4_5_2");
+          
+            d2imp["output_s4"]=new Array("1");
+          
+          d2["output_s0"]=new Array("FB4_6_1");
+          
+            d2imp["output_s0"]=new Array("1");
+          
+          d2["output_s3"]=new Array("FB4_8_1");
+          
+            d2imp["output_s3"]=new Array("1");
+          
+          d2["output_s6"]=new Array("FB4_9_1");
+          
+            d2imp["output_s6"]=new Array("1");
+          
+
+      uimSignals = new Array();
+
+      uimSigNegs = new Array();
+
+      uimPterms = new Array();
+      
+
+      
+        function getEqnList() {
+          var str = "<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>";
+          str += "<center><h3>Equations</h3></center>";
+          str += "<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>";
+          for (s=0; s<uimSignals.length; s++) {
+            str += "<tr><td>";
+            str += retUimEqn(uimSignals[s]);
+            str += "</td></tr>";
+          }
+          for (s=0; s<signals.length; s++) {
+            str += "<tr><td>";
+            str += retEqn(signals[s]);
+            str += "</td></tr>";
+          }
+
+          var legend = retLegend();
+		      if (legend != "") {
+		        str += "<tr><td>" + legend + "</td></tr>";
+		      }
+
+          str += "</table>";
+          str += "<form><span class='pgRef'>";
+
+          if (!parent.leftnav.IsNS()) {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><input type='button' value='back to top' ";
+            str += "onclick='javascript:parent.leftnav.showEqnAll()' ";
+            str += "onmouseover=\"window.status='goto top of page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<input type='button' value='print page' ";
+            str += "onclick='javascript:window.print()' ";
+            str += "onmouseover=\"window.status='print page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+          else {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><a href='javascript:parent.leftnav.showEqnAll()'>back to top</a>";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<a href='javascript:window.print()'>";
+            str += "print page</a>";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+
+          str += "</span></form>";
+          str += "</body></html>";
+          return str;
+        }
+      
+    </script>
+</head></html>

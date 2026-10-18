@@ -1,0 +1,694 @@
+ 
+cpldfit:  version P.20131013                        Xilinx Inc.
+                                  No Fit Report
+Design Name: Test_Pins                           Date: 10-12-2026,  6:13AM
+Device Used: XC9572XL-10-TQ100
+Fitting Status: Design Rule Checking Failed
+
+**************************  Errors and Warnings  ***************************
+
+WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
+   use the default filename of 'Test_Pins.ise'.
+INFO:Cpld - Inferring BUFG constraint for signal 'clk' based upon the LOC
+   constraint 'P22'. It is recommended that you declare this BUFG explicitedly
+   in your design. Note that for certain device families the output of a BUFG
+   constraint can not drive a gated clock, and the BUFG constraint will be
+   ignored.
+ERROR:Cpld:837 - Insufficient number of macrocells. The design needs at least 76
+   but only 72 left after allocating other resources.
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+*************************  Mapped Resource Summary  **************************
+
+No logic has been mapped.
+
+Macrocells     Product Terms    Function Block   Registers      Pins           
+Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
+66 /72  ( 92%) 131 /360  ( 36%) 44 /216 ( 20%)   66 /72  ( 92%) 68 /72  ( 94%)
+
+** Function Block Resources **
+
+Function    Mcells      FB Inps     Pterms      IO          
+Block       Used/Tot    Used/Tot    Used/Tot    Used/Tot    
+FB1          14/18       11/54       28/90      15/18
+FB2          16/18       11/54       31/90      17/18
+FB3          18/18*      11/54       36/90      18/18*
+FB4          18/18*      11/54       36/90      18/18*
+             -----       -----       -----      -----    
+             66/72       44/216     131/360     68/72 
+
+* - Resource is exhausted
+
+** Global Control Resources **
+
+Global clock net(s) unused.
+Global output enable net(s) unused.
+Global set/reset net(s) unused.
+
+** Pin Resources **
+
+Signal Type    Required     Mapped  |  Pin Type            Used    Total 
+------------------------------------|------------------------------------
+Input         :    0           0    |  I/O              :    64      66
+Output        :   66          66    |  GCK/IO           :     1       3
+Bidirectional :    0           0    |  GTS/IO           :     2       2
+GCK           :    1           1    |  GSR/IO           :     1       1
+GTS           :    0           0    |
+GSR           :    1           1    |
+                 ----        ----
+        Total     68          68
+
+End of Mapped Resource Summary
+*************************  Summary of Mapped Logic  ************************
+
+** 66 Outputs **
+
+Signal              Total Total Loc     Pin  Pin     Pin     
+Name                Pts   Inps          No.  Type    Use     
+Free_IOs16          2     11    FB1_1   16   I/O     O       
+Free_IOs8           2     11    FB1_2   13   I/O     O       
+Free_IOs18          2     11    FB1_3   18   I/O     O       
+Free_IOs14          2     11    FB1_5   14   I/O     O       
+Free_IOs15          2     11    FB1_6   15   I/O     O       
+Free_IOs9           2     11    FB1_7   25   I/O     O       
+Free_IOs17          2     11    FB1_8   17   I/O     O       
+Free_IOs10          2     11    FB1_10  28   I/O     O       
+input_s12           2     11    FB1_12  33   I/O     O       
+input_s10           2     11    FB1_13  36   I/O     O       
+input_s15           2     11    FB1_15  29   I/O     O       
+input_s8            2     11    FB1_16  39   I/O     O       
+input_s14           2     11    FB1_17  30   I/O     O       
+input_s7            2     11    FB1_18  40   I/O     O       
+seg7                1     10    FB2_1   87   I/O     O       
+an0                 2     11    FB2_2   94   I/O     O       
+seg4                2     11    FB2_3   91   I/O     O       
+seg6                2     11    FB2_4   93   I/O     O       
+an1                 2     11    FB2_5   95   I/O     O       
+an2                 2     11    FB2_6   96   I/O     O       
+Free_IOs0           2     11    FB2_7   3    GTS/I/O O       
+an3                 2     11    FB2_8   97   I/O     O       
+Free_IOs1           2     11    FB2_10  1    I/O     O       
+Free_IOs3           2     11    FB2_11  4    GTS/I/O O       
+Free_IOs4           2     11    FB2_13  8    I/O     O       
+Free_IOs5           2     11    FB2_14  9    I/O     O       
+Free_IOs7           2     11    FB2_15  11   I/O     O       
+Free_IOs19          2     11    FB2_16  10   I/O     O       
+Free_IOs6           2     11    FB2_17  12   I/O     O       
+seg5                2     11    FB2_18  92   I/O     O       
+input_s6            2     11    FB3_1   41   I/O     O       
+input_s13           2     11    FB3_2   32   I/O     O       
+input_s4            2     11    FB3_3   49   I/O     O       
+input_s3            2     11    FB3_4   50   I/O     O       
+input_s11           2     11    FB3_5   35   I/O     O       
+input_s1            2     11    FB3_6   53   I/O     O       
+input_s0            2     11    FB3_7   54   I/O     O       
+input_s9            2     11    FB3_8   37   I/O     O       
+input_s5            2     11    FB3_9   42   I/O     O       
+output_s11          2     11    FB3_10  60   I/O     O       
+
+Signal              Total Total Loc     Pin  Pin     Pin     
+Name                Pts   Inps          No.  Type    Use     
+input_s2            2     11    FB3_11  52   I/O     O       
+output_s10          2     11    FB3_12  61   I/O     O       
+output_s9           2     11    FB3_13  63   I/O     O       
+output_s15          2     11    FB3_14  55   I/O     O       
+output_s14          2     11    FB3_15  56   I/O     O       
+output_s8           2     11    FB3_16  64   I/O     O       
+output_s13          2     11    FB3_17  58   I/O     O       
+output_s12          2     11    FB3_18  59   I/O     O       
+output_s7           2     11    FB4_1   65   I/O     O       
+output_s5           2     11    FB4_2   67   I/O     O       
+output_s2           2     11    FB4_3   71   I/O     O       
+output_s1           2     11    FB4_4   72   I/O     O       
+output_s4           2     11    FB4_5   68   I/O     O       
+output_s0           2     11    FB4_6   76   I/O     O       
+Free_IOs11          2     11    FB4_7   77   I/O     O       
+output_s3           2     11    FB4_8   70   I/O     O       
+output_s6           2     11    FB4_9   66   I/O     O       
+Sl0                 2     11    FB4_10  81   I/O     O       
+Free_IOs12          2     11    FB4_11  74   I/O     O       
+Sl1                 2     11    FB4_12  82   I/O     O       
+seg1                2     11    FB4_13  85   I/O     O       
+Rl0                 2     11    FB4_14  78   I/O     O       
+seg2                2     11    FB4_15  89   I/O     O       
+seg0                2     11    FB4_16  86   I/O     O       
+seg3                2     11    FB4_17  90   I/O     O       
+Rl1                 2     11    FB4_18  79   I/O     O       
+
+** 2 Inputs **
+
+Signal              Loc     Pin  Pin     Pin     
+Name                        No.  Type    Use     
+clk                 FB1_9   22   GCK/I/O GCK
+rst                 FB2_9   99   GSR/I/O GSR
+
+Legend:
+Pin No. - ~ - User Assigned
+*************************  Summary of UnMapped Logic  ************************
+
+** 10 Buried Nodes **
+
+Signal              Total Total User
+Name                Pts   Inps  Assignment
+clk_div<0>          0     0     
+clk_div<1>          1     1     
+clk_div<2>          1     2     
+clk_div<3>          1     3     
+clk_div<4>          1     4     
+clk_div<5>          1     5     
+clk_div<6>          1     6     
+clk_div<7>          1     7     
+clk_div<8>          1     8     
+clk_div<9>          1     9     
+
+*******************************  Equations  ********************************
+
+********** Mapped Logic **********
+
+FDCPE_Free_IOs0: FDCPE port map (Free_IOs0,Free_IOs0_D,clk,rst,'0');
+Free_IOs0_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs0_D <= seg7;
+
+FDCPE_Free_IOs1: FDCPE port map (Free_IOs1,Free_IOs1_D,clk,rst,'0');
+Free_IOs1_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs1_D <= seg7;
+
+FDCPE_Free_IOs10: FDCPE port map (Free_IOs10,Free_IOs10_D,clk,rst,'0');
+Free_IOs10_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs10_D <= seg7;
+
+FDCPE_Free_IOs11: FDCPE port map (Free_IOs11,Free_IOs11_D,clk,rst,'0');
+Free_IOs11_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs11_D <= seg7;
+
+FDCPE_Free_IOs12: FDCPE port map (Free_IOs12,Free_IOs12_D,clk,rst,'0');
+Free_IOs12_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs12_D <= seg7;
+
+FDCPE_Free_IOs14: FDCPE port map (Free_IOs14,Free_IOs14_D,clk,rst,'0');
+Free_IOs14_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs14_D <= seg7;
+
+FDCPE_Free_IOs15: FDCPE port map (Free_IOs15,Free_IOs15_D,clk,rst,'0');
+Free_IOs15_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs15_D <= seg7;
+
+FDCPE_Free_IOs16: FDCPE port map (Free_IOs16,Free_IOs16_D,clk,rst,'0');
+Free_IOs16_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs16_D <= seg7;
+
+FDCPE_Free_IOs17: FDCPE port map (Free_IOs17,Free_IOs17_D,clk,rst,'0');
+Free_IOs17_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs17_D <= seg7;
+
+FDCPE_Free_IOs18: FDCPE port map (Free_IOs18,Free_IOs18_D,clk,rst,'0');
+Free_IOs18_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs18_D <= seg7;
+
+FDCPE_Free_IOs19: FDCPE port map (Free_IOs19,Free_IOs19_D,clk,rst,'0');
+Free_IOs19_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs19_D <= seg7;
+
+FDCPE_Free_IOs3: FDCPE port map (Free_IOs3,Free_IOs3_D,clk,rst,'0');
+Free_IOs3_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs3_D <= seg7;
+
+FDCPE_Free_IOs4: FDCPE port map (Free_IOs4,Free_IOs4_D,clk,rst,'0');
+Free_IOs4_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs4_D <= seg7;
+
+FDCPE_Free_IOs5: FDCPE port map (Free_IOs5,Free_IOs5_D,clk,rst,'0');
+Free_IOs5_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs5_D <= seg7;
+
+FDCPE_Free_IOs6: FDCPE port map (Free_IOs6,Free_IOs6_D,clk,rst,'0');
+Free_IOs6_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs6_D <= seg7;
+
+FDCPE_Free_IOs7: FDCPE port map (Free_IOs7,Free_IOs7_D,clk,rst,'0');
+Free_IOs7_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs7_D <= seg7;
+
+FDCPE_Free_IOs8: FDCPE port map (Free_IOs8,Free_IOs8_D,clk,rst,'0');
+Free_IOs8_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs8_D <= seg7;
+
+FDCPE_Free_IOs9: FDCPE port map (Free_IOs9,Free_IOs9_D,clk,rst,'0');
+Free_IOs9_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Free_IOs9_D <= seg7;
+
+FDCPE_Rl0: FDCPE port map (Rl0,Rl0_D,clk,rst,'0');
+Rl0_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Rl0_D <= seg7;
+
+FDCPE_Rl1: FDCPE port map (Rl1,Rl1_D,clk,rst,'0');
+Rl1_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Rl1_D <= seg7;
+
+FDCPE_Sl0: FDCPE port map (Sl0,Sl0_D,clk,rst,'0');
+Sl0_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Sl0_D <= seg7;
+
+FDCPE_Sl1: FDCPE port map (Sl1,Sl1_D,clk,rst,'0');
+Sl1_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+Sl1_D <= seg7;
+
+FDCPE_an0: FDCPE port map (an0,an0_D,clk,rst,'0');
+an0_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+an0_D <= seg7;
+
+FDCPE_an1: FDCPE port map (an1,an1_D,clk,rst,'0');
+an1_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+an1_D <= seg7;
+
+FDCPE_an2: FDCPE port map (an2,an2_D,clk,rst,'0');
+an2_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+an2_D <= seg7;
+
+FDCPE_an3: FDCPE port map (an3,an3_D,clk,rst,'0');
+an3_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+an3_D <= seg7;
+
+FDCPE_input_s0: FDCPE port map (input_s0,input_s0_D,clk,rst,'0');
+input_s0_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s0_D <= seg7;
+
+FDCPE_input_s1: FDCPE port map (input_s1,input_s1_D,clk,rst,'0');
+input_s1_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s1_D <= seg7;
+
+FDCPE_input_s10: FDCPE port map (input_s10,input_s10_D,clk,rst,'0');
+input_s10_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s10_D <= seg7;
+
+FDCPE_input_s11: FDCPE port map (input_s11,input_s11_D,clk,rst,'0');
+input_s11_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s11_D <= seg7;
+
+FDCPE_input_s12: FDCPE port map (input_s12,input_s12_D,clk,rst,'0');
+input_s12_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s12_D <= seg7;
+
+FDCPE_input_s13: FDCPE port map (input_s13,input_s13_D,clk,rst,'0');
+input_s13_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s13_D <= seg7;
+
+FDCPE_input_s14: FDCPE port map (input_s14,input_s14_D,clk,rst,'0');
+input_s14_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s14_D <= seg7;
+
+FDCPE_input_s15: FDCPE port map (input_s15,input_s15_D,clk,rst,'0');
+input_s15_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s15_D <= seg7;
+
+FDCPE_input_s2: FDCPE port map (input_s2,input_s2_D,clk,rst,'0');
+input_s2_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s2_D <= seg7;
+
+FDCPE_input_s3: FDCPE port map (input_s3,input_s3_D,clk,rst,'0');
+input_s3_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s3_D <= seg7;
+
+FDCPE_input_s4: FDCPE port map (input_s4,input_s4_D,clk,rst,'0');
+input_s4_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s4_D <= seg7;
+
+FDCPE_input_s5: FDCPE port map (input_s5,input_s5_D,clk,rst,'0');
+input_s5_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s5_D <= seg7;
+
+FDCPE_input_s6: FDCPE port map (input_s6,input_s6_D,clk,rst,'0');
+input_s6_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s6_D <= seg7;
+
+FDCPE_input_s7: FDCPE port map (input_s7,input_s7_D,clk,rst,'0');
+input_s7_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s7_D <= seg7;
+
+FDCPE_input_s8: FDCPE port map (input_s8,input_s8_D,clk,rst,'0');
+input_s8_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s8_D <= seg7;
+
+FDCPE_input_s9: FDCPE port map (input_s9,input_s9_D,clk,rst,'0');
+input_s9_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+input_s9_D <= seg7;
+
+FDCPE_output_s0: FDCPE port map (output_s0,output_s0_D,clk,rst,'0');
+output_s0_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s0_D <= seg7;
+
+FDCPE_output_s1: FDCPE port map (output_s1,output_s1_D,clk,rst,'0');
+output_s1_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s1_D <= seg7;
+
+FDCPE_output_s10: FDCPE port map (output_s10,output_s10_D,clk,rst,'0');
+output_s10_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s10_D <= seg7;
+
+FDCPE_output_s11: FDCPE port map (output_s11,output_s11_D,clk,rst,'0');
+output_s11_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s11_D <= seg7;
+
+FDCPE_output_s12: FDCPE port map (output_s12,output_s12_D,clk,rst,'0');
+output_s12_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s12_D <= seg7;
+
+FDCPE_output_s13: FDCPE port map (output_s13,output_s13_D,clk,rst,'0');
+output_s13_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s13_D <= seg7;
+
+FDCPE_output_s14: FDCPE port map (output_s14,output_s14_D,clk,rst,'0');
+output_s14_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s14_D <= seg7;
+
+FDCPE_output_s15: FDCPE port map (output_s15,output_s15_D,clk,rst,'0');
+output_s15_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s15_D <= seg7;
+
+FDCPE_output_s2: FDCPE port map (output_s2,output_s2_D,clk,rst,'0');
+output_s2_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s2_D <= seg7;
+
+FDCPE_output_s3: FDCPE port map (output_s3,output_s3_D,clk,rst,'0');
+output_s3_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s3_D <= seg7;
+
+FDCPE_output_s4: FDCPE port map (output_s4,output_s4_D,clk,rst,'0');
+output_s4_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s4_D <= seg7;
+
+FDCPE_output_s5: FDCPE port map (output_s5,output_s5_D,clk,rst,'0');
+output_s5_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s5_D <= seg7;
+
+FDCPE_output_s6: FDCPE port map (output_s6,output_s6_D,clk,rst,'0');
+output_s6_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s6_D <= seg7;
+
+FDCPE_output_s7: FDCPE port map (output_s7,output_s7_D,clk,rst,'0');
+output_s7_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s7_D <= seg7;
+
+FDCPE_output_s8: FDCPE port map (output_s8,output_s8_D,clk,rst,'0');
+output_s8_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s8_D <= seg7;
+
+FDCPE_output_s9: FDCPE port map (output_s9,output_s9_D,clk,rst,'0');
+output_s9_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+output_s9_D <= seg7;
+
+FDCPE_seg0: FDCPE port map (seg0,seg0_D,clk,rst,'0');
+seg0_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+seg0_D <= seg7;
+
+FDCPE_seg1: FDCPE port map (seg1,seg1_D,clk,rst,'0');
+seg1_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+seg1_D <= seg7;
+
+FDCPE_seg2: FDCPE port map (seg2,seg2_D,clk,rst,'0');
+seg2_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+seg2_D <= seg7;
+
+FDCPE_seg3: FDCPE port map (seg3,seg3_D,clk,rst,'0');
+seg3_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+seg3_D <= seg7;
+
+FDCPE_seg4: FDCPE port map (seg4,seg4_D,clk,rst,'0');
+seg4_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+seg4_D <= seg7;
+
+FDCPE_seg5: FDCPE port map (seg5,seg5_D,clk,rst,'0');
+seg5_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+seg5_D <= seg7;
+
+FDCPE_seg6: FDCPE port map (seg6,seg6_D,clk,rst,'0');
+seg6_D <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9))
+	 XOR 
+seg6_D <= seg7;
+
+FTCPE_seg7: FTCPE port map (seg7,seg7_T,clk,rst,'0');
+seg7_T <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8) AND clk_div(9));
+
+********** UnMapped Logic **********
+
+** Buried Nodes **
+
+FTCPE_clk_div0: FTCPE port map (clk_div(0),'1',clk,rst,'0');
+
+FTCPE_clk_div1: FTCPE port map (clk_div(1),clk_div(0),clk,rst,'0');
+
+FTCPE_clk_div2: FTCPE port map (clk_div(2),clk_div_T(2),clk,rst,'0');
+clk_div_T(2) <= (clk_div(0) AND clk_div(1));
+
+FTCPE_clk_div3: FTCPE port map (clk_div(3),clk_div_T(3),clk,rst,'0');
+clk_div_T(3) <= (clk_div(0) AND clk_div(1) AND clk_div(2));
+
+FTCPE_clk_div4: FTCPE port map (clk_div(4),clk_div_T(4),clk,rst,'0');
+clk_div_T(4) <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3));
+
+FTCPE_clk_div5: FTCPE port map (clk_div(5),clk_div_T(5),clk,rst,'0');
+clk_div_T(5) <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4));
+
+FTCPE_clk_div6: FTCPE port map (clk_div(6),clk_div_T(6),clk,rst,'0');
+clk_div_T(6) <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5));
+
+FTCPE_clk_div7: FTCPE port map (clk_div(7),clk_div_T(7),clk,rst,'0');
+clk_div_T(7) <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6));
+
+FTCPE_clk_div8: FTCPE port map (clk_div(8),clk_div_T(8),clk,rst,'0');
+clk_div_T(8) <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7));
+
+FTCPE_clk_div9: FTCPE port map (clk_div(9),clk_div_T(9),clk,rst,'0');
+clk_div_T(9) <= (clk_div(0) AND clk_div(1) AND clk_div(2) AND 
+	clk_div(3) AND clk_div(4) AND clk_div(5) AND clk_div(6) AND 
+	clk_div(7) AND clk_div(8));
+
+Register Legend:
+ FDCPE (Q,D,C,CLR,PRE,CE); 
+ FTCPE (Q,D,C,CLR,PRE,CE); 
+ LDCP  (Q,D,G,CLR,PRE); 
+
+****************************  Compiler Options  ****************************
+
+Following is a list of all global compiler options used by the fitter run.
+
+Device(s) Specified                         : xc9572xl-10-TQ100
+Optimization Method                         : SPEED
+Multi-Level Logic Optimization              : ON
+Ignore Timing Specifications                : OFF
+Default Register Power Up Value             : LOW
+Keep User Location Constraints              : ON
+What-You-See-Is-What-You-Get                : OFF
+Exhaustive Fitting                          : OFF
+Keep Unused Inputs                          : OFF
+Slew Rate                                   : FAST
+Power Mode                                  : STD
+Ground on Unused IOs                        : OFF
+Set I/O Pin Termination                     : KEEPER
+Global Clock Optimization                   : ON
+Global Set/Reset Optimization               : ON
+Global Ouput Enable Optimization            : ON
+Input Limit                                 : 54
+Pterm Limit                                 : 25

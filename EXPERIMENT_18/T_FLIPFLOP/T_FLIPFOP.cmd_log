@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc TFlIPFLOP.ucf -p xc9572xl-TQ100-10 "T_FLIPFOP.ngc" T_FLIPFOP.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper T_FLIPFOP.ngd 
+XSLTProcess T_FLIPFOP_build.xml 
+tsim -intstyle ise T_FLIPFOP T_FLIPFOP.nga 
+hprep6 -s IEEE1149 -n T_FLIPFOP -i T_FLIPFOP 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/T_FLIPFLOP/T_FLIPFOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc TFlIPFLOP.ucf -p xc9572xl-TQ100-10 "T_FLIPFOP.ngc" T_FLIPFOP.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper T_FLIPFOP.ngd 
+XSLTProcess T_FLIPFOP_build.xml 
+tsim -intstyle ise T_FLIPFOP T_FLIPFOP.nga 
+hprep6 -s IEEE1149 -n T_FLIPFOP -i T_FLIPFOP 

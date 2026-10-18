@@ -1,0 +1,175 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+FDCPE_d0: FDCPE port map (d(0),d_D(0),divider(13),rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d_D(0) <= (rl(0) AND rl(1));
+</td></tr><tr><td>
+FDCPE_d1: FDCPE port map (d(1),d(0),divider(13),rst,'0');
+</td></tr><tr><td>
+FDCPE_d2: FDCPE port map (d(2),d(1),divider(13),rst,'0');
+</td></tr><tr><td>
+FDCPE_d3: FDCPE port map (d(3),d(2),divider(13),rst,'0');
+</td></tr><tr><td>
+FDCPE_display_s0: FDCPE port map (display_s(0),rl(0),display_s_C(0),rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display_s_C(0) <= (d(0) AND d(1) AND d(2) AND d(3));
+</td></tr><tr><td>
+FDCPE_display_s1: FDCPE port map (display_s(1),rl(1),display_s_C(1),rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display_s_C(1) <= (d(0) AND d(1) AND d(2) AND d(3));
+</td></tr><tr><td>
+FDCPE_display_s2: FDCPE port map (display_s(2),sl(0),display_s_C(2),rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display_s_C(2) <= (d(0) AND d(1) AND d(2) AND d(3));
+</td></tr><tr><td>
+FDCPE_display_s3: FDCPE port map (display_s(3),NOT sl(0),display_s_C(3),rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display_s_C(3) <= (d(0) AND d(1) AND d(2) AND d(3));
+</td></tr><tr><td>
+FTCPE_divider0: FTCPE port map (divider(0),'1',clk,rst,'0');
+</td></tr><tr><td>
+FTCPE_divider1: FTCPE port map (divider(1),divider(0),clk,rst,'0');
+</td></tr><tr><td>
+FTCPE_divider2: FTCPE port map (divider(2),divider_T(2),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(2) <= (divider(0) AND divider(1));
+</td></tr><tr><td>
+FTCPE_divider3: FTCPE port map (divider(3),divider_T(3),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(3) <= (divider(0) AND divider(1) AND divider(2));
+</td></tr><tr><td>
+FTCPE_divider4: FTCPE port map (divider(4),divider_T(4),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(4) <= (divider(0) AND divider(1) AND divider(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(3));
+</td></tr><tr><td>
+FTCPE_divider5: FTCPE port map (divider(5),divider_T(5),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(5) <= (divider(0) AND divider(1) AND divider(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(3) AND divider(4));
+</td></tr><tr><td>
+FTCPE_divider6: FTCPE port map (divider(6),divider_T(6),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(6) <= (divider(0) AND divider(1) AND divider(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(3) AND divider(4) AND divider(5));
+</td></tr><tr><td>
+FTCPE_divider7: FTCPE port map (divider(7),divider_T(7),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(7) <= (divider(0) AND divider(1) AND divider(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(3) AND divider(4) AND divider(5) AND divider(6));
+</td></tr><tr><td>
+FTCPE_divider8: FTCPE port map (divider(8),divider_T(8),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(8) <= (divider(0) AND divider(1) AND divider(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(3) AND divider(4) AND divider(5) AND divider(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(7));
+</td></tr><tr><td>
+FTCPE_divider9: FTCPE port map (divider(9),divider_T(9),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(9) <= (divider(0) AND divider(1) AND divider(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(3) AND divider(4) AND divider(5) AND divider(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(7) AND divider(8));
+</td></tr><tr><td>
+FTCPE_divider10: FTCPE port map (divider(10),divider_T(10),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(10) <= (divider(0) AND divider(1) AND divider(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(3) AND divider(4) AND divider(5) AND divider(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(7) AND divider(8) AND divider(9));
+</td></tr><tr><td>
+FTCPE_divider11: FTCPE port map (divider(11),divider_T(11),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(11) <= (divider(0) AND divider(10) AND divider(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(2) AND divider(3) AND divider(4) AND divider(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(6) AND divider(7) AND divider(8) AND divider(9));
+</td></tr><tr><td>
+FTCPE_divider12: FTCPE port map (divider(12),divider_T(12),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(12) <= (divider(0) AND divider(10) AND divider(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(1) AND divider(2) AND divider(3) AND divider(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(5) AND divider(6) AND divider(7) AND divider(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(9));
+</td></tr><tr><td>
+FTCPE_divider13: FTCPE port map (divider(13),divider_T(13),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(13) <= (divider(0) AND divider(10) AND divider(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(12) AND divider(1) AND divider(2) AND divider(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(4) AND divider(5) AND divider(6) AND divider(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(8) AND divider(9));
+</td></tr><tr><td>
+FTCPE_divider14: FTCPE port map (divider(14),divider_T(14),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(14) <= (divider(13) AND divider(0) AND divider(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(11) AND divider(12) AND divider(1) AND divider(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(3) AND divider(4) AND divider(5) AND divider(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(7) AND divider(8) AND divider(9));
+</td></tr><tr><td>
+FTCPE_divider15: FTCPE port map (divider(15),divider_T(15),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(15) <= (divider(13) AND divider(0) AND divider(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(11) AND divider(12) AND divider(14) AND divider(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(2) AND divider(3) AND divider(4) AND divider(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(6) AND divider(7) AND divider(8) AND divider(9));
+</td></tr><tr><td>
+FTCPE_divider16: FTCPE port map (divider(16),divider_T(16),clk,rst,'0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;divider_T(16) <= (divider(13) AND divider(0) AND divider(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(11) AND divider(12) AND divider(14) AND divider(15) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(1) AND divider(2) AND divider(3) AND divider(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(5) AND divider(6) AND divider(7) AND divider(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	divider(9));
+</td></tr><tr><td>
+</td></tr><tr><td>
+output_sand15 <= (input_sand14 AND NOT input_sand15);
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg7(0) <= (NOT display_s(2) AND display_s(3) AND NOT display_s(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	display_s(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg7(1) <= ((display_s(2) AND NOT display_s(3) AND NOT display_s(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	display_s(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT display_s(2) AND display_s(3) AND display_s(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT display_s(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT display_s(2) AND display_s(3) AND NOT display_s(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	display_s(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg7(2) <= ((display_s(2) AND NOT display_s(3) AND display_s(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT display_s(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT display_s(2) AND display_s(3) AND display_s(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT display_s(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT display_s(2) AND display_s(3) AND NOT display_s(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	display_s(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg7(3) <= ((display_s(2) AND NOT display_s(3) AND display_s(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT display_s(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT display_s(2) AND display_s(3) AND NOT display_s(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	display_s(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg7(4) <= (display_s(2) AND NOT display_s(3) AND NOT display_s(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	display_s(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg7(5) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+seg7(6) <= ((display_s(2) AND NOT display_s(3) AND display_s(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT display_s(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT display_s(2) AND display_s(3) AND NOT display_s(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	display_s(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+sel(0) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+sel(1) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+sel(2) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+sel(3) <= '0';
+</td></tr><tr><td>
+FTCPE_sl0: FTCPE port map (sl(0),'1',divider(16),rst,'0');
+</td></tr><tr><td>
+FDCPE_sl1: FDCPE port map (sl(1),sl(0),divider(16),'0',rst);
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

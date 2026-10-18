@@ -1,0 +1,50 @@
+Pin Freeze File:  version P.20131013
+
+9572XL100 XC9572XL-10-TQ100
+input_s0 S:PIN54
+input_s1 S:PIN53
+input_s2 S:PIN52
+input_s3 S:PIN50
+input_s4 S:PIN49
+input_s5 S:PIN42
+input_s7 S:PIN40
+input_s10 S:PIN36
+input_s11 S:PIN35
+input_s12 S:PIN33
+input_s13 S:PIN32
+input_s14 S:PIN30
+input_s15 S:PIN29
+input_s6 S:PIN41
+input_s8 S:PIN39
+input_s9 S:PIN37
+output_s0 S:PIN76
+output_s10 S:PIN61
+output_s11 S:PIN60
+output_s12 S:PIN59
+output_s13 S:PIN58
+output_s14 S:PIN56
+output_s15 S:PIN55
+output_s1 S:PIN72
+output_s2 S:PIN71
+output_s3 S:PIN70
+output_s4 S:PIN68
+output_s5 S:PIN67
+output_s6 S:PIN66
+output_s7 S:PIN65
+output_s8 S:PIN64
+output_s9 S:PIN63
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+
+
+PARTITION FB3_10 output_s11_OBUF$BUF0
+PARTITION FB3_12 output_s10_OBUF$BUF0 output_s9_OBUF$BUF0 output_s15_OBUF$BUF0 output_s14_OBUF$BUF0
+		 output_s8_OBUF$BUF0 output_s13_OBUF$BUF0 output_s12_OBUF$BUF0
+PARTITION FB4_1 output_s7_OBUF$BUF0 output_s5_OBUF output_s2_OBUF output_s1_OBUF
+		 output_s4_OBUF output_s0_OBUF
+PARTITION FB4_8 output_s3_OBUF output_s6_OBUF
+
+

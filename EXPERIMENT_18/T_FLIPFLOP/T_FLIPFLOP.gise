@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="T_FLIPFLOP.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="T_FLIPFOP.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="T_FLIPFOP.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="T_FLIPFOP.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="T_FLIPFOP.jed"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="T_FLIPFOP.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="T_FLIPFOP.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="T_FLIPFOP.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="T_FLIPFOP.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="T_FLIPFOP.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="T_FLIPFOP.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="T_FLIPFOP.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="T_FLIPFOP.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="T_FLIPFOP.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="T_FLIPFOP.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="T_FLIPFOP.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="T_FLIPFOP.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="T_FLIPFOP.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="T_FLIPFOP.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="T_FLIPFOP.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="T_FLIPFOP_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="T_FLIPFOP_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="T_FLIPFOP_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="T_FLIPFOP_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="T_FLIPFOP_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="T_FLIPFOP_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="T_FLIPFOP_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="T_FLIPFOP_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1791803348" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1791803348">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1791803348" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2076564450120934400" xil_pn:start_ts="1791803348">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1791803352" xil_pn:in_ck="-2558889242142886285" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="2596386196389773988" xil_pn:start_ts="1791803348">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="T_FLIPFOP.lso"/>
+      <outfile xil_pn:name="T_FLIPFOP.ngc"/>
+      <outfile xil_pn:name="T_FLIPFOP.ngr"/>
+      <outfile xil_pn:name="T_FLIPFOP.prj"/>
+      <outfile xil_pn:name="T_FLIPFOP.stx"/>
+      <outfile xil_pn:name="T_FLIPFOP.syr"/>
+      <outfile xil_pn:name="T_FLIPFOP.xst"/>
+      <outfile xil_pn:name="T_FLIPFOP_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1791803352" xil_pn:in_ck="-3764371711574509028" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="376422967786862555" xil_pn:start_ts="1791803352">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1791803356" xil_pn:in_ck="1566898373830646757" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="3931465504876573792" xil_pn:start_ts="1791803352">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="T_FLIPFOP.bld"/>
+      <outfile xil_pn:name="T_FLIPFOP.ngd"/>
+      <outfile xil_pn:name="T_FLIPFOP_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1791803361" xil_pn:in_ck="-2558889242142895030" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="4120346571840469500" xil_pn:start_ts="1791803356">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="T_FLIPFOP.gyd"/>
+      <outfile xil_pn:name="T_FLIPFOP.mfd"/>
+      <outfile xil_pn:name="T_FLIPFOP.nga"/>
+      <outfile xil_pn:name="T_FLIPFOP.pad"/>
+      <outfile xil_pn:name="T_FLIPFOP.pnx"/>
+      <outfile xil_pn:name="T_FLIPFOP.rpt"/>
+      <outfile xil_pn:name="T_FLIPFOP.vm6"/>
+      <outfile xil_pn:name="T_FLIPFOP.xml"/>
+      <outfile xil_pn:name="T_FLIPFOP_build.xml"/>
+      <outfile xil_pn:name="T_FLIPFOP_html"/>
+      <outfile xil_pn:name="T_FLIPFOP_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1791803364" xil_pn:in_ck="-2558889242142886166" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1791803361">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="T_FLIPFOP.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1791802754" xil_pn:in_ck="-2558889242142899452" xil_pn:name="TRAN_configureTargetDevice_CPLD" xil_pn:prop_ck="-154879694275837835" xil_pn:start_ts="1791802753">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:name="TRAN_timRpt">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

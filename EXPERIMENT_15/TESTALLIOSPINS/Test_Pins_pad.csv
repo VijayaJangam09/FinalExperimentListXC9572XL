@@ -1,0 +1,129 @@
+Release 8.1i - Fit P.20131013
+Copyright(c) 1995-2003 Xilinx Inc. All rights reserved
+
+10-12-2026  6:13AM
+
+NOTE: This file is designed to be imported into a spreadsheet program
+such as Microsoft Excel for viewing, printing and sorting. The comma ','
+character is used as the data field separator.
+This file is also designed to support parsing.
+
+Input file:  Test_Pins.ngd
+output file: Test_Pins_pad.csv
+Part type:   xc9572xl
+Speed grade: -10
+Package:     tq100
+
+Pinout by Pin Number:
+
+-----,-----,-----,-----,-----,-----,-----,-----,-----,-----,
+Pin Number,Signal Name,Pin Usage,Pin Name,Direction,IO Standard,IO Bank Number,{blank},Slew Rate,Termination,{blank},Voltage,Constraint,
+P1,Free_IOs1,O,I/O,OUTPUT,,,,,,,,,
+P2,TIE,,.,,,,,,,,,,
+P3,Free_IOs0,O,I/O/GTS1,OUTPUT,,,,,,,,,
+P4,Free_IOs3,O,I/O/GTS2,OUTPUT,,,,,,,,,
+P5,VCC,,VCCINT,,,,,,,,,,
+P6,TIE,,I/O,,,,,,,,,,
+P7,TIE,,.,,,,,,,,,,
+P8,Free_IOs4,O,I/O,OUTPUT,,,,,,,,,
+P9,Free_IOs5,O,I/O,OUTPUT,,,,,,,,,
+P10,Free_IOs19,O,I/O,OUTPUT,,,,,,,,,
+P11,Free_IOs7,O,I/O,OUTPUT,,,,,,,,,
+P12,Free_IOs6,O,I/O,OUTPUT,,,,,,,,,
+P13,Free_IOs8,O,I/O,OUTPUT,,,,,,,,,
+P14,Free_IOs14,O,I/O,OUTPUT,,,,,,,,,
+P15,Free_IOs15,O,I/O,OUTPUT,,,,,,,,,
+P16,Free_IOs16,O,I/O,OUTPUT,,,,,,,,,
+P17,Free_IOs17,O,I/O,OUTPUT,,,,,,,,,
+P18,Free_IOs18,O,I/O,OUTPUT,,,,,,,,,
+P19,TIE,,.,,,,,,,,,,
+P20,TIE,,I/O,,,,,,,,,,
+P21,GND,,GND,,,,,,,,,,
+P22,clk,GCK,I/O/GCK1,,,,,,,,,,
+P23,TIE,,I/O/GCK2,,,,,,,,,,
+P24,TIE,,.,,,,,,,,,,
+P25,Free_IOs9,O,I/O,OUTPUT,,,,,,,,,
+P26,VCC,,VCCIO,,,,,,,,,,
+P27,TIE,,I/O/GCK3,,,,,,,,,,
+P28,Free_IOs10,O,I/O,OUTPUT,,,,,,,,,
+P29,input_s15,O,I/O,OUTPUT,,,,,,,,,
+P30,input_s14,O,I/O,OUTPUT,,,,,,,,,
+P31,GND,,GND,,,,,,,,,,
+P32,input_s13,O,I/O,OUTPUT,,,,,,,,,
+P33,input_s12,O,I/O,OUTPUT,,,,,,,,,
+P34,TIE,,.,,,,,,,,,,
+P35,input_s11,O,I/O,OUTPUT,,,,,,,,,
+P36,input_s10,O,I/O,OUTPUT,,,,,,,,,
+P37,input_s9,O,I/O,OUTPUT,,,,,,,,,
+P38,VCC,,VCCIO,,,,,,,,,,
+P39,input_s8,O,I/O,OUTPUT,,,,,,,,,
+P40,input_s7,O,I/O,OUTPUT,,,,,,,,,
+P41,input_s6,O,I/O,OUTPUT,,,,,,,,,
+P42,input_s5,O,I/O,OUTPUT,,,,,,,,,
+P43,TIE,,.,,,,,,,,,,
+P44,GND,,GND,,,,,,,,,,
+P45,TDI,,TDI,,,,,,,,,,
+P46,TIE,,.,,,,,,,,,,
+P47,TMS,,TMS,,,,,,,,,,
+P48,TCK,,TCK,,,,,,,,,,
+P49,input_s4,O,I/O,OUTPUT,,,,,,,,,
+P50,input_s3,O,I/O,OUTPUT,,,,,,,,,
+P51,VCC,,VCCIO,,,,,,,,,,
+P52,input_s2,O,I/O,OUTPUT,,,,,,,,,
+P53,input_s1,O,I/O,OUTPUT,,,,,,,,,
+P54,input_s0,O,I/O,OUTPUT,,,,,,,,,
+P55,output_s15,O,I/O,OUTPUT,,,,,,,,,
+P56,output_s14,O,I/O,OUTPUT,,,,,,,,,
+P57,VCC,,VCCINT,,,,,,,,,,
+P58,output_s13,O,I/O,OUTPUT,,,,,,,,,
+P59,output_s12,O,I/O,OUTPUT,,,,,,,,,
+P60,output_s11,O,I/O,OUTPUT,,,,,,,,,
+P61,output_s10,O,I/O,OUTPUT,,,,,,,,,
+P62,GND,,GND,,,,,,,,,,
+P63,output_s9,O,I/O,OUTPUT,,,,,,,,,
+P64,output_s8,O,I/O,OUTPUT,,,,,,,,,
+P65,output_s7,O,I/O,OUTPUT,,,,,,,,,
+P66,output_s6,O,I/O,OUTPUT,,,,,,,,,
+P67,output_s5,O,I/O,OUTPUT,,,,,,,,,
+P68,output_s4,O,I/O,OUTPUT,,,,,,,,,
+P69,GND,,GND,,,,,,,,,,
+P70,output_s3,O,I/O,OUTPUT,,,,,,,,,
+P71,output_s2,O,I/O,OUTPUT,,,,,,,,,
+P72,output_s1,O,I/O,OUTPUT,,,,,,,,,
+P73,TIE,,.,,,,,,,,,,
+P74,Free_IOs12,O,I/O,OUTPUT,,,,,,,,,
+P75,GND,,GND,,,,,,,,,,
+P76,output_s0,O,I/O,OUTPUT,,,,,,,,,
+P77,Free_IOs11,O,I/O,OUTPUT,,,,,,,,,
+P78,Rl0,O,I/O,OUTPUT,,,,,,,,,
+P79,Rl1,O,I/O,OUTPUT,,,,,,,,,
+P80,TIE,,.,,,,,,,,,,
+P81,Sl0,O,I/O,OUTPUT,,,,,,,,,
+P82,Sl1,O,I/O,OUTPUT,,,,,,,,,
+P83,TDO,,TDO,,,,,,,,,,
+P84,GND,,GND,,,,,,,,,,
+P85,seg1,O,I/O,OUTPUT,,,,,,,,,
+P86,seg0,O,I/O,OUTPUT,,,,,,,,,
+P87,seg7,O,I/O,OUTPUT,,,,,,,,,
+P88,VCC,,VCCIO,,,,,,,,,,
+P89,seg2,O,I/O,OUTPUT,,,,,,,,,
+P90,seg3,O,I/O,OUTPUT,,,,,,,,,
+P91,seg4,O,I/O,OUTPUT,,,,,,,,,
+P92,seg5,O,I/O,OUTPUT,,,,,,,,,
+P93,seg6,O,I/O,OUTPUT,,,,,,,,,
+P94,an0,O,I/O,OUTPUT,,,,,,,,,
+P95,an1,O,I/O,OUTPUT,,,,,,,,,
+P96,an2,O,I/O,OUTPUT,,,,,,,,,
+P97,an3,O,I/O,OUTPUT,,,,,,,,,
+P98,VCC,,VCCINT,,,,,,,,,,
+P99,rst,GSR,I/O/GSR,,,,,,,,,,
+P100,GND,,GND,,,,,,,,,,
+
+To preserve the pinout above for future design iterations in
+Project Navigator simply execute the (Lock Pins) process
+located under the (Implement Design) process in a toolbox named
+(Optional Implementation Tools) or invoke PIN2UCF from the
+command line. The location constraints will be written into your
+specified UCF file
+
+

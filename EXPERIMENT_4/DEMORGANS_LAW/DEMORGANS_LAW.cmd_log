@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/DEMORGANS_LAW/DEMORGANS_LAW.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/DEMORGANS_LAW/DEMORGANS_LAW.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc DEMORGANSLAW.ucf -p xc9572xl-TQ100-10 "DEMORGANS_LAW.ngc" DEMORGANS_LAW.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper DEMORGANS_LAW.ngd 
+XSLTProcess DEMORGANS_LAW_build.xml 
+tsim -intstyle ise DEMORGANS_LAW DEMORGANS_LAW.nga 
+hprep6 -s IEEE1149 -n DEMORGANS_LAW -i DEMORGANS_LAW 

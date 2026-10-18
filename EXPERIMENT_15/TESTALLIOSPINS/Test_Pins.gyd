@@ -1,0 +1,93 @@
+Pin Freeze File:  version P.20131013
+
+9572XL100 XC9572XL-10-TQ100
+clk S:PIN22
+rst S:PIN99
+seg7 S:PIN87
+seg6 S:PIN93
+seg5 S:PIN92
+output_s6 S:PIN66
+output_s5 S:PIN67
+output_s4 S:PIN68
+output_s3 S:PIN70
+output_s2 S:PIN71
+output_s1 S:PIN72
+output_s15 S:PIN55
+output_s14 S:PIN56
+output_s13 S:PIN58
+output_s12 S:PIN59
+seg4 S:PIN91
+output_s11 S:PIN60
+output_s10 S:PIN61
+output_s0 S:PIN76
+input_s9 S:PIN37
+input_s8 S:PIN39
+input_s7 S:PIN40
+input_s6 S:PIN41
+input_s5 S:PIN42
+input_s4 S:PIN49
+input_s3 S:PIN50
+seg3 S:PIN90
+input_s2 S:PIN52
+input_s1 S:PIN53
+input_s15 S:PIN29
+input_s14 S:PIN30
+input_s13 S:PIN32
+input_s12 S:PIN33
+input_s11 S:PIN35
+input_s10 S:PIN36
+input_s0 S:PIN54
+an3 S:PIN97
+seg2 S:PIN89
+an2 S:PIN96
+an1 S:PIN95
+an0 S:PIN94
+Sl1 S:PIN82
+Sl0 S:PIN81
+Rl1 S:PIN79
+Rl0 S:PIN78
+Free_IOs9 S:PIN25
+Free_IOs8 S:PIN13
+Free_IOs7 S:PIN11
+seg1 S:PIN85
+Free_IOs6 S:PIN12
+Free_IOs5 S:PIN9
+Free_IOs4 S:PIN8
+Free_IOs3 S:PIN4
+Free_IOs2 S:PIN6
+Free_IOs1 S:PIN1
+Free_IOs12 S:PIN74
+Free_IOs11 S:PIN77
+Free_IOs10 S:PIN28
+Free_IOs0 S:PIN3
+seg0 S:PIN86
+output_s9 S:PIN63
+output_s8 S:PIN64
+output_s7 S:PIN65
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 clk_div<9> clk_div<10>$BUF48 clk_div<8> clk_div<7>
+		 clk_div<6> clk_div<5> clk_div<10>$BUF47 clk_div<4>
+		 clk_div<3> clk_div<10>$BUF58 clk_div<2> clk_div<10>$BUF35
+		 clk_div<10>$BUF37 clk_div<1> clk_div<10>$BUF32 clk_div<10>$BUF24
+		 clk_div<10>$BUF33 clk_div<10>$BUF25
+PARTITION FB2_1 clk_div<10> clk_div<10>$BUF42 clk_div<10>$BUF2 clk_div<10>$BUF0
+		 clk_div<10>$BUF41 clk_div<10>$BUF40 clk_div<10>$BUF59 clk_div<10>$BUF39
+		
+PARTITION FB2_10 clk_div<10>$BUF55 clk_div<10>$BUF53 clk_div<10>$BUF54 clk_div<10>$BUF52
+		 clk_div<10>$BUF51 clk_div<10>$BUF49 clk_div<0> clk_div<10>$BUF50
+		 clk_div<10>$BUF1
+PARTITION FB3_1 clk_div<10>$BUF26 clk_div<10>$BUF34 clk_div<10>$BUF28 clk_div<10>$BUF29
+		 clk_div<10>$BUF36 clk_div<10>$BUF31 clk_div<10>$BUF38 clk_div<10>$BUF23
+		 clk_div<10>$BUF27 clk_div<10>$BUF20 clk_div<10>$BUF30 clk_div<10>$BUF21
+		 clk_div<10>$BUF7 clk_div<10>$BUF16 clk_div<10>$BUF17 clk_div<10>$BUF8
+		 clk_div<10>$BUF18 clk_div<10>$BUF19
+PARTITION FB4_1 clk_div<10>$BUF9 clk_div<10>$BUF11 clk_div<10>$BUF14 clk_div<10>$BUF15
+		 clk_div<10>$BUF12 clk_div<10>$BUF22 clk_div<10>$BUF57 clk_div<10>$BUF13
+		 clk_div<10>$BUF10 clk_div<10>$BUF44 clk_div<10>$BUF56 clk_div<10>$BUF43
+		 clk_div<10>$BUF5 clk_div<10>$BUF46 clk_div<10>$BUF4 clk_div<10>$BUF6
+		 clk_div<10>$BUF3 clk_div<10>$BUF45
+

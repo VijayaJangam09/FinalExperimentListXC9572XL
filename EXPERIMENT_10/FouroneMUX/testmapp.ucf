@@ -1,0 +1,15 @@
+# CLOCK #
+net clk	loc = P22; 	#J2-2 
+	
+  # RESET #	
+net rst 	loc = P99; 	#J4-1 	
+
+net input_s0 loc = p54;
+net input_s1 loc = p53;
+net input_s2 loc = p52;
+net input_s3 loc = p50;
+
+net input_SEL<1> loc = p29;
+net input_SEL<0> loc = p30;
+
+net output_s15 loc = p55;

@@ -1,0 +1,42 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Logic_Operation.ngc" Logic_Operation.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Logic_Operation.ngd 
+tsim -intstyle ise Logic_Operation Logic_Operation.nga 
+hprep6 -s IEEE1149 -n Logic_Operation -i Logic_Operation 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Logic_Operation.ngc" Logic_Operation.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Logic_Operation.ngd 
+XSLTProcess Logic_Operation_build.xml 
+tsim -intstyle ise Logic_Operation Logic_Operation.nga 
+hprep6 -s IEEE1149 -n Logic_Operation -i Logic_Operation 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Logic_Operation.ngc" Logic_Operation.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Logic_Operation.ngd 
+tsim -intstyle ise Logic_Operation Logic_Operation.nga 
+hprep6 -s IEEE1149 -n Logic_Operation -i Logic_Operation 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Logic_Operation.ngc" Logic_Operation.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Logic_Operation.ngd 
+tsim -intstyle ise Logic_Operation Logic_Operation.nga 
+hprep6 -s IEEE1149 -n Logic_Operation -i Logic_Operation 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Logic_Operation.ngc" Logic_Operation.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Logic_Operation.ngd 
+tsim -intstyle ise Logic_Operation Logic_Operation.nga 
+hprep6 -s IEEE1149 -n Logic_Operation -i Logic_Operation 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Logic_Operation.ngc" Logic_Operation.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Logic_Operation.ngd 
+XSLTProcess Logic_Operation_build.xml 
+tsim -intstyle ise Logic_Operation Logic_Operation.nga 
+hprep6 -s IEEE1149 -n Logic_Operation -i Logic_Operation 
+xst -intstyle ise -ifn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.xst" -ofn "/home/ise/Desktop/CPLD-B_OLD TEST CODES/LOGICOPERATION/Logic_Operation.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc testmapp.ucf -p xc9572xl-TQ100-10 "Logic_Operation.ngc" Logic_Operation.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Logic_Operation.ngd 
+XSLTProcess Logic_Operation_build.xml 
+tsim -intstyle ise Logic_Operation Logic_Operation.nga 
+hprep6 -s IEEE1149 -n Logic_Operation -i Logic_Operation 

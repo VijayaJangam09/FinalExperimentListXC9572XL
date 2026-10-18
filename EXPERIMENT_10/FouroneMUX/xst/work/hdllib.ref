@@ -1,0 +1,8 @@
+AR test1 behavioral "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" sub00/vhpl01 1791365558
+EN fouronemux NULL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/FouroneMUX/testpinmap.vhd" sub00/vhpl06 1791784040
+EN test1 NULL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" sub00/vhpl00 1791365557
+AR eightonemux behavioral "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/testpinmap.vhd" sub00/vhpl05 1791461467
+AR fouronemux behavioral "/home/ise/Desktop/CPLD-B_OLD TEST CODES/FouroneMUX/testpinmap.vhd" sub00/vhpl07 1791784041
+AR switch_led behavioral "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" sub00/vhpl03 1791459345
+EN switch_led NULL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/SwitchLEDCode/testpinmap.vhd" sub00/vhpl02 1791459344
+EN eightonemux NULL "/home/ise/Desktop/CPLD-B_OLD TEST CODES/EightoneMUX/testpinmap.vhd" sub00/vhpl04 1791461466

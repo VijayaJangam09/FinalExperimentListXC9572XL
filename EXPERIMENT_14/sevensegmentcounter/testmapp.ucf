@@ -1,0 +1,19 @@
+net clk	loc = P22; 	#J2-2 
+net rst 	loc = P99; 	#J4-1 	
+net seg<6> loc = p93;
+net seg<5> loc = p92;
+net seg<4> loc = p91;
+net seg<3> loc = p90;
+net seg<2> loc = p89;
+net seg<1> loc = p85;
+net seg<0> loc = p86;
+
+net an<0> loc = p94;
+net an<1> loc = p95;
+net an<2> loc = p96;
+net an<3> loc = p97;
+
+
+
+
+
